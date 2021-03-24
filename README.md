@@ -13,9 +13,9 @@ pip install -r requirements.txt
 
 * see `run.sh` for commands using various datasets.
 
-* The synthetic datasets and peregrine dataset are stored in the folder `datasets`.
+* The synthetic datasets and peregrine dataset are stored in the folder `./datasets`.
 
-* Other animal data should be set in the folder `datasets/GC_**`.
+* Other animal data should be set in the folder `./datasets/GC_**`.
 
 * Further details are documented within the code.
 
