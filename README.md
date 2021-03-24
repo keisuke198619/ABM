@@ -1,4 +1,4 @@
-## Learning interaction rules from multi-animal trajectories via augmented behavioral models
+## Learning interaction rules from multi-animal trajectories via augmented behavioral models (ABM)
 
 ### Requirements
 * python 3
@@ -23,3 +23,5 @@ pip install -r requirements.txt
 
 Codes for the baseline models are not included into this project and is available in the following repositories:
 - eSRU: https://github.com/sakhanna/SRU_for_GCI
+- ACM: https://github.com/loeweX/AmortizedCausalDiscovery
+- Linear GC and Local TF: https://github.com/tailintalent/causal
