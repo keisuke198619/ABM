@@ -1,12 +1,23 @@
-## Interpretable Models for Granger Causality Using Self-explaining Neural Networks
+## Learning interaction rules from multi-animal trajectories via augmented behavioral models
 
 ### Requirements
+* python 3
+* To install requirements:
+
+```setup
+pip install -r requirements.txt
+```
+
 
 ### Experiments
 
-The data used to generate results in the paper are stored in the folder `datasets/experiment_data`.
+* see `run.sh` for commands using various datasets.
 
-Further details are documented within the code.
+* The synthetic datasets and peregrine dataset are stored in the folder `datasets`.
+
+* Other animal data should be set in the folder `datasets/GC_**`.
+
+* Further details are documented within the code.
 
 ### Acknowledgements
 
