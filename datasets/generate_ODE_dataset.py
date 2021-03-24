@@ -4,8 +4,8 @@ import numpy as np
 import os
 import time
 import argparse
-
-from data import kuramoto
+import pylab as plt
+import kuramoto
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -104,7 +104,6 @@ def generate_dataset(num_sims, length, sample_freq,intrinsic_freq, train=1,plot=
             print("Iter: {}, Simulation time: {}".format(i, time.time() - t))
         
         if plot:
-            import pylab as plt
             # Plot the phases
             plt.figure()
             tmpdata = np.array(sim_data_all)
@@ -168,12 +167,12 @@ if __name__ == "__main__":
     # messed up (for absolute phase variable).
     print("Generating {} training simulations".format(args.num_train))
     data_train, edges_train = generate_dataset(
-        args.num_train, args.length, args.sample_freq, intrinsic_freq, train=1, plot=True
+        args.num_train, args.length, args.sample_freq, intrinsic_freq, train=1, plot=False
     )
 
     print("Generating {} validation simulations".format(args.num_valid))
     data_valid, edges_valid = generate_dataset(
-        args.num_valid, args.length_test, args.sample_freq, intrinsic_freq, train=0, plot=True
+        args.num_valid, args.length_test, args.sample_freq, intrinsic_freq, train=0, plot=False
     )
 
     num_timesteps_train = args.length # int((args.length / float(args.sample_freq)) - 1)
@@ -187,7 +186,7 @@ if __name__ == "__main__":
 
     print("Generating {} test simulations".format(args.num_test))
     data_test, edges_test = generate_dataset(
-        args.num_test, args.length_test, args.sample_freq, intrinsic_freq, train=-1, plot=True
+        args.num_test, args.length_test, args.sample_freq, intrinsic_freq, train=-1, plot=False
     )
 
     savepath = os.path.expanduser(args.save_dir)

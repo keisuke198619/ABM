@@ -4,7 +4,7 @@ import numpy as np
 import time
 import copy
 from datetime import date
-
+from scipy import io
 from experimental_utils import run_grid_search, eval_causal_structure, eval_causal_structure_binary
 
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID" 
@@ -212,7 +212,6 @@ if args.realdata:
     dynamic_structures_val = []; dynamic_structures_te = []
 
     if args.experiment == "bats":
-        from scipy import io
         matdata = io.loadmat(args.data_dir+'/GC_bats/dataset_bats.mat')
         valid_samples = []
         test_samples = [0,1]

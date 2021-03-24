@@ -5,7 +5,7 @@ import numpy as np
 import argparse
 
 # from model import utils 
-from data.boid import Boid
+from boid import Boid
 
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
