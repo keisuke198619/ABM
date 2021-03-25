@@ -1,0 +1,1273 @@
+bats datasets...
+lambdas: [1.]
+betas: [0.]
+gammas: [1000.]
+Model:           GVAR...
+Iterating through 1 x 1 grid of parameters...
+λ = 1.0; β = 0.0; γ = 1000.0; progress: 0.0
+Epoch 0 : base_loss 0.0506; sparsity 5.4498; smoothness 0.0079; CF_pred 0.0428
+Epoch 100 : base_loss 0.0418; sparsity 2.1531; smoothness 0.0037; CF_pred 0.0172
+Epoch 200 : base_loss 0.0423; sparsity 1.1599; smoothness 0.0023; CF_pred 0.0096
+Epoch 300 : base_loss 0.0424; sparsity 0.7404; smoothness 0.0017; CF_pred 0.0063
+Epoch 400 : base_loss 0.0421; sparsity 0.5467; smoothness 0.0015; CF_pred 0.0047
+Epoch 500 : base_loss 0.0417; sparsity 0.4543; smoothness 0.0014; CF_pred 0.0039
+Epoch 0 : base_loss 0.3571; sparsity 90.9153; smoothness 0.0042; CF_pred 0.4318
+Epoch 100 : base_loss 0.0785; sparsity 36.3203; smoothness 0.0018; CF_pred 0.1764
+Epoch 200 : base_loss 0.0533; sparsity 24.3532; smoothness 0.0013; CF_pred 0.1233
+Epoch 300 : base_loss 0.0469; sparsity 18.0583; smoothness 0.001; CF_pred 0.0964
+Epoch 400 : base_loss 0.0454; sparsity 14.6388; smoothness 0.0008; CF_pred 0.0816
+Epoch 500 : base_loss 0.0451; sparsity 12.7719; smoothness 0.0008; CF_pred 0.0734
+
+RMSE        :0.20836585475953834
+coeff.         :0.000987364910542965
+./weights/bats_gvar_5/_TEST_percept_CF_pred_self best λ = 1.0; β = 0.0; γ = 1000.0
+ RMSE, mean_coeffs: 0.208 $\pm$ 0.004 & 0.001 $\pm$ 0.0 
+--Return--
+> /work4/fujii/work/ABM/experimental_utils.py(350)run_grid_search()->None
+-> import pdb; pdb.set_trace()
+(Pdb) 
+Traceback (most recent call last):
+  File "run_grid_search.py", line 484, in <module>
+    index_None = index_None_te, args_list = args_list_te)
+  File "/work4/fujii/work/ABM/experimental_utils.py", line 350, in run_grid_search
+    import pdb; pdb.set_trace()
+  File "/usr/lib64/python3.6/bdb.py", line 55, in trace_dispatch
+    return self.dispatch_return(frame, arg)
+  File "/usr/lib64/python3.6/bdb.py", line 99, in dispatch_return
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+peregrine datasets...
+lambdas: [1.]
+betas: [0.]
+gammas: [1000.]
+Model:           GVAR...
+Iterating through 1 x 1 grid of parameters...
+λ = 1.0; β = 0.0; γ = 1000.0; progress: 0.0
+Epoch 0 : base_loss 0.0694; sparsity 0.2803; smoothness 0.0057; CF_pred 0.0122
+Epoch 100 : base_loss 0.0645; sparsity 0.0714; smoothness 0.0031; CF_pred 0.0029
+Epoch 200 : base_loss 0.0616; sparsity 0.029; smoothness 0.0028; CF_pred 0.0012
+Epoch 300 : base_loss 0.0591; sparsity 0.0163; smoothness 0.0029; CF_pred 0.0006
+Epoch 400 : base_loss 0.0575; sparsity 0.0117; smoothness 0.003; CF_pred 0.0004
+Epoch 500 : base_loss 0.0565; sparsity 0.0097; smoothness 0.0031; CF_pred 0.0003
+Epoch 0 : base_loss 0.0906; sparsity 0.2595; smoothness 0.0059; CF_pred 0.0127
+Epoch 100 : base_loss 0.0892; sparsity 0.0571; smoothness 0.0035; CF_pred 0.0027
+Epoch 200 : base_loss 0.0833; sparsity 0.0201; smoothness 0.0034; CF_pred 0.0008
+Epoch 300 : base_loss 0.0783; sparsity 0.0113; smoothness 0.0036; CF_pred 0.0004
+Epoch 400 : base_loss 0.0751; sparsity 0.0083; smoothness 0.0038; CF_pred 0.0003
+Epoch 500 : base_loss 0.073; sparsity 0.007; smoothness 0.0039; CF_pred 0.0002
+
+RMSE        :0.2540040469469256
+coeff.         :0.011554485186934471
+./weights/peregrine_gvar_5/_TEST_percept_CF_pred_self best λ = 1.0; β = 0.0; γ = 1000.0
+ RMSE, mean_coeffs: 0.254 $\pm$ 0.016 & 0.012 $\pm$ 0.001 
+--Return--
+> /work4/fujii/work/ABM/experimental_utils.py(350)run_grid_search()->None
+-> import pdb; pdb.set_trace()
+(Pdb) 
+Traceback (most recent call last):
+  File "run_grid_search.py", line 484, in <module>
+    index_None = index_None_te, args_list = args_list_te)
+  File "/work4/fujii/work/ABM/experimental_utils.py", line 350, in run_grid_search
+    import pdb; pdb.set_trace()
+  File "/usr/lib64/python3.6/bdb.py", line 55, in trace_dispatch
+    return self.dispatch_return(frame, arg)
+  File "/usr/lib64/python3.6/bdb.py", line 99, in dispatch_return
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+sula datasets...
+lambdas: [1.]
+betas: [0.]
+gammas: [1000.]
+Model:           GVAR...
+Iterating through 1 x 1 grid of parameters...
+λ = 1.0; β = 0.0; γ = 1000.0; progress: 0.0
+Epoch 0 : base_loss 0.0471; sparsity 0.4797; smoothness 0.0238; CF_pred 0.067
+Epoch 100 : base_loss 0.0525; sparsity 0.121; smoothness 0.0104; CF_pred 0.0157
+Epoch 200 : base_loss 0.0521; sparsity 0.0484; smoothness 0.0093; CF_pred 0.0056
+Epoch 300 : base_loss 0.0504; sparsity 0.03; smoothness 0.0099; CF_pred 0.0031
+Epoch 400 : base_loss 0.0492; sparsity 0.0236; smoothness 0.0104; CF_pred 0.0023
+Epoch 500 : base_loss 0.0483; sparsity 0.0207; smoothness 0.0107; CF_pred 0.002
+Epoch 0 : base_loss 0.0231; sparsity 0.2434; smoothness 0.0109; CF_pred 0.0617
+Epoch 100 : base_loss 0.0275; sparsity 0.0536; smoothness 0.0059; CF_pred 0.0132
+Epoch 200 : base_loss 0.0259; sparsity 0.0218; smoothness 0.0062; CF_pred 0.005
+Epoch 300 : base_loss 0.024; sparsity 0.0134; smoothness 0.0068; CF_pred 0.0029
+Epoch 400 : base_loss 0.0227; sparsity 0.0105; smoothness 0.0072; CF_pred 0.0022
+Epoch 500 : base_loss 0.0219; sparsity 0.0091; smoothness 0.0074; CF_pred 0.0018
+
+RMSE        :0.18393882387824706
+coeff.         :0.01392081007361412
+./weights/sula_gvar_5/_TEST_percept_CF_pred_self best λ = 1.0; β = 0.0; γ = 1000.0
+ RMSE, mean_coeffs: 0.184 $\pm$ 0.036 & 0.014 $\pm$ 0.001 
+--Return--
+> /work4/fujii/work/ABM/experimental_utils.py(350)run_grid_search()->None
+-> import pdb; pdb.set_trace()
+(Pdb) 
+Traceback (most recent call last):
+  File "run_grid_search.py", line 484, in <module>
+    index_None = index_None_te, args_list = args_list_te)
+  File "/work4/fujii/work/ABM/experimental_utils.py", line 350, in run_grid_search
+    import pdb; pdb.set_trace()
+  File "/usr/lib64/python3.6/bdb.py", line 55, in trace_dispatch
+    return self.dispatch_return(frame, arg)
+  File "/usr/lib64/python3.6/bdb.py", line 99, in dispatch_return
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+mice datasets...
+lambdas: [1.]
+betas: [0.]
+gammas: [1000.]
+Model:           GVAR...
+Iterating through 1 x 1 grid of parameters...
+λ = 1.0; β = 0.0; γ = 1000.0; progress: 0.0
+Epoch 0 : base_loss 0.0313; sparsity 0.4503; smoothness 0.0091; CF_pred 0.1114
+Epoch 100 : base_loss 0.0323; sparsity 0.1119; smoothness 0.0028; CF_pred 0.027
+Epoch 200 : base_loss 0.0317; sparsity 0.0421; smoothness 0.0016; CF_pred 0.01
+Epoch 300 : base_loss 0.0306; sparsity 0.0249; smoothness 0.0014; CF_pred 0.0059
+Epoch 400 : base_loss 0.0299; sparsity 0.0188; smoothness 0.0014; CF_pred 0.0045
+Epoch 500 : base_loss 0.0294; sparsity 0.016; smoothness 0.0014; CF_pred 0.0038
+Epoch 0 : base_loss 0.0472; sparsity 0.3546; smoothness 0.0109; CF_pred 0.0385
+Epoch 100 : base_loss 0.049; sparsity 0.0805; smoothness 0.0035; CF_pred 0.0083
+Epoch 200 : base_loss 0.0471; sparsity 0.0333; smoothness 0.0024; CF_pred 0.0032
+Epoch 300 : base_loss 0.0452; sparsity 0.0207; smoothness 0.0023; CF_pred 0.002
+Epoch 400 : base_loss 0.0438; sparsity 0.016; smoothness 0.0024; CF_pred 0.0015
+Epoch 500 : base_loss 0.043; sparsity 0.0139; smoothness 0.0024; CF_pred 0.0013
+
+RMSE        :0.18937645526199742
+coeff.         :0.010076328180730343
+./weights/mice_gvar_5/_TEST_percept_CF_pred_self best λ = 1.0; β = 0.0; γ = 1000.0
+ RMSE, mean_coeffs: 0.189 $\pm$ 0.018 & 0.01 $\pm$ 0.001 
+--Return--
+> /work4/fujii/work/ABM/experimental_utils.py(350)run_grid_search()->None
+-> import pdb; pdb.set_trace()
+(Pdb) 
+Traceback (most recent call last):
+  File "run_grid_search.py", line 484, in <module>
+    index_None = index_None_te, args_list = args_list_te)
+  File "/work4/fujii/work/ABM/experimental_utils.py", line 350, in run_grid_search
+    import pdb; pdb.set_trace()
+  File "/usr/lib64/python3.6/bdb.py", line 55, in trace_dispatch
+    return self.dispatch_return(frame, arg)
+  File "/usr/lib64/python3.6/bdb.py", line 99, in dispatch_return
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+kuramoto datasets...
+p = 5, T = 100 
+lambdas: [0.   0.05 0.1 ]
+betas: [0.    0.025]
+gammas: [0.]
+Model:           GVAR...
+Iterating through 3 x 1 grid of parameters...
+λ = 0.0; β = 0.0; γ = 0.0; progress: 0.0
+Epoch 0 : base_loss 0.56; sparsity 0.2392; smoothness 0.0016; CF_pred 0.0; AUROC: 0.4688; AUPRC: 0.2396; pAUC: 0.4737
+Epoch 100 : base_loss 0.0037; sparsity 0.2443; smoothness 0.0016; CF_pred 0.0; AUROC: 0.625; AUPRC: 0.2798; pAUC: 0.4737
+Epoch 200 : base_loss 0.0033; sparsity 0.2439; smoothness 0.0016; CF_pred 0.0; AUROC: 0.625; AUPRC: 0.2798; pAUC: 0.4737
+Epoch 300 : base_loss 0.003; sparsity 0.2438; smoothness 0.0016; CF_pred 0.0; AUROC: 0.625; AUPRC: 0.2798; pAUC: 0.4737
+Epoch 400 : base_loss 0.0028; sparsity 0.2437; smoothness 0.0016; CF_pred 0.0; AUROC: 0.6094; AUPRC: 0.2708; pAUC: 0.4737
+Epoch 500 : base_loss 0.0027; sparsity 0.2437; smoothness 0.0016; CF_pred 0.0; AUROC: 0.6094; AUPRC: 0.2708; pAUC: 0.4737
+Epoch 0 : base_loss 1.2636; sparsity 0.2461; smoothness 0.0016; CF_pred 0.0; AUROC: 0.5312; AUPRC: 0.2368; pAUC: 0.4737
+Epoch 100 : base_loss 0.0227; sparsity 0.2479; smoothness 0.0016; CF_pred 0.0; AUROC: 0.5938; AUPRC: 0.2728; pAUC: 0.4737
+Epoch 200 : base_loss 0.0014; sparsity 0.252; smoothness 0.0016; CF_pred 0.0; AUROC: 0.5781; AUPRC: 0.2839; pAUC: 0.4737
+Epoch 300 : base_loss 0.0013; sparsity 0.2525; smoothness 0.0016; CF_pred 0.0; AUROC: 0.5781; AUPRC: 0.2839; pAUC: 0.4737
+Epoch 400 : base_loss 0.0012; sparsity 0.2527; smoothness 0.0016; CF_pred 0.0; AUROC: 0.5781; AUPRC: 0.2839; pAUC: 0.4737
+Epoch 500 : base_loss 0.0012; sparsity 0.2528; smoothness 0.0016; CF_pred 0.0; AUROC: 0.5781; AUPRC: 0.2839; pAUC: 0.4737
+Max. stab. = 1.0, at α = 0.9473684210526315
+Dataset #1; Acc.: 0.7; Bal. Acc.: 0.4375; AUROC: 0.6094; AUPRC: 0.2708; pAUC: 0.4737; RMSE: 0.0524; coeff.: 0.0829
+Epoch 0 : base_loss 0.4332; sparsity 0.2436; smoothness 0.0034; CF_pred 0.0; AUROC: 0.5156; AUPRC: 0.2672; pAUC: 0.4737
+Epoch 100 : base_loss 0.0036; sparsity 0.248; smoothness 0.0035; CF_pred 0.0; AUROC: 0.4219; AUPRC: 0.2726; pAUC: 0.523
+Epoch 200 : base_loss 0.0029; sparsity 0.2479; smoothness 0.0035; CF_pred 0.0; AUROC: 0.4219; AUPRC: 0.2726; pAUC: 0.523
+Epoch 300 : base_loss 0.0026; sparsity 0.2476; smoothness 0.0035; CF_pred 0.0; AUROC: 0.4219; AUPRC: 0.2726; pAUC: 0.523
+Epoch 400 : base_loss 0.0025; sparsity 0.2474; smoothness 0.0035; CF_pred 0.0; AUROC: 0.4219; AUPRC: 0.2726; pAUC: 0.523
+Epoch 500 : base_loss 0.0024; sparsity 0.2473; smoothness 0.0036; CF_pred 0.0; AUROC: 0.4219; AUPRC: 0.2726; pAUC: 0.523
+Epoch 0 : base_loss 0.5998; sparsity 0.2386; smoothness 0.0034; CF_pred 0.0; AUROC: 0.5938; AUPRC: 0.2917; pAUC: 0.4737
+Epoch 100 : base_loss 0.0294; sparsity 0.2443; smoothness 0.0034; CF_pred 0.0; AUROC: 0.5469; AUPRC: 0.3125; pAUC: 0.523
+Epoch 200 : base_loss 0.0022; sparsity 0.2496; smoothness 0.0034; CF_pred 0.0; AUROC: 0.5156; AUPRC: 0.3; pAUC: 0.523
+Epoch 300 : base_loss 0.0014; sparsity 0.2504; smoothness 0.0034; CF_pred 0.0; AUROC: 0.5156; AUPRC: 0.3; pAUC: 0.523
+Epoch 400 : base_loss 0.0013; sparsity 0.2505; smoothness 0.0034; CF_pred 0.0; AUROC: 0.5156; AUPRC: 0.3; pAUC: 0.523
+Epoch 500 : base_loss 0.0013; sparsity 0.2505; smoothness 0.0034; CF_pred 0.0; AUROC: 0.5156; AUPRC: 0.3; pAUC: 0.523
+Max. stab. = 0.608, at α = 0.894736842105263
+Dataset #2; Acc.: 0.75; Bal. Acc.: 0.5625; AUROC: 0.4219; AUPRC: 0.2726; pAUC: 0.523; RMSE: 0.0488; coeff.: 0.0851
+Epoch 0 : base_loss 0.4262; sparsity 0.2633; smoothness 0.0026; CF_pred 0.0; AUROC: 0.8352; AUPRC: 0.8163; pAUC: 0.7744
+Epoch 100 : base_loss 0.0056; sparsity 0.2693; smoothness 0.0027; CF_pred 0.0; AUROC: 0.9121; AUPRC: 0.8766; pAUC: 0.7918
+Epoch 200 : base_loss 0.0046; sparsity 0.2684; smoothness 0.0027; CF_pred 0.0; AUROC: 0.9231; AUPRC: 0.8885; pAUC: 0.7918
+Epoch 300 : base_loss 0.0039; sparsity 0.2679; smoothness 0.0028; CF_pred 0.0; AUROC: 0.9341; AUPRC: 0.8976; pAUC: 0.7918
+Epoch 400 : base_loss 0.0036; sparsity 0.2676; smoothness 0.0028; CF_pred 0.0; AUROC: 0.9341; AUPRC: 0.8976; pAUC: 0.7918
+Epoch 500 : base_loss 0.0034; sparsity 0.2673; smoothness 0.0028; CF_pred 0.0; AUROC: 0.9341; AUPRC: 0.8976; pAUC: 0.7918
+Epoch 0 : base_loss 0.2806; sparsity 0.2537; smoothness 0.0031; CF_pred 0.0; AUROC: 0.6374; AUPRC: 0.4635; pAUC: 0.491
+Epoch 100 : base_loss 0.0035; sparsity 0.2569; smoothness 0.0031; CF_pred 0.0; AUROC: 0.5495; AUPRC: 0.3888; pAUC: 0.4737
+Epoch 200 : base_loss 0.0027; sparsity 0.2569; smoothness 0.0031; CF_pred 0.0; AUROC: 0.5604; AUPRC: 0.3964; pAUC: 0.4737
+Epoch 300 : base_loss 0.0023; sparsity 0.2568; smoothness 0.0032; CF_pred 0.0; AUROC: 0.5495; AUPRC: 0.3912; pAUC: 0.4737
+Epoch 400 : base_loss 0.002; sparsity 0.2568; smoothness 0.0032; CF_pred 0.0; AUROC: 0.5495; AUPRC: 0.3912; pAUC: 0.4737
+Epoch 500 : base_loss 0.0019; sparsity 0.2567; smoothness 0.0032; CF_pred 0.0; AUROC: 0.5495; AUPRC: 0.3912; pAUC: 0.4737
+Max. stab. = 1.0, at α = 1.0
+Dataset #3; Acc.: 0.7; Bal. Acc.: 0.5714; AUROC: 0.9341; AUPRC: 0.8976; pAUC: 0.7918; RMSE: 0.0579; coeff.: 0.0926
+Epoch 0 : base_loss 0.1562; sparsity 0.223; smoothness 0.0027; CF_pred 0.0; AUROC: 0.25; AUPRC: 0.3122; pAUC: 0.4737
+Epoch 100 : base_loss 0.0026; sparsity 0.2318; smoothness 0.0026; CF_pred 0.0; AUROC: 0.2083; AUPRC: 0.2987; pAUC: 0.4737
+Epoch 200 : base_loss 0.0017; sparsity 0.2323; smoothness 0.0027; CF_pred 0.0; AUROC: 0.2188; AUPRC: 0.3004; pAUC: 0.4737
+Epoch 300 : base_loss 0.0014; sparsity 0.2327; smoothness 0.0027; CF_pred 0.0; AUROC: 0.2188; AUPRC: 0.3004; pAUC: 0.4737
+Epoch 400 : base_loss 0.0012; sparsity 0.2329; smoothness 0.0027; CF_pred 0.0; AUROC: 0.2188; AUPRC: 0.3004; pAUC: 0.4737
+Epoch 500 : base_loss 0.0011; sparsity 0.2331; smoothness 0.0028; CF_pred 0.0; AUROC: 0.2188; AUPRC: 0.3004; pAUC: 0.4737
+Epoch 0 : base_loss 0.1794; sparsity 0.2335; smoothness 0.0029; CF_pred 0.0; AUROC: 0.6562; AUPRC: 0.542; pAUC: 0.4846
+Epoch 100 : base_loss 0.0053; sparsity 0.2336; smoothness 0.0032; CF_pred 0.0; AUROC: 0.6146; AUPRC: 0.5909; pAUC: 0.5614
+Epoch 200 : base_loss 0.0027; sparsity 0.2343; smoothness 0.0033; CF_pred 0.0; AUROC: 0.5729; AUPRC: 0.5727; pAUC: 0.5614
+Epoch 300 : base_loss 0.0021; sparsity 0.2343; smoothness 0.0034; CF_pred 0.0; AUROC: 0.5417; AUPRC: 0.5608; pAUC: 0.5614
+Epoch 400 : base_loss 0.0019; sparsity 0.2343; smoothness 0.0034; CF_pred 0.0; AUROC: 0.5417; AUPRC: 0.5608; pAUC: 0.5614
+Epoch 500 : base_loss 0.0017; sparsity 0.2342; smoothness 0.0034; CF_pred 0.0; AUROC: 0.5417; AUPRC: 0.5612; pAUC: 0.5614
+Max. stab. = 0.722, at α = 0.9473684210526315
+Dataset #4; Acc.: 0.5; Bal. Acc.: 0.4167; AUROC: 0.2188; AUPRC: 0.3004; pAUC: 0.4737; RMSE: 0.033; coeff.: 0.0802
+Epoch 0 : base_loss 0.4452; sparsity 0.2282; smoothness 0.0018; CF_pred 0.0; AUROC: 0.32; AUPRC: 0.2408; pAUC: 0.4737
+Epoch 100 : base_loss 0.0055; sparsity 0.234; smoothness 0.002; CF_pred 0.0; AUROC: 0.3067; AUPRC: 0.2376; pAUC: 0.4737
+Epoch 200 : base_loss 0.0015; sparsity 0.2368; smoothness 0.002; CF_pred 0.0; AUROC: 0.3067; AUPRC: 0.2376; pAUC: 0.4737
+Epoch 300 : base_loss 0.0014; sparsity 0.2369; smoothness 0.002; CF_pred 0.0; AUROC: 0.3067; AUPRC: 0.2376; pAUC: 0.4737
+Epoch 400 : base_loss 0.0014; sparsity 0.2368; smoothness 0.002; CF_pred 0.0; AUROC: 0.3067; AUPRC: 0.2376; pAUC: 0.4737
+Epoch 500 : base_loss 0.0013; sparsity 0.2368; smoothness 0.002; CF_pred 0.0; AUROC: 0.3067; AUPRC: 0.2376; pAUC: 0.4737
+Epoch 0 : base_loss 0.3275; sparsity 0.2622; smoothness 0.0022; CF_pred 0.0; AUROC: 0.6533; AUPRC: 0.5066; pAUC: 0.5789
+Epoch 100 : base_loss 0.0019; sparsity 0.2677; smoothness 0.0022; CF_pred 0.0; AUROC: 0.64; AUPRC: 0.6271; pAUC: 0.6842
+Epoch 200 : base_loss 0.0017; sparsity 0.2672; smoothness 0.0022; CF_pred 0.0; AUROC: 0.64; AUPRC: 0.6271; pAUC: 0.6842
+Epoch 300 : base_loss 0.0016; sparsity 0.2668; smoothness 0.0022; CF_pred 0.0; AUROC: 0.64; AUPRC: 0.6271; pAUC: 0.6842
+Epoch 400 : base_loss 0.0015; sparsity 0.2665; smoothness 0.0022; CF_pred 0.0; AUROC: 0.64; AUPRC: 0.6271; pAUC: 0.6842
+Epoch 500 : base_loss 0.0014; sparsity 0.2663; smoothness 0.0022; CF_pred 0.0; AUROC: 0.64; AUPRC: 0.6271; pAUC: 0.6842
+Max. stab. = 0.722, at α = 0.10526315789473684
+Dataset #5; Acc.: 0.25; Bal. Acc.: 0.4333; AUROC: 0.3067; AUPRC: 0.2376; pAUC: 0.4737; RMSE: 0.0367; coeff.: 0.0819
+Epoch 0 : base_loss 0.9069; sparsity 0.2455; smoothness 0.0019; CF_pred 0.0; AUROC: 0.8824; AUPRC: 0.5317; pAUC: 0.6182
+Epoch 100 : base_loss 0.0028; sparsity 0.2516; smoothness 0.002; CF_pred 0.0; AUROC: 0.8824; AUPRC: 0.4778; pAUC: 0.4737
+Epoch 200 : base_loss 0.0014; sparsity 0.2524; smoothness 0.002; CF_pred 0.0; AUROC: 0.8627; AUPRC: 0.4444; pAUC: 0.4737
+Epoch 300 : base_loss 0.0013; sparsity 0.2523; smoothness 0.002; CF_pred 0.0; AUROC: 0.8431; AUPRC: 0.4111; pAUC: 0.4737
+Epoch 400 : base_loss 0.0012; sparsity 0.2522; smoothness 0.002; CF_pred 0.0; AUROC: 0.8431; AUPRC: 0.4111; pAUC: 0.4737
+Epoch 500 : base_loss 0.0012; sparsity 0.2522; smoothness 0.002; CF_pred 0.0; AUROC: 0.8431; AUPRC: 0.4111; pAUC: 0.4737
+Epoch 0 : base_loss 1.2347; sparsity 0.2776; smoothness 0.0016; CF_pred 0.0; AUROC: 0.549; AUPRC: 0.2011; pAUC: 0.4737
+Epoch 100 : base_loss 0.0058; sparsity 0.2813; smoothness 0.0016; CF_pred 0.0; AUROC: 0.5882; AUPRC: 0.2158; pAUC: 0.4737
+Epoch 200 : base_loss 0.0011; sparsity 0.283; smoothness 0.0016; CF_pred 0.0; AUROC: 0.5686; AUPRC: 0.2103; pAUC: 0.4737
+Epoch 300 : base_loss 0.001; sparsity 0.2828; smoothness 0.0016; CF_pred 0.0; AUROC: 0.549; AUPRC: 0.2056; pAUC: 0.4737
+Epoch 400 : base_loss 0.001; sparsity 0.2827; smoothness 0.0016; CF_pred 0.0; AUROC: 0.5098; AUPRC: 0.1977; pAUC: 0.4737
+Epoch 500 : base_loss 0.0009; sparsity 0.2826; smoothness 0.0016; CF_pred 0.0; AUROC: 0.4902; AUPRC: 0.1885; pAUC: 0.4737
+Max. stab. = 0.608, at α = 0.15789473684210525
+Dataset #6; Acc.: 0.3; Bal. Acc.: 0.5882; AUROC: 0.8431; AUPRC: 0.4111; pAUC: 0.4737; RMSE: 0.0341; coeff.: 0.0864
+Epoch 0 : base_loss 0.8603; sparsity 0.2681; smoothness 0.0011; CF_pred 0.0; AUROC: 0.68; AUPRC: 0.7647; pAUC: 0.6316
+Epoch 100 : base_loss 0.0014; sparsity 0.2749; smoothness 0.0011; CF_pred 0.0; AUROC: 0.55; AUPRC: 0.6319; pAUC: 0.5263
+Epoch 200 : base_loss 0.0012; sparsity 0.2751; smoothness 0.0011; CF_pred 0.0; AUROC: 0.55; AUPRC: 0.6319; pAUC: 0.5263
+Epoch 300 : base_loss 0.0011; sparsity 0.2751; smoothness 0.0011; CF_pred 0.0; AUROC: 0.55; AUPRC: 0.6319; pAUC: 0.5263
+Epoch 400 : base_loss 0.0011; sparsity 0.2751; smoothness 0.0011; CF_pred 0.0; AUROC: 0.54; AUPRC: 0.6263; pAUC: 0.5263
+Epoch 500 : base_loss 0.001; sparsity 0.2751; smoothness 0.0011; CF_pred 0.0; AUROC: 0.54; AUPRC: 0.6263; pAUC: 0.5263
+Epoch 0 : base_loss 1.4458; sparsity 0.3051; smoothness 0.0012; CF_pred 0.0; AUROC: 0.52; AUPRC: 0.5102; pAUC: 0.4737
+Epoch 100 : base_loss 0.0063; sparsity 0.3102; smoothness 0.0013; CF_pred 0.0; AUROC: 0.55; AUPRC: 0.5522; pAUC: 0.4737
+Epoch 200 : base_loss 0.001; sparsity 0.312; smoothness 0.0013; CF_pred 0.0; AUROC: 0.56; AUPRC: 0.5635; pAUC: 0.4737
+Epoch 300 : base_loss 0.0009; sparsity 0.3121; smoothness 0.0013; CF_pred 0.0; AUROC: 0.56; AUPRC: 0.5635; pAUC: 0.4737
+Epoch 400 : base_loss 0.0009; sparsity 0.3121; smoothness 0.0013; CF_pred 0.0; AUROC: 0.56; AUPRC: 0.5635; pAUC: 0.4737
+Epoch 500 : base_loss 0.0008; sparsity 0.3121; smoothness 0.0013; CF_pred 0.0; AUROC: 0.54; AUPRC: 0.5525; pAUC: 0.4737
+Max. stab. = 0.596, at α = 0.5789473684210527
+Dataset #7; Acc.: 0.45; Bal. Acc.: 0.45; AUROC: 0.54; AUPRC: 0.6263; pAUC: 0.5263; RMSE: 0.0318; coeff.: 0.0973
+Epoch 0 : base_loss 0.9101; sparsity 0.2742; smoothness 0.0026; CF_pred 0.0; AUROC: 0.4949; AUPRC: 0.5252; pAUC: 0.5322
+Epoch 100 : base_loss 0.0053; sparsity 0.2785; smoothness 0.0028; CF_pred 0.0; AUROC: 0.5859; AUPRC: 0.5902; pAUC: 0.5322
+Epoch 200 : base_loss 0.0041; sparsity 0.2787; smoothness 0.0028; CF_pred 0.0; AUROC: 0.5859; AUPRC: 0.5902; pAUC: 0.5322
+Epoch 300 : base_loss 0.0037; sparsity 0.2786; smoothness 0.0028; CF_pred 0.0; AUROC: 0.5859; AUPRC: 0.5902; pAUC: 0.5322
+Epoch 400 : base_loss 0.0035; sparsity 0.2784; smoothness 0.0029; CF_pred 0.0; AUROC: 0.5758; AUPRC: 0.5342; pAUC: 0.479
+Epoch 500 : base_loss 0.0033; sparsity 0.2783; smoothness 0.0029; CF_pred 0.0; AUROC: 0.5758; AUPRC: 0.5342; pAUC: 0.479
+Epoch 0 : base_loss 1.4454; sparsity 0.2432; smoothness 0.0023; CF_pred 0.0; AUROC: 0.5859; AUPRC: 0.6137; pAUC: 0.5906
+Epoch 100 : base_loss 0.0256; sparsity 0.2527; smoothness 0.0023; CF_pred 0.0; AUROC: 0.4444; AUPRC: 0.4281; pAUC: 0.4737
+Epoch 200 : base_loss 0.0022; sparsity 0.2582; smoothness 0.0023; CF_pred 0.0; AUROC: 0.4343; AUPRC: 0.4356; pAUC: 0.4737
+Epoch 300 : base_loss 0.002; sparsity 0.2585; smoothness 0.0023; CF_pred 0.0; AUROC: 0.4242; AUPRC: 0.4314; pAUC: 0.4737
+Epoch 400 : base_loss 0.002; sparsity 0.2585; smoothness 0.0023; CF_pred 0.0; AUROC: 0.4343; AUPRC: 0.434; pAUC: 0.4737
+Epoch 500 : base_loss 0.0019; sparsity 0.2585; smoothness 0.0023; CF_pred 0.0; AUROC: 0.4343; AUPRC: 0.434; pAUC: 0.4737
+Max. stab. = 0.474, at α = 0.05263157894736842
+Dataset #8; Acc.: 0.5; Bal. Acc.: 0.5455; AUROC: 0.5758; AUPRC: 0.5342; pAUC: 0.479; RMSE: 0.0577; coeff.: 0.0955
+Epoch 0 : base_loss 0.3655; sparsity 0.2513; smoothness 0.0021; CF_pred 0.0; AUROC: 0.5714; AUPRC: 0.3987; pAUC: 0.4987
+Epoch 100 : base_loss 0.0028; sparsity 0.2544; smoothness 0.002; CF_pred 0.0; AUROC: 0.6429; AUPRC: 0.4689; pAUC: 0.5238
+Epoch 200 : base_loss 0.0022; sparsity 0.2539; smoothness 0.0021; CF_pred 0.0; AUROC: 0.6429; AUPRC: 0.4689; pAUC: 0.5238
+Epoch 300 : base_loss 0.002; sparsity 0.2539; smoothness 0.0021; CF_pred 0.0; AUROC: 0.6429; AUPRC: 0.4689; pAUC: 0.5238
+Epoch 400 : base_loss 0.0017; sparsity 0.2537; smoothness 0.0022; CF_pred 0.0; AUROC: 0.6429; AUPRC: 0.4689; pAUC: 0.5238
+Epoch 500 : base_loss 0.0016; sparsity 0.2537; smoothness 0.0022; CF_pred 0.0; AUROC: 0.6429; AUPRC: 0.4689; pAUC: 0.5238
+Epoch 0 : base_loss 0.3163; sparsity 0.2282; smoothness 0.0022; CF_pred 0.0; AUROC: 0.25; AUPRC: 0.2378; pAUC: 0.4737
+Epoch 100 : base_loss 0.0024; sparsity 0.2354; smoothness 0.0024; CF_pred 0.0; AUROC: 0.3333; AUPRC: 0.2565; pAUC: 0.4737
+Epoch 200 : base_loss 0.002; sparsity 0.235; smoothness 0.0024; CF_pred 0.0; AUROC: 0.3452; AUPRC: 0.2604; pAUC: 0.4737
+Epoch 300 : base_loss 0.0018; sparsity 0.2347; smoothness 0.0024; CF_pred 0.0; AUROC: 0.3452; AUPRC: 0.2604; pAUC: 0.4737
+Epoch 400 : base_loss 0.0017; sparsity 0.2346; smoothness 0.0025; CF_pred 0.0; AUROC: 0.3452; AUPRC: 0.2604; pAUC: 0.4737
+Epoch 500 : base_loss 0.0017; sparsity 0.2345; smoothness 0.0025; CF_pred 0.0; AUROC: 0.3452; AUPRC: 0.2604; pAUC: 0.4737
+Max. stab. = 0.608, at α = 0.894736842105263
+Dataset #9; Acc.: 0.75; Bal. Acc.: 0.631; AUROC: 0.6429; AUPRC: 0.4689; pAUC: 0.5238; RMSE: 0.0402; coeff.: 0.0889
+Epoch 0 : base_loss 0.6164; sparsity 0.2391; smoothness 0.0026; CF_pred 0.0; AUROC: 0.64; AUPRC: 0.4444; pAUC: 0.5439
+Epoch 100 : base_loss 0.0021; sparsity 0.2441; smoothness 0.0024; CF_pred 0.0; AUROC: 0.64; AUPRC: 0.4246; pAUC: 0.5088
+Epoch 200 : base_loss 0.0019; sparsity 0.2439; smoothness 0.0025; CF_pred 0.0; AUROC: 0.64; AUPRC: 0.4246; pAUC: 0.5088
+Epoch 300 : base_loss 0.0018; sparsity 0.2437; smoothness 0.0025; CF_pred 0.0; AUROC: 0.64; AUPRC: 0.4246; pAUC: 0.5088
+Epoch 400 : base_loss 0.0018; sparsity 0.2435; smoothness 0.0025; CF_pred 0.0; AUROC: 0.64; AUPRC: 0.4246; pAUC: 0.5088
+Epoch 500 : base_loss 0.0017; sparsity 0.2434; smoothness 0.0025; CF_pred 0.0; AUROC: 0.64; AUPRC: 0.4246; pAUC: 0.5088
+Epoch 0 : base_loss 0.8551; sparsity 0.265; smoothness 0.0027; CF_pred 0.0; AUROC: 0.5733; AUPRC: 0.3008; pAUC: 0.4737
+Epoch 100 : base_loss 0.0113; sparsity 0.2637; smoothness 0.0026; CF_pred 0.0; AUROC: 0.4667; AUPRC: 0.2638; pAUC: 0.4737
+Epoch 200 : base_loss 0.0018; sparsity 0.2654; smoothness 0.0026; CF_pred 0.0; AUROC: 0.4667; AUPRC: 0.2638; pAUC: 0.4737
+Epoch 300 : base_loss 0.0017; sparsity 0.2654; smoothness 0.0027; CF_pred 0.0; AUROC: 0.4667; AUPRC: 0.2638; pAUC: 0.4737
+Epoch 400 : base_loss 0.0016; sparsity 0.2653; smoothness 0.0027; CF_pred 0.0; AUROC: 0.4667; AUPRC: 0.2638; pAUC: 0.4737
+Epoch 500 : base_loss 0.0016; sparsity 0.2653; smoothness 0.0027; CF_pred 0.0; AUROC: 0.4667; AUPRC: 0.2638; pAUC: 0.4737
+Max. stab. = 0.733, at α = 0.7894736842105263
+Dataset #10; Acc.: 0.7; Bal. Acc.: 0.6; AUROC: 0.64; AUPRC: 0.4246; pAUC: 0.5088; RMSE: 0.0417; coeff.: 0.085
+
+Acc.         :0.56
+Bal. Acc.    :0.5236070791953145
+AUROC        :0.573248457424928
+AUPRC        :0.44441120737611967
+pAUC        :0.524744809284283
+RMSE        :0.04343383984517482
+coeff.         :0.08758958429098129
+λ = 0.0; β = 0.025; γ = 0.0; progress: 0.0
+Epoch 0 : base_loss 0.7019; sparsity 0.2686; smoothness 0.0018; CF_pred 0.0; AUROC: 0.5469; AUPRC: 0.3943; pAUC: 0.5724
+Epoch 100 : base_loss 0.0027; sparsity 0.2747; smoothness 0.0018; CF_pred 0.0; AUROC: 0.5; AUPRC: 0.425; pAUC: 0.6053
+Epoch 200 : base_loss 0.0022; sparsity 0.2738; smoothness 0.0018; CF_pred 0.0; AUROC: 0.5; AUPRC: 0.425; pAUC: 0.6053
+Epoch 300 : base_loss 0.0019; sparsity 0.2733; smoothness 0.0018; CF_pred 0.0; AUROC: 0.5; AUPRC: 0.425; pAUC: 0.6053
+Epoch 400 : base_loss 0.0017; sparsity 0.273; smoothness 0.0018; CF_pred 0.0; AUROC: 0.5; AUPRC: 0.425; pAUC: 0.6053
+Epoch 500 : base_loss 0.0016; sparsity 0.2729; smoothness 0.0018; CF_pred 0.0; AUROC: 0.5; AUPRC: 0.425; pAUC: 0.6053
+Epoch 0 : base_loss 0.5355; sparsity 0.2461; smoothness 0.0017; CF_pred 0.0; AUROC: 0.375; AUPRC: 0.3858; pAUC: 0.6053
+Epoch 100 : base_loss 0.003; sparsity 0.2522; smoothness 0.0017; CF_pred 0.0; AUROC: 0.4375; AUPRC: 0.3994; pAUC: 0.6053
+Epoch 200 : base_loss 0.0026; sparsity 0.2515; smoothness 0.0017; CF_pred 0.0; AUROC: 0.4375; AUPRC: 0.3994; pAUC: 0.6053
+Epoch 300 : base_loss 0.0023; sparsity 0.2511; smoothness 0.0017; CF_pred 0.0; AUROC: 0.4375; AUPRC: 0.3994; pAUC: 0.6053
+Epoch 400 : base_loss 0.0022; sparsity 0.2509; smoothness 0.0017; CF_pred 0.0; AUROC: 0.4375; AUPRC: 0.3994; pAUC: 0.6053
+Epoch 500 : base_loss 0.0021; sparsity 0.2507; smoothness 0.0017; CF_pred 0.0; AUROC: 0.4375; AUPRC: 0.3994; pAUC: 0.6053
+Max. stab. = 0.804, at α = 0.15789473684210525
+Dataset #1; Acc.: 0.25; Bal. Acc.: 0.4375; AUROC: 0.5; AUPRC: 0.425; pAUC: 0.6053; RMSE: 0.0406; coeff.: 0.0961
+Epoch 0 : base_loss 0.2274; sparsity 0.2081; smoothness 0.0037; CF_pred 0.0; AUROC: 0.5469; AUPRC: 0.2699; pAUC: 0.4737
+Epoch 100 : base_loss 0.0021; sparsity 0.2121; smoothness 0.0036; CF_pred 0.0; AUROC: 0.5312; AUPRC: 0.2494; pAUC: 0.4737
+Epoch 200 : base_loss 0.0018; sparsity 0.2119; smoothness 0.0036; CF_pred 0.0; AUROC: 0.5312; AUPRC: 0.2494; pAUC: 0.4737
+Epoch 300 : base_loss 0.0016; sparsity 0.212; smoothness 0.0036; CF_pred 0.0; AUROC: 0.5469; AUPRC: 0.2583; pAUC: 0.4737
+Epoch 400 : base_loss 0.0015; sparsity 0.212; smoothness 0.0036; CF_pred 0.0; AUROC: 0.5625; AUPRC: 0.2702; pAUC: 0.4737
+Epoch 500 : base_loss 0.0014; sparsity 0.212; smoothness 0.0037; CF_pred 0.0; AUROC: 0.5781; AUPRC: 0.2869; pAUC: 0.4737
+Epoch 0 : base_loss 0.263; sparsity 0.2642; smoothness 0.0036; CF_pred 0.0; AUROC: 0.7344; AUPRC: 0.3826; pAUC: 0.4737
+Epoch 100 : base_loss 0.0039; sparsity 0.2729; smoothness 0.0037; CF_pred 0.0; AUROC: 0.5; AUPRC: 0.2375; pAUC: 0.4737
+Epoch 200 : base_loss 0.0032; sparsity 0.2722; smoothness 0.0037; CF_pred 0.0; AUROC: 0.4688; AUPRC: 0.2213; pAUC: 0.4737
+Epoch 300 : base_loss 0.0028; sparsity 0.272; smoothness 0.0037; CF_pred 0.0; AUROC: 0.4531; AUPRC: 0.213; pAUC: 0.4737
+Epoch 400 : base_loss 0.0026; sparsity 0.2719; smoothness 0.0037; CF_pred 0.0; AUROC: 0.4375; AUPRC: 0.207; pAUC: 0.4737
+Epoch 500 : base_loss 0.0024; sparsity 0.2719; smoothness 0.0038; CF_pred 0.0; AUROC: 0.4375; AUPRC: 0.207; pAUC: 0.4737
+Max. stab. = 0.643, at α = 0.3157894736842105
+Dataset #2; Acc.: 0.4; Bal. Acc.: 0.5312; AUROC: 0.5781; AUPRC: 0.2869; pAUC: 0.4737; RMSE: 0.0378; coeff.: 0.0725
+Epoch 0 : base_loss 0.5312; sparsity 0.2729; smoothness 0.0028; CF_pred 0.0; AUROC: 0.6593; AUPRC: 0.5591; pAUC: 0.5489
+Epoch 100 : base_loss 0.0035; sparsity 0.2726; smoothness 0.0028; CF_pred 0.0; AUROC: 0.7143; AUPRC: 0.6389; pAUC: 0.5836
+Epoch 200 : base_loss 0.003; sparsity 0.2723; smoothness 0.0028; CF_pred 0.0; AUROC: 0.7253; AUPRC: 0.6579; pAUC: 0.6009
+Epoch 300 : base_loss 0.0026; sparsity 0.2722; smoothness 0.0028; CF_pred 0.0; AUROC: 0.7253; AUPRC: 0.6579; pAUC: 0.6009
+Epoch 400 : base_loss 0.0024; sparsity 0.2721; smoothness 0.0028; CF_pred 0.0; AUROC: 0.7253; AUPRC: 0.6579; pAUC: 0.6009
+Epoch 500 : base_loss 0.0023; sparsity 0.2721; smoothness 0.0028; CF_pred 0.0; AUROC: 0.7253; AUPRC: 0.6579; pAUC: 0.6009
+Epoch 0 : base_loss 0.8278; sparsity 0.2431; smoothness 0.0028; CF_pred 0.0; AUROC: 0.3846; AUPRC: 0.3131; pAUC: 0.4737
+Epoch 100 : base_loss 0.0048; sparsity 0.2511; smoothness 0.0029; CF_pred 0.0; AUROC: 0.1758; AUPRC: 0.2556; pAUC: 0.4737
+Epoch 200 : base_loss 0.004; sparsity 0.2506; smoothness 0.0029; CF_pred 0.0; AUROC: 0.2088; AUPRC: 0.2644; pAUC: 0.4737
+Epoch 300 : base_loss 0.0036; sparsity 0.2506; smoothness 0.0029; CF_pred 0.0; AUROC: 0.2088; AUPRC: 0.2644; pAUC: 0.4737
+Epoch 400 : base_loss 0.0033; sparsity 0.2506; smoothness 0.0029; CF_pred 0.0; AUROC: 0.1868; AUPRC: 0.2586; pAUC: 0.4737
+Epoch 500 : base_loss 0.0032; sparsity 0.2505; smoothness 0.0029; CF_pred 0.0; AUROC: 0.1758; AUPRC: 0.2556; pAUC: 0.4737
+Max. stab. = 0.688, at α = 0.21052631578947367
+Dataset #3; Acc.: 0.45; Bal. Acc.: 0.544; AUROC: 0.7253; AUPRC: 0.6579; pAUC: 0.6009; RMSE: 0.048; coeff.: 0.0923
+Epoch 0 : base_loss 0.2218; sparsity 0.2174; smoothness 0.003; CF_pred 0.0; AUROC: 0.6458; AUPRC: 0.6175; pAUC: 0.5504
+Epoch 100 : base_loss 0.0035; sparsity 0.2276; smoothness 0.003; CF_pred 0.0; AUROC: 0.4896; AUPRC: 0.4849; pAUC: 0.5395
+Epoch 200 : base_loss 0.0022; sparsity 0.2278; smoothness 0.0031; CF_pred 0.0; AUROC: 0.4583; AUPRC: 0.4123; pAUC: 0.4846
+Epoch 300 : base_loss 0.0017; sparsity 0.2275; smoothness 0.0032; CF_pred 0.0; AUROC: 0.4583; AUPRC: 0.4123; pAUC: 0.4846
+Epoch 400 : base_loss 0.0015; sparsity 0.2274; smoothness 0.0032; CF_pred 0.0; AUROC: 0.4583; AUPRC: 0.4147; pAUC: 0.4846
+Epoch 500 : base_loss 0.0014; sparsity 0.2274; smoothness 0.0032; CF_pred 0.0; AUROC: 0.4583; AUPRC: 0.4147; pAUC: 0.4846
+Epoch 0 : base_loss 0.2597; sparsity 0.2307; smoothness 0.0028; CF_pred 0.0; AUROC: 0.3021; AUPRC: 0.3925; pAUC: 0.4956
+Epoch 100 : base_loss 0.0023; sparsity 0.2383; smoothness 0.003; CF_pred 0.0; AUROC: 0.4896; AUPRC: 0.4841; pAUC: 0.5066
+Epoch 200 : base_loss 0.0017; sparsity 0.238; smoothness 0.0031; CF_pred 0.0; AUROC: 0.4688; AUPRC: 0.4774; pAUC: 0.5066
+Epoch 300 : base_loss 0.0014; sparsity 0.2379; smoothness 0.0032; CF_pred 0.0; AUROC: 0.4688; AUPRC: 0.4774; pAUC: 0.5066
+Epoch 400 : base_loss 0.0012; sparsity 0.2378; smoothness 0.0032; CF_pred 0.0; AUROC: 0.4688; AUPRC: 0.4774; pAUC: 0.5066
+Epoch 500 : base_loss 0.0011; sparsity 0.2378; smoothness 0.0033; CF_pred 0.0; AUROC: 0.4688; AUPRC: 0.4774; pAUC: 0.5066
+Max. stab. = 0.844, at α = 0.8421052631578947
+Dataset #4; Acc.: 0.5; Bal. Acc.: 0.4375; AUROC: 0.4583; AUPRC: 0.4147; pAUC: 0.4846; RMSE: 0.0368; coeff.: 0.08
+Epoch 0 : base_loss 0.3886; sparsity 0.2352; smoothness 0.0018; CF_pred 0.0; AUROC: 0.6133; AUPRC: 0.5271; pAUC: 0.5789
+Epoch 100 : base_loss 0.0067; sparsity 0.2357; smoothness 0.0018; CF_pred 0.0; AUROC: 0.6933; AUPRC: 0.6138; pAUC: 0.6842
+Epoch 200 : base_loss 0.0022; sparsity 0.2377; smoothness 0.0018; CF_pred 0.0; AUROC: 0.72; AUPRC: 0.6282; pAUC: 0.6842
+Epoch 300 : base_loss 0.002; sparsity 0.2377; smoothness 0.0018; CF_pred 0.0; AUROC: 0.72; AUPRC: 0.6282; pAUC: 0.6842
+Epoch 400 : base_loss 0.002; sparsity 0.2376; smoothness 0.0018; CF_pred 0.0; AUROC: 0.72; AUPRC: 0.6282; pAUC: 0.6842
+Epoch 500 : base_loss 0.0019; sparsity 0.2375; smoothness 0.0018; CF_pred 0.0; AUROC: 0.72; AUPRC: 0.6282; pAUC: 0.6842
+Epoch 0 : base_loss 0.4212; sparsity 0.2289; smoothness 0.0022; CF_pred 0.0; AUROC: 0.4533; AUPRC: 0.4042; pAUC: 0.5789
+Epoch 100 : base_loss 0.0156; sparsity 0.2434; smoothness 0.0024; CF_pred 0.0; AUROC: 0.4933; AUPRC: 0.2749; pAUC: 0.4737
+Epoch 200 : base_loss 0.0013; sparsity 0.2501; smoothness 0.0024; CF_pred 0.0; AUROC: 0.5067; AUPRC: 0.28; pAUC: 0.4737
+Epoch 300 : base_loss 0.0011; sparsity 0.2506; smoothness 0.0024; CF_pred 0.0; AUROC: 0.5333; AUPRC: 0.2967; pAUC: 0.4737
+Epoch 400 : base_loss 0.001; sparsity 0.2505; smoothness 0.0024; CF_pred 0.0; AUROC: 0.52; AUPRC: 0.2916; pAUC: 0.4737
+Epoch 500 : base_loss 0.001; sparsity 0.2505; smoothness 0.0024; CF_pred 0.0; AUROC: 0.4933; AUPRC: 0.2834; pAUC: 0.4737
+Max. stab. = 0.733, at α = 0.2631578947368421
+Dataset #5; Acc.: 0.4; Bal. Acc.: 0.5333; AUROC: 0.72; AUPRC: 0.6282; pAUC: 0.6842; RMSE: 0.044; coeff.: 0.0841
+Epoch 0 : base_loss 0.8594; sparsity 0.2855; smoothness 0.002; CF_pred 0.0; AUROC: 0.4118; AUPRC: 0.1731; pAUC: 0.4737
+Epoch 100 : base_loss 0.0006; sparsity 0.292; smoothness 0.0019; CF_pred 0.0; AUROC: 0.3333; AUPRC: 0.1446; pAUC: 0.4737
+Epoch 200 : base_loss 0.0005; sparsity 0.292; smoothness 0.0019; CF_pred 0.0; AUROC: 0.3725; AUPRC: 0.1525; pAUC: 0.4737
+Epoch 300 : base_loss 0.0005; sparsity 0.2919; smoothness 0.0019; CF_pred 0.0; AUROC: 0.3725; AUPRC: 0.1525; pAUC: 0.4737
+Epoch 400 : base_loss 0.0004; sparsity 0.2919; smoothness 0.0019; CF_pred 0.0; AUROC: 0.3725; AUPRC: 0.1525; pAUC: 0.4737
+Epoch 500 : base_loss 0.0004; sparsity 0.2919; smoothness 0.0019; CF_pred 0.0; AUROC: 0.3725; AUPRC: 0.1525; pAUC: 0.4737
+Epoch 0 : base_loss 0.3004; sparsity 0.2597; smoothness 0.0019; CF_pred 0.0; AUROC: 0.5686; AUPRC: 0.2079; pAUC: 0.4737
+Epoch 100 : base_loss 0.0014; sparsity 0.2657; smoothness 0.0018; CF_pred 0.0; AUROC: 0.549; AUPRC: 0.2024; pAUC: 0.4737
+Epoch 200 : base_loss 0.0013; sparsity 0.2654; smoothness 0.0018; CF_pred 0.0; AUROC: 0.549; AUPRC: 0.2024; pAUC: 0.4737
+Epoch 300 : base_loss 0.0012; sparsity 0.2651; smoothness 0.0018; CF_pred 0.0; AUROC: 0.549; AUPRC: 0.2024; pAUC: 0.4737
+Epoch 400 : base_loss 0.0011; sparsity 0.2649; smoothness 0.0018; CF_pred 0.0; AUROC: 0.549; AUPRC: 0.2024; pAUC: 0.4737
+Epoch 500 : base_loss 0.0011; sparsity 0.2648; smoothness 0.0018; CF_pred 0.0; AUROC: 0.549; AUPRC: 0.2024; pAUC: 0.4737
+Max. stab. = 1.0, at α = 1.0
+Dataset #6; Acc.: 0.8; Bal. Acc.: 0.4706; AUROC: 0.3725; AUPRC: 0.1525; pAUC: 0.4737; RMSE: 0.0202; coeff.: 0.1008
+Epoch 0 : base_loss 0.7384; sparsity 0.2513; smoothness 0.0013; CF_pred 0.0; AUROC: 0.51; AUPRC: 0.5625; pAUC: 0.5263
+Epoch 100 : base_loss 0.0015; sparsity 0.2651; smoothness 0.0013; CF_pred 0.0; AUROC: 0.42; AUPRC: 0.5328; pAUC: 0.5263
+Epoch 200 : base_loss 0.0014; sparsity 0.2649; smoothness 0.0013; CF_pred 0.0; AUROC: 0.42; AUPRC: 0.534; pAUC: 0.5263
+Epoch 300 : base_loss 0.0013; sparsity 0.2648; smoothness 0.0013; CF_pred 0.0; AUROC: 0.42; AUPRC: 0.534; pAUC: 0.5263
+Epoch 400 : base_loss 0.0013; sparsity 0.2647; smoothness 0.0013; CF_pred 0.0; AUROC: 0.42; AUPRC: 0.534; pAUC: 0.5263
+Epoch 500 : base_loss 0.0012; sparsity 0.2646; smoothness 0.0013; CF_pred 0.0; AUROC: 0.42; AUPRC: 0.534; pAUC: 0.5263
+Epoch 0 : base_loss 0.4685; sparsity 0.2692; smoothness 0.0012; CF_pred 0.0; AUROC: 0.38; AUPRC: 0.456; pAUC: 0.4737
+Epoch 100 : base_loss 0.0014; sparsity 0.2768; smoothness 0.0012; CF_pred 0.0; AUROC: 0.41; AUPRC: 0.4889; pAUC: 0.4737
+Epoch 200 : base_loss 0.0013; sparsity 0.2767; smoothness 0.0012; CF_pred 0.0; AUROC: 0.41; AUPRC: 0.4889; pAUC: 0.4737
+Epoch 300 : base_loss 0.0012; sparsity 0.2766; smoothness 0.0012; CF_pred 0.0; AUROC: 0.41; AUPRC: 0.4889; pAUC: 0.4737
+Epoch 400 : base_loss 0.0012; sparsity 0.2766; smoothness 0.0012; CF_pred 0.0; AUROC: 0.41; AUPRC: 0.4889; pAUC: 0.4737
+Epoch 500 : base_loss 0.0011; sparsity 0.2765; smoothness 0.0012; CF_pred 0.0; AUROC: 0.41; AUPRC: 0.4889; pAUC: 0.4737
+Max. stab. = 0.722, at α = 0.9473684210526315
+Dataset #7; Acc.: 0.5; Bal. Acc.: 0.5; AUROC: 0.42; AUPRC: 0.534; pAUC: 0.5263; RMSE: 0.035; coeff.: 0.0914
+Epoch 0 : base_loss 1.1245; sparsity 0.2756; smoothness 0.0023; CF_pred 0.0; AUROC: 0.3636; AUPRC: 0.4423; pAUC: 0.479
+Epoch 100 : base_loss 0.003; sparsity 0.277; smoothness 0.0023; CF_pred 0.0; AUROC: 0.4747; AUPRC: 0.5905; pAUC: 0.5906
+Epoch 200 : base_loss 0.0027; sparsity 0.2769; smoothness 0.0023; CF_pred 0.0; AUROC: 0.4848; AUPRC: 0.5942; pAUC: 0.5906
+Epoch 300 : base_loss 0.0025; sparsity 0.2766; smoothness 0.0023; CF_pred 0.0; AUROC: 0.4747; AUPRC: 0.5905; pAUC: 0.5906
+Epoch 400 : base_loss 0.0024; sparsity 0.2765; smoothness 0.0023; CF_pred 0.0; AUROC: 0.4747; AUPRC: 0.5905; pAUC: 0.5906
+Epoch 500 : base_loss 0.0024; sparsity 0.2764; smoothness 0.0023; CF_pred 0.0; AUROC: 0.4747; AUPRC: 0.5905; pAUC: 0.5906
+Epoch 0 : base_loss 1.0628; sparsity 0.2541; smoothness 0.0026; CF_pred 0.0; AUROC: 0.3939; AUPRC: 0.4155; pAUC: 0.4737
+Epoch 100 : base_loss 0.003; sparsity 0.2549; smoothness 0.0027; CF_pred 0.0; AUROC: 0.5253; AUPRC: 0.4789; pAUC: 0.4737
+Epoch 200 : base_loss 0.0027; sparsity 0.2553; smoothness 0.0027; CF_pred 0.0; AUROC: 0.5253; AUPRC: 0.4789; pAUC: 0.4737
+Epoch 300 : base_loss 0.0026; sparsity 0.2554; smoothness 0.0027; CF_pred 0.0; AUROC: 0.5253; AUPRC: 0.4789; pAUC: 0.4737
+Epoch 400 : base_loss 0.0025; sparsity 0.2554; smoothness 0.0027; CF_pred 0.0; AUROC: 0.5253; AUPRC: 0.4789; pAUC: 0.4737
+Epoch 500 : base_loss 0.0024; sparsity 0.2555; smoothness 0.0027; CF_pred 0.0; AUROC: 0.5253; AUPRC: 0.4789; pAUC: 0.4737
+Max. stab. = 0.804, at α = 0.894736842105263
+Dataset #8; Acc.: 0.6; Bal. Acc.: 0.5657; AUROC: 0.4747; AUPRC: 0.5905; pAUC: 0.5906; RMSE: 0.0487; coeff.: 0.0967
+Epoch 0 : base_loss 0.9575; sparsity 0.2501; smoothness 0.0025; CF_pred 0.0; AUROC: 0.4881; AUPRC: 0.3373; pAUC: 0.4737
+Epoch 100 : base_loss 0.0148; sparsity 0.2481; smoothness 0.0025; CF_pred 0.0; AUROC: 0.3929; AUPRC: 0.4309; pAUC: 0.5614
+Epoch 200 : base_loss 0.002; sparsity 0.2512; smoothness 0.0025; CF_pred 0.0; AUROC: 0.4048; AUPRC: 0.4331; pAUC: 0.5614
+Epoch 300 : base_loss 0.0017; sparsity 0.2511; smoothness 0.0025; CF_pred 0.0; AUROC: 0.4048; AUPRC: 0.4331; pAUC: 0.5614
+Epoch 400 : base_loss 0.0016; sparsity 0.251; smoothness 0.0025; CF_pred 0.0; AUROC: 0.4167; AUPRC: 0.4355; pAUC: 0.5614
+Epoch 500 : base_loss 0.0016; sparsity 0.2509; smoothness 0.0025; CF_pred 0.0; AUROC: 0.4167; AUPRC: 0.4355; pAUC: 0.5614
+Epoch 0 : base_loss 0.3718; sparsity 0.2363; smoothness 0.0021; CF_pred 0.0; AUROC: 0.5238; AUPRC: 0.3587; pAUC: 0.4737
+Epoch 100 : base_loss 0.0029; sparsity 0.2451; smoothness 0.0021; CF_pred 0.0; AUROC: 0.5714; AUPRC: 0.3885; pAUC: 0.4987
+Epoch 200 : base_loss 0.0026; sparsity 0.2451; smoothness 0.0021; CF_pred 0.0; AUROC: 0.5714; AUPRC: 0.3885; pAUC: 0.4987
+Epoch 300 : base_loss 0.0024; sparsity 0.2448; smoothness 0.0021; CF_pred 0.0; AUROC: 0.5714; AUPRC: 0.3885; pAUC: 0.4987
+Epoch 400 : base_loss 0.0023; sparsity 0.2447; smoothness 0.0022; CF_pred 0.0; AUROC: 0.5714; AUPRC: 0.3885; pAUC: 0.4987
+Epoch 500 : base_loss 0.0022; sparsity 0.2446; smoothness 0.0022; CF_pred 0.0; AUROC: 0.5714; AUPRC: 0.3885; pAUC: 0.4987
+Max. stab. = 0.7, at α = 0.5263157894736842
+Dataset #9; Acc.: 0.5; Bal. Acc.: 0.5; AUROC: 0.4167; AUPRC: 0.4355; pAUC: 0.5614; RMSE: 0.0399; coeff.: 0.0867
+Epoch 0 : base_loss 0.409; sparsity 0.2539; smoothness 0.0029; CF_pred 0.0; AUROC: 0.24; AUPRC: 0.2564; pAUC: 0.5088
+Epoch 100 : base_loss 0.0026; sparsity 0.257; smoothness 0.0031; CF_pred 0.0; AUROC: 0.2; AUPRC: 0.204; pAUC: 0.4737
+Epoch 200 : base_loss 0.0023; sparsity 0.2566; smoothness 0.0031; CF_pred 0.0; AUROC: 0.2; AUPRC: 0.204; pAUC: 0.4737
+Epoch 300 : base_loss 0.0021; sparsity 0.2561; smoothness 0.0032; CF_pred 0.0; AUROC: 0.2; AUPRC: 0.204; pAUC: 0.4737
+Epoch 400 : base_loss 0.0019; sparsity 0.2558; smoothness 0.0032; CF_pred 0.0; AUROC: 0.2; AUPRC: 0.204; pAUC: 0.4737
+Epoch 500 : base_loss 0.0019; sparsity 0.2556; smoothness 0.0032; CF_pred 0.0; AUROC: 0.2; AUPRC: 0.204; pAUC: 0.4737
+Epoch 0 : base_loss 0.4708; sparsity 0.2112; smoothness 0.0022; CF_pred 0.0; AUROC: 0.48; AUPRC: 0.2789; pAUC: 0.4737
+Epoch 100 : base_loss 0.0027; sparsity 0.2168; smoothness 0.0022; CF_pred 0.0; AUROC: 0.6267; AUPRC: 0.3764; pAUC: 0.4737
+Epoch 200 : base_loss 0.0015; sparsity 0.2176; smoothness 0.0022; CF_pred 0.0; AUROC: 0.6533; AUPRC: 0.3876; pAUC: 0.4737
+Epoch 300 : base_loss 0.0014; sparsity 0.2174; smoothness 0.0022; CF_pred 0.0; AUROC: 0.6533; AUPRC: 0.3876; pAUC: 0.4737
+Epoch 400 : base_loss 0.0014; sparsity 0.2174; smoothness 0.0022; CF_pred 0.0; AUROC: 0.64; AUPRC: 0.3815; pAUC: 0.4737
+Epoch 500 : base_loss 0.0014; sparsity 0.2173; smoothness 0.0022; CF_pred 0.0; AUROC: 0.64; AUPRC: 0.3815; pAUC: 0.4737
+Max. stab. = 0.762, at α = 0.3157894736842105
+Dataset #10; Acc.: 0.25; Bal. Acc.: 0.3; AUROC: 0.2; AUPRC: 0.204; pAUC: 0.4737; RMSE: 0.0432; coeff.: 0.0888
+
+Acc.         :0.465
+Bal. Acc.    :0.481978417824006
+AUROC        :0.48656962196300435
+AUPRC        :0.4329263095984587
+pAUC        :0.547446340209498
+RMSE        :0.03940845583675336
+coeff.         :0.08894748985767365
+λ = 0.05; β = 0.0; γ = 0.0; progress: 0.0
+Epoch 0 : base_loss 0.5248; sparsity 0.2814; smoothness 0.0018; CF_pred 0.0; AUROC: 0.4688; AUPRC: 0.2264; pAUC: 0.4737
+Epoch 100 : base_loss 0.0019; sparsity 0.2821; smoothness 0.0018; CF_pred 0.0; AUROC: 0.3594; AUPRC: 0.1866; pAUC: 0.4737
+Epoch 200 : base_loss 0.0016; sparsity 0.2779; smoothness 0.0018; CF_pred 0.0; AUROC: 0.375; AUPRC: 0.1902; pAUC: 0.4737
+Epoch 300 : base_loss 0.0014; sparsity 0.2747; smoothness 0.0018; CF_pred 0.0; AUROC: 0.3906; AUPRC: 0.1938; pAUC: 0.4737
+Epoch 400 : base_loss 0.0012; sparsity 0.2724; smoothness 0.0018; CF_pred 0.0; AUROC: 0.3906; AUPRC: 0.1938; pAUC: 0.4737
+Epoch 500 : base_loss 0.0012; sparsity 0.2709; smoothness 0.0018; CF_pred 0.0; AUROC: 0.3906; AUPRC: 0.1938; pAUC: 0.4737
+Epoch 0 : base_loss 0.7266; sparsity 0.2421; smoothness 0.0016; CF_pred 0.0; AUROC: 0.8906; AUPRC: 0.8409; pAUC: 0.8684
+Epoch 100 : base_loss 0.004; sparsity 0.2482; smoothness 0.0016; CF_pred 0.0; AUROC: 0.9062; AUPRC: 0.85; pAUC: 0.8684
+Epoch 200 : base_loss 0.0028; sparsity 0.2469; smoothness 0.0016; CF_pred 0.0; AUROC: 0.9062; AUPRC: 0.85; pAUC: 0.8684
+Epoch 300 : base_loss 0.0026; sparsity 0.2453; smoothness 0.0016; CF_pred 0.0; AUROC: 0.9062; AUPRC: 0.85; pAUC: 0.8684
+Epoch 400 : base_loss 0.0024; sparsity 0.2441; smoothness 0.0016; CF_pred 0.0; AUROC: 0.9062; AUPRC: 0.85; pAUC: 0.8684
+Epoch 500 : base_loss 0.0023; sparsity 0.2433; smoothness 0.0016; CF_pred 0.0; AUROC: 0.9062; AUPRC: 0.85; pAUC: 0.8684
+Max. stab. = 1.0, at α = 1.0
+Dataset #1; Acc.: 0.75; Bal. Acc.: 0.4688; AUROC: 0.3906; AUPRC: 0.1938; pAUC: 0.4737; RMSE: 0.0343; coeff.: 0.0955
+Epoch 0 : base_loss 0.3542; sparsity 0.2397; smoothness 0.0035; CF_pred 0.0; AUROC: 0.5469; AUPRC: 0.3208; pAUC: 0.4737
+Epoch 100 : base_loss 0.0042; sparsity 0.2459; smoothness 0.0035; CF_pred 0.0; AUROC: 0.6719; AUPRC: 0.4667; pAUC: 0.5724
+Epoch 200 : base_loss 0.0033; sparsity 0.2411; smoothness 0.0035; CF_pred 0.0; AUROC: 0.6719; AUPRC: 0.4667; pAUC: 0.5724
+Epoch 300 : base_loss 0.003; sparsity 0.237; smoothness 0.0035; CF_pred 0.0; AUROC: 0.6875; AUPRC: 0.4917; pAUC: 0.5724
+Epoch 400 : base_loss 0.0028; sparsity 0.2342; smoothness 0.0035; CF_pred 0.0; AUROC: 0.6875; AUPRC: 0.4917; pAUC: 0.5724
+Epoch 500 : base_loss 0.0027; sparsity 0.2324; smoothness 0.0035; CF_pred 0.0; AUROC: 0.6875; AUPRC: 0.4917; pAUC: 0.5724
+Epoch 0 : base_loss 0.3395; sparsity 0.2453; smoothness 0.0036; CF_pred 0.0; AUROC: 0.1719; AUPRC: 0.1501; pAUC: 0.4737
+Epoch 100 : base_loss 0.0036; sparsity 0.255; smoothness 0.0036; CF_pred 0.0; AUROC: 0.1562; AUPRC: 0.1493; pAUC: 0.4737
+Epoch 200 : base_loss 0.0025; sparsity 0.2537; smoothness 0.0036; CF_pred 0.0; AUROC: 0.1719; AUPRC: 0.1521; pAUC: 0.4737
+Epoch 300 : base_loss 0.0023; sparsity 0.2517; smoothness 0.0036; CF_pred 0.0; AUROC: 0.1875; AUPRC: 0.155; pAUC: 0.4737
+Epoch 400 : base_loss 0.0022; sparsity 0.2503; smoothness 0.0036; CF_pred 0.0; AUROC: 0.1875; AUPRC: 0.155; pAUC: 0.4737
+Epoch 500 : base_loss 0.0021; sparsity 0.2493; smoothness 0.0036; CF_pred 0.0; AUROC: 0.1875; AUPRC: 0.155; pAUC: 0.4737
+Max. stab. = 0.67, at α = 0.6842105263157894
+Dataset #2; Acc.: 0.75; Bal. Acc.: 0.75; AUROC: 0.6875; AUPRC: 0.4917; pAUC: 0.5724; RMSE: 0.0519; coeff.: 0.0817
+Epoch 0 : base_loss 0.8655; sparsity 0.2576; smoothness 0.0026; CF_pred 0.0; AUROC: 0.3956; AUPRC: 0.3269; pAUC: 0.4737
+Epoch 100 : base_loss 0.0049; sparsity 0.2603; smoothness 0.0026; CF_pred 0.0; AUROC: 0.4615; AUPRC: 0.4639; pAUC: 0.5489
+Epoch 200 : base_loss 0.0038; sparsity 0.2532; smoothness 0.0025; CF_pred 0.0; AUROC: 0.4505; AUPRC: 0.4618; pAUC: 0.5489
+Epoch 300 : base_loss 0.0034; sparsity 0.2477; smoothness 0.0025; CF_pred 0.0; AUROC: 0.4835; AUPRC: 0.4814; pAUC: 0.5489
+Epoch 400 : base_loss 0.0031; sparsity 0.2438; smoothness 0.0025; CF_pred 0.0; AUROC: 0.4835; AUPRC: 0.4126; pAUC: 0.491
+Epoch 500 : base_loss 0.0029; sparsity 0.2412; smoothness 0.0025; CF_pred 0.0; AUROC: 0.4615; AUPRC: 0.4058; pAUC: 0.491
+Epoch 0 : base_loss 0.3658; sparsity 0.2605; smoothness 0.003; CF_pred 0.0; AUROC: 0.5934; AUPRC: 0.5507; pAUC: 0.5489
+Epoch 100 : base_loss 0.0044; sparsity 0.2562; smoothness 0.0029; CF_pred 0.0; AUROC: 0.5824; AUPRC: 0.5352; pAUC: 0.5489
+Epoch 200 : base_loss 0.0032; sparsity 0.2511; smoothness 0.0029; CF_pred 0.0; AUROC: 0.5714; AUPRC: 0.5135; pAUC: 0.5489
+Epoch 300 : base_loss 0.0026; sparsity 0.2472; smoothness 0.003; CF_pred 0.0; AUROC: 0.5714; AUPRC: 0.5088; pAUC: 0.5489
+Epoch 400 : base_loss 0.0023; sparsity 0.2444; smoothness 0.003; CF_pred 0.0; AUROC: 0.5604; AUPRC: 0.5023; pAUC: 0.5489
+Epoch 500 : base_loss 0.0021; sparsity 0.2425; smoothness 0.003; CF_pred 0.0; AUROC: 0.5604; AUPRC: 0.5023; pAUC: 0.5489
+Max. stab. = 0.6, at α = 0.5263157894736842
+Dataset #3; Acc.: 0.45; Bal. Acc.: 0.4451; AUROC: 0.4615; AUPRC: 0.4058; pAUC: 0.491; RMSE: 0.0542; coeff.: 0.0837
+Epoch 0 : base_loss 0.2173; sparsity 0.249; smoothness 0.0027; CF_pred 0.0; AUROC: 0.3437; AUPRC: 0.3399; pAUC: 0.4737
+Epoch 100 : base_loss 0.0026; sparsity 0.2489; smoothness 0.0028; CF_pred 0.0; AUROC: 0.5417; AUPRC: 0.4544; pAUC: 0.4737
+Epoch 200 : base_loss 0.002; sparsity 0.2406; smoothness 0.0028; CF_pred 0.0; AUROC: 0.5521; AUPRC: 0.4752; pAUC: 0.4846
+Epoch 300 : base_loss 0.0018; sparsity 0.2343; smoothness 0.0028; CF_pred 0.0; AUROC: 0.5417; AUPRC: 0.4723; pAUC: 0.4846
+Epoch 400 : base_loss 0.0017; sparsity 0.23; smoothness 0.0028; CF_pred 0.0; AUROC: 0.5521; AUPRC: 0.4793; pAUC: 0.4846
+Epoch 500 : base_loss 0.0016; sparsity 0.2272; smoothness 0.0028; CF_pred 0.0; AUROC: 0.5521; AUPRC: 0.4793; pAUC: 0.4846
+Epoch 0 : base_loss 0.3918; sparsity 0.2386; smoothness 0.0028; CF_pred 0.0; AUROC: 0.2292; AUPRC: 0.3035; pAUC: 0.4737
+Epoch 100 : base_loss 0.0089; sparsity 0.2461; smoothness 0.0028; CF_pred 0.0; AUROC: 0.4479; AUPRC: 0.4035; pAUC: 0.4846
+Epoch 200 : base_loss 0.0047; sparsity 0.2451; smoothness 0.0028; CF_pred 0.0; AUROC: 0.4896; AUPRC: 0.427; pAUC: 0.4846
+Epoch 300 : base_loss 0.0041; sparsity 0.2424; smoothness 0.0028; CF_pred 0.0; AUROC: 0.5104; AUPRC: 0.436; pAUC: 0.4846
+Epoch 400 : base_loss 0.0037; sparsity 0.2405; smoothness 0.0028; CF_pred 0.0; AUROC: 0.5208; AUPRC: 0.4985; pAUC: 0.5395
+Epoch 500 : base_loss 0.0035; sparsity 0.2392; smoothness 0.0028; CF_pred 0.0; AUROC: 0.5104; AUPRC: 0.4902; pAUC: 0.5395
+Max. stab. = 0.722, at α = 0.10526315789473684
+Dataset #4; Acc.: 0.4; Bal. Acc.: 0.4792; AUROC: 0.5521; AUPRC: 0.4793; pAUC: 0.4846; RMSE: 0.0403; coeff.: 0.0789
+Epoch 0 : base_loss 0.3058; sparsity 0.2295; smoothness 0.0022; CF_pred 0.0; AUROC: 0.4667; AUPRC: 0.4154; pAUC: 0.5789
+Epoch 100 : base_loss 0.0023; sparsity 0.2374; smoothness 0.0021; CF_pred 0.0; AUROC: 0.52; AUPRC: 0.456; pAUC: 0.5789
+Epoch 200 : base_loss 0.0018; sparsity 0.2298; smoothness 0.0021; CF_pred 0.0; AUROC: 0.5467; AUPRC: 0.4643; pAUC: 0.5789
+Epoch 300 : base_loss 0.0017; sparsity 0.224; smoothness 0.0021; CF_pred 0.0; AUROC: 0.52; AUPRC: 0.431; pAUC: 0.5789
+Epoch 400 : base_loss 0.0015; sparsity 0.2201; smoothness 0.0021; CF_pred 0.0; AUROC: 0.5333; AUPRC: 0.4339; pAUC: 0.5789
+Epoch 500 : base_loss 0.0015; sparsity 0.2175; smoothness 0.0021; CF_pred 0.0; AUROC: 0.5333; AUPRC: 0.4339; pAUC: 0.5789
+Epoch 0 : base_loss 0.0897; sparsity 0.242; smoothness 0.002; CF_pred 0.0; AUROC: 0.28; AUPRC: 0.2067; pAUC: 0.4737
+Epoch 100 : base_loss 0.0013; sparsity 0.2281; smoothness 0.0019; CF_pred 0.0; AUROC: 0.32; AUPRC: 0.2221; pAUC: 0.4737
+Epoch 200 : base_loss 0.0011; sparsity 0.2141; smoothness 0.0019; CF_pred 0.0; AUROC: 0.28; AUPRC: 0.2083; pAUC: 0.4737
+Epoch 300 : base_loss 0.0009; sparsity 0.2044; smoothness 0.0019; CF_pred 0.0; AUROC: 0.28; AUPRC: 0.2083; pAUC: 0.4737
+Epoch 400 : base_loss 0.0009; sparsity 0.1981; smoothness 0.0019; CF_pred 0.0; AUROC: 0.2667; AUPRC: 0.2054; pAUC: 0.4737
+Epoch 500 : base_loss 0.0008; sparsity 0.194; smoothness 0.0019; CF_pred 0.0; AUROC: 0.2933; AUPRC: 0.2122; pAUC: 0.4737
+Max. stab. = 0.722, at α = 0.10526315789473684
+Dataset #5; Acc.: 0.35; Bal. Acc.: 0.5667; AUROC: 0.5333; AUPRC: 0.4339; pAUC: 0.5789; RMSE: 0.0384; coeff.: 0.0752
+Epoch 0 : base_loss 1.1554; sparsity 0.2448; smoothness 0.0019; CF_pred 0.0; AUROC: 0.5882; AUPRC: 0.2286; pAUC: 0.4737
+Epoch 100 : base_loss 0.0132; sparsity 0.2487; smoothness 0.0019; CF_pred 0.0; AUROC: 0.5882; AUPRC: 0.2158; pAUC: 0.4737
+Epoch 200 : base_loss 0.0008; sparsity 0.2502; smoothness 0.0019; CF_pred 0.0; AUROC: 0.549; AUPRC: 0.1991; pAUC: 0.4737
+Epoch 300 : base_loss 0.0008; sparsity 0.2489; smoothness 0.0019; CF_pred 0.0; AUROC: 0.549; AUPRC: 0.1991; pAUC: 0.4737
+Epoch 400 : base_loss 0.0007; sparsity 0.2479; smoothness 0.0019; CF_pred 0.0; AUROC: 0.549; AUPRC: 0.1991; pAUC: 0.4737
+Epoch 500 : base_loss 0.0007; sparsity 0.2472; smoothness 0.0019; CF_pred 0.0; AUROC: 0.5098; AUPRC: 0.1853; pAUC: 0.4737
+Epoch 0 : base_loss 0.3309; sparsity 0.2593; smoothness 0.0018; CF_pred 0.0; AUROC: 0.7059; AUPRC: 0.3547; pAUC: 0.5459
+Epoch 100 : base_loss 0.0008; sparsity 0.2577; smoothness 0.0018; CF_pred 0.0; AUROC: 0.6471; AUPRC: 0.4788; pAUC: 0.6491
+Epoch 200 : base_loss 0.0007; sparsity 0.252; smoothness 0.0018; CF_pred 0.0; AUROC: 0.6471; AUPRC: 0.4788; pAUC: 0.6491
+Epoch 300 : base_loss 0.0006; sparsity 0.2474; smoothness 0.0018; CF_pred 0.0; AUROC: 0.5882; AUPRC: 0.4625; pAUC: 0.6491
+Epoch 400 : base_loss 0.0006; sparsity 0.2441; smoothness 0.0018; CF_pred 0.0; AUROC: 0.5882; AUPRC: 0.4625; pAUC: 0.6491
+Epoch 500 : base_loss 0.0006; sparsity 0.2419; smoothness 0.0018; CF_pred 0.0; AUROC: 0.5882; AUPRC: 0.4625; pAUC: 0.6491
+Max. stab. = 0.608, at α = 0.15789473684210525
+Dataset #6; Acc.: 0.3; Bal. Acc.: 0.5882; AUROC: 0.5098; AUPRC: 0.1853; pAUC: 0.4737; RMSE: 0.0267; coeff.: 0.086
+Epoch 0 : base_loss 0.3537; sparsity 0.2688; smoothness 0.0011; CF_pred 0.0; AUROC: 0.42; AUPRC: 0.5749; pAUC: 0.5789
+Epoch 100 : base_loss 0.0015; sparsity 0.2716; smoothness 0.0011; CF_pred 0.0; AUROC: 0.41; AUPRC: 0.5405; pAUC: 0.5263
+Epoch 200 : base_loss 0.0013; sparsity 0.2659; smoothness 0.0011; CF_pred 0.0; AUROC: 0.43; AUPRC: 0.5535; pAUC: 0.5263
+Epoch 300 : base_loss 0.0012; sparsity 0.2615; smoothness 0.0011; CF_pred 0.0; AUROC: 0.43; AUPRC: 0.5535; pAUC: 0.5263
+Epoch 400 : base_loss 0.0011; sparsity 0.2584; smoothness 0.0011; CF_pred 0.0; AUROC: 0.41; AUPRC: 0.5469; pAUC: 0.5263
+Epoch 500 : base_loss 0.0011; sparsity 0.2563; smoothness 0.0011; CF_pred 0.0; AUROC: 0.41; AUPRC: 0.5469; pAUC: 0.5263
+Epoch 0 : base_loss 0.9346; sparsity 0.2449; smoothness 0.0011; CF_pred 0.0; AUROC: 0.5; AUPRC: 0.603; pAUC: 0.5789
+Epoch 100 : base_loss 0.0011; sparsity 0.2596; smoothness 0.0012; CF_pred 0.0; AUROC: 0.6; AUPRC: 0.6473; pAUC: 0.5263
+Epoch 200 : base_loss 0.001; sparsity 0.2572; smoothness 0.0012; CF_pred 0.0; AUROC: 0.61; AUPRC: 0.6499; pAUC: 0.5263
+Epoch 300 : base_loss 0.001; sparsity 0.2556; smoothness 0.0012; CF_pred 0.0; AUROC: 0.61; AUPRC: 0.6499; pAUC: 0.5263
+Epoch 400 : base_loss 0.001; sparsity 0.2545; smoothness 0.0012; CF_pred 0.0; AUROC: 0.62; AUPRC: 0.6526; pAUC: 0.5263
+Epoch 500 : base_loss 0.0009; sparsity 0.2537; smoothness 0.0012; CF_pred 0.0; AUROC: 0.62; AUPRC: 0.6526; pAUC: 0.5263
+Max. stab. = 0.608, at α = 0.894736842105263
+Dataset #7; Acc.: 0.55; Bal. Acc.: 0.55; AUROC: 0.41; AUPRC: 0.5469; pAUC: 0.5263; RMSE: 0.0325; coeff.: 0.0891
+Epoch 0 : base_loss 0.4547; sparsity 0.2348; smoothness 0.0021; CF_pred 0.0; AUROC: 0.303; AUPRC: 0.3735; pAUC: 0.4737
+Epoch 100 : base_loss 0.0031; sparsity 0.2474; smoothness 0.0021; CF_pred 0.0; AUROC: 0.3434; AUPRC: 0.3852; pAUC: 0.4737
+Epoch 200 : base_loss 0.0028; sparsity 0.2451; smoothness 0.0021; CF_pred 0.0; AUROC: 0.3636; AUPRC: 0.3922; pAUC: 0.4737
+Epoch 300 : base_loss 0.0026; sparsity 0.2433; smoothness 0.0021; CF_pred 0.0; AUROC: 0.3636; AUPRC: 0.3922; pAUC: 0.4737
+Epoch 400 : base_loss 0.0024; sparsity 0.2421; smoothness 0.0021; CF_pred 0.0; AUROC: 0.3636; AUPRC: 0.3922; pAUC: 0.4737
+Epoch 500 : base_loss 0.0024; sparsity 0.2412; smoothness 0.0021; CF_pred 0.0; AUROC: 0.3636; AUPRC: 0.3922; pAUC: 0.4737
+Epoch 0 : base_loss 0.3151; sparsity 0.2513; smoothness 0.0026; CF_pred 0.0; AUROC: 0.8182; AUPRC: 0.8009; pAUC: 0.6544
+Epoch 100 : base_loss 0.0023; sparsity 0.255; smoothness 0.0027; CF_pred 0.0; AUROC: 0.8485; AUPRC: 0.8549; pAUC: 0.7661
+Epoch 200 : base_loss 0.0018; sparsity 0.2515; smoothness 0.0027; CF_pred 0.0; AUROC: 0.8384; AUPRC: 0.8481; pAUC: 0.7661
+Epoch 300 : base_loss 0.0015; sparsity 0.2487; smoothness 0.0027; CF_pred 0.0; AUROC: 0.8384; AUPRC: 0.8481; pAUC: 0.7661
+Epoch 400 : base_loss 0.0014; sparsity 0.2467; smoothness 0.0027; CF_pred 0.0; AUROC: 0.8384; AUPRC: 0.8481; pAUC: 0.7661
+Epoch 500 : base_loss 0.0013; sparsity 0.2453; smoothness 0.0028; CF_pred 0.0; AUROC: 0.8384; AUPRC: 0.8481; pAUC: 0.7661
+Max. stab. = 0.688, at α = 0.631578947368421
+Dataset #8; Acc.: 0.35; Bal. Acc.: 0.3384; AUROC: 0.3636; AUPRC: 0.3922; pAUC: 0.4737; RMSE: 0.0485; coeff.: 0.0842
+Epoch 0 : base_loss 0.6515; sparsity 0.2534; smoothness 0.0024; CF_pred 0.0; AUROC: 0.6071; AUPRC: 0.53; pAUC: 0.5865
+Epoch 100 : base_loss 0.0032; sparsity 0.2522; smoothness 0.0026; CF_pred 0.0; AUROC: 0.5476; AUPRC: 0.4596; pAUC: 0.5614
+Epoch 200 : base_loss 0.0024; sparsity 0.2409; smoothness 0.0026; CF_pred 0.0; AUROC: 0.5357; AUPRC: 0.456; pAUC: 0.5614
+Epoch 300 : base_loss 0.0023; sparsity 0.2332; smoothness 0.0026; CF_pred 0.0; AUROC: 0.5595; AUPRC: 0.476; pAUC: 0.5614
+Epoch 400 : base_loss 0.0021; sparsity 0.2284; smoothness 0.0026; CF_pred 0.0; AUROC: 0.5714; AUPRC: 0.4775; pAUC: 0.5614
+Epoch 500 : base_loss 0.002; sparsity 0.2253; smoothness 0.0026; CF_pred 0.0; AUROC: 0.5714; AUPRC: 0.4775; pAUC: 0.5614
+Epoch 0 : base_loss 0.2051; sparsity 0.2275; smoothness 0.0021; CF_pred 0.0; AUROC: 0.3571; AUPRC: 0.2622; pAUC: 0.4737
+Epoch 100 : base_loss 0.002; sparsity 0.2304; smoothness 0.0021; CF_pred 0.0; AUROC: 0.3571; AUPRC: 0.2655; pAUC: 0.4737
+Epoch 200 : base_loss 0.0017; sparsity 0.222; smoothness 0.0021; CF_pred 0.0; AUROC: 0.3929; AUPRC: 0.2767; pAUC: 0.4737
+Epoch 300 : base_loss 0.0015; sparsity 0.2161; smoothness 0.0021; CF_pred 0.0; AUROC: 0.4048; AUPRC: 0.2796; pAUC: 0.4737
+Epoch 400 : base_loss 0.0014; sparsity 0.2123; smoothness 0.0021; CF_pred 0.0; AUROC: 0.4167; AUPRC: 0.2836; pAUC: 0.4737
+Epoch 500 : base_loss 0.0013; sparsity 0.2098; smoothness 0.0021; CF_pred 0.0; AUROC: 0.4286; AUPRC: 0.2882; pAUC: 0.4737
+Max. stab. = 0.67, at α = 0.6842105263157894
+Dataset #9; Acc.: 0.55; Bal. Acc.: 0.4881; AUROC: 0.5714; AUPRC: 0.4775; pAUC: 0.5614; RMSE: 0.0449; coeff.: 0.0775
+Epoch 0 : base_loss 0.4106; sparsity 0.2322; smoothness 0.0027; CF_pred 0.0; AUROC: 0.4133; AUPRC: 0.2628; pAUC: 0.4737
+Epoch 100 : base_loss 0.0016; sparsity 0.2343; smoothness 0.0028; CF_pred 0.0; AUROC: 0.48; AUPRC: 0.2889; pAUC: 0.4737
+Epoch 200 : base_loss 0.0014; sparsity 0.2315; smoothness 0.0028; CF_pred 0.0; AUROC: 0.48; AUPRC: 0.2889; pAUC: 0.4737
+Epoch 300 : base_loss 0.0013; sparsity 0.229; smoothness 0.0028; CF_pred 0.0; AUROC: 0.48; AUPRC: 0.2889; pAUC: 0.4737
+Epoch 400 : base_loss 0.0012; sparsity 0.2271; smoothness 0.0029; CF_pred 0.0; AUROC: 0.48; AUPRC: 0.2889; pAUC: 0.4737
+Epoch 500 : base_loss 0.0012; sparsity 0.2259; smoothness 0.0029; CF_pred 0.0; AUROC: 0.48; AUPRC: 0.2889; pAUC: 0.4737
+Epoch 0 : base_loss 0.5297; sparsity 0.2415; smoothness 0.0024; CF_pred 0.0; AUROC: 0.6267; AUPRC: 0.5254; pAUC: 0.614
+Epoch 100 : base_loss 0.0018; sparsity 0.2422; smoothness 0.0025; CF_pred 0.0; AUROC: 0.68; AUPRC: 0.6254; pAUC: 0.6842
+Epoch 200 : base_loss 0.0016; sparsity 0.239; smoothness 0.0025; CF_pred 0.0; AUROC: 0.68; AUPRC: 0.6254; pAUC: 0.6842
+Epoch 300 : base_loss 0.0015; sparsity 0.2364; smoothness 0.0025; CF_pred 0.0; AUROC: 0.6933; AUPRC: 0.6454; pAUC: 0.6842
+Epoch 400 : base_loss 0.0014; sparsity 0.2346; smoothness 0.0025; CF_pred 0.0; AUROC: 0.7067; AUPRC: 0.6483; pAUC: 0.6842
+Epoch 500 : base_loss 0.0014; sparsity 0.2333; smoothness 0.0025; CF_pred 0.0; AUROC: 0.7067; AUPRC: 0.6483; pAUC: 0.6842
+Max. stab. = 0.804, at α = 0.15789473684210525
+Dataset #10; Acc.: 0.3; Bal. Acc.: 0.4667; AUROC: 0.48; AUPRC: 0.2889; pAUC: 0.4737; RMSE: 0.0348; coeff.: 0.0793
+
+Acc.         :0.475
+Bal. Acc.    :0.5141019315651669
+AUROC        :0.49599489848386896
+AUPRC        :0.3895209546399838
+pAUC        :0.5109456333140543
+RMSE        :0.04066589748728168
+coeff.         :0.08310385048389435
+λ = 0.05; β = 0.025; γ = 0.0; progress: 0.0
+Epoch 0 : base_loss 0.3492; sparsity 0.2704; smoothness 0.0016; CF_pred 0.0; AUROC: 0.4844; AUPRC: 0.2346; pAUC: 0.4737
+Epoch 100 : base_loss 0.0016; sparsity 0.2703; smoothness 0.0017; CF_pred 0.0; AUROC: 0.5469; AUPRC: 0.2553; pAUC: 0.4737
+Epoch 200 : base_loss 0.0013; sparsity 0.262; smoothness 0.0017; CF_pred 0.0; AUROC: 0.5625; AUPRC: 0.2657; pAUC: 0.4737
+Epoch 300 : base_loss 0.0012; sparsity 0.256; smoothness 0.0017; CF_pred 0.0; AUROC: 0.5469; AUPRC: 0.25; pAUC: 0.4737
+Epoch 400 : base_loss 0.0011; sparsity 0.252; smoothness 0.0017; CF_pred 0.0; AUROC: 0.5469; AUPRC: 0.25; pAUC: 0.4737
+Epoch 500 : base_loss 0.0011; sparsity 0.2494; smoothness 0.0017; CF_pred 0.0; AUROC: 0.5312; AUPRC: 0.2432; pAUC: 0.4737
+Epoch 0 : base_loss 1.1597; sparsity 0.2658; smoothness 0.0019; CF_pred 0.0; AUROC: 0.4219; AUPRC: 0.2157; pAUC: 0.4737
+Epoch 100 : base_loss 0.0027; sparsity 0.2587; smoothness 0.002; CF_pred 0.0; AUROC: 0.3906; AUPRC: 0.1948; pAUC: 0.4737
+Epoch 200 : base_loss 0.0022; sparsity 0.2544; smoothness 0.002; CF_pred 0.0; AUROC: 0.3906; AUPRC: 0.1975; pAUC: 0.4737
+Epoch 300 : base_loss 0.002; sparsity 0.2511; smoothness 0.002; CF_pred 0.0; AUROC: 0.4219; AUPRC: 0.2064; pAUC: 0.4737
+Epoch 400 : base_loss 0.0019; sparsity 0.2488; smoothness 0.002; CF_pred 0.0; AUROC: 0.4219; AUPRC: 0.2064; pAUC: 0.4737
+Epoch 500 : base_loss 0.0019; sparsity 0.2472; smoothness 0.002; CF_pred 0.0; AUROC: 0.4219; AUPRC: 0.2064; pAUC: 0.4737
+Max. stab. = 0.688, at α = 0.21052631578947367
+Dataset #1; Acc.: 0.4; Bal. Acc.: 0.625; AUROC: 0.5312; AUPRC: 0.2432; pAUC: 0.4737; RMSE: 0.0327; coeff.: 0.085
+Epoch 0 : base_loss 0.7352; sparsity 0.2399; smoothness 0.0034; CF_pred 0.0; AUROC: 0.1875; AUPRC: 0.1539; pAUC: 0.4737
+Epoch 100 : base_loss 0.031; sparsity 0.237; smoothness 0.0035; CF_pred 0.0; AUROC: 0.1719; AUPRC: 0.1502; pAUC: 0.4737
+Epoch 200 : base_loss 0.0036; sparsity 0.2352; smoothness 0.0036; CF_pred 0.0; AUROC: 0.2188; AUPRC: 0.1609; pAUC: 0.4737
+Epoch 300 : base_loss 0.0026; sparsity 0.2305; smoothness 0.0036; CF_pred 0.0; AUROC: 0.2344; AUPRC: 0.1669; pAUC: 0.4737
+Epoch 400 : base_loss 0.0025; sparsity 0.2268; smoothness 0.0036; CF_pred 0.0; AUROC: 0.2344; AUPRC: 0.1669; pAUC: 0.4737
+Epoch 500 : base_loss 0.0024; sparsity 0.2242; smoothness 0.0036; CF_pred 0.0; AUROC: 0.25; AUPRC: 0.1752; pAUC: 0.4737
+Epoch 0 : base_loss 0.3837; sparsity 0.2485; smoothness 0.0038; CF_pred 0.0; AUROC: 0.5938; AUPRC: 0.4396; pAUC: 0.6053
+Epoch 100 : base_loss 0.0052; sparsity 0.2553; smoothness 0.0038; CF_pred 0.0; AUROC: 0.6719; AUPRC: 0.3269; pAUC: 0.4737
+Epoch 200 : base_loss 0.0029; sparsity 0.2517; smoothness 0.0038; CF_pred 0.0; AUROC: 0.6875; AUPRC: 0.3326; pAUC: 0.4737
+Epoch 300 : base_loss 0.0026; sparsity 0.2475; smoothness 0.0038; CF_pred 0.0; AUROC: 0.7031; AUPRC: 0.3409; pAUC: 0.4737
+Epoch 400 : base_loss 0.0025; sparsity 0.2446; smoothness 0.0038; CF_pred 0.0; AUROC: 0.7188; AUPRC: 0.3513; pAUC: 0.4737
+Epoch 500 : base_loss 0.0023; sparsity 0.2426; smoothness 0.0038; CF_pred 0.0; AUROC: 0.7031; AUPRC: 0.3305; pAUC: 0.4737
+Max. stab. = 0.583, at α = 0.42105263157894735
+Dataset #2; Acc.: 0.3; Bal. Acc.: 0.2812; AUROC: 0.25; AUPRC: 0.1752; pAUC: 0.4737; RMSE: 0.0486; coeff.: 0.0779
+Epoch 0 : base_loss 0.4038; sparsity 0.2563; smoothness 0.0026; CF_pred 0.0; AUROC: 0.4176; AUPRC: 0.333; pAUC: 0.4737
+Epoch 100 : base_loss 0.003; sparsity 0.2578; smoothness 0.0026; CF_pred 0.0; AUROC: 0.3956; AUPRC: 0.3258; pAUC: 0.4737
+Epoch 200 : base_loss 0.0024; sparsity 0.2553; smoothness 0.0026; CF_pred 0.0; AUROC: 0.3956; AUPRC: 0.3258; pAUC: 0.4737
+Epoch 300 : base_loss 0.0021; sparsity 0.2533; smoothness 0.0026; CF_pred 0.0; AUROC: 0.3956; AUPRC: 0.3258; pAUC: 0.4737
+Epoch 400 : base_loss 0.0019; sparsity 0.2519; smoothness 0.0026; CF_pred 0.0; AUROC: 0.3956; AUPRC: 0.3258; pAUC: 0.4737
+Epoch 500 : base_loss 0.0018; sparsity 0.2509; smoothness 0.0026; CF_pred 0.0; AUROC: 0.4066; AUPRC: 0.3318; pAUC: 0.4737
+Epoch 0 : base_loss 0.765; sparsity 0.2725; smoothness 0.0027; CF_pred 0.0; AUROC: 0.4176; AUPRC: 0.3403; pAUC: 0.4737
+Epoch 100 : base_loss 0.0078; sparsity 0.2761; smoothness 0.0027; CF_pred 0.0; AUROC: 0.3516; AUPRC: 0.3132; pAUC: 0.4737
+Epoch 200 : base_loss 0.0067; sparsity 0.2729; smoothness 0.0027; CF_pred 0.0; AUROC: 0.3626; AUPRC: 0.3218; pAUC: 0.4737
+Epoch 300 : base_loss 0.0061; sparsity 0.2703; smoothness 0.0027; CF_pred 0.0; AUROC: 0.3626; AUPRC: 0.3218; pAUC: 0.4737
+Epoch 400 : base_loss 0.0057; sparsity 0.2685; smoothness 0.0027; CF_pred 0.0; AUROC: 0.3516; AUPRC: 0.3147; pAUC: 0.4737
+Epoch 500 : base_loss 0.0054; sparsity 0.2672; smoothness 0.0027; CF_pred 0.0; AUROC: 0.3407; AUPRC: 0.3107; pAUC: 0.4737
+Max. stab. = 0.56, at α = 0.3684210526315789
+Dataset #3; Acc.: 0.4; Bal. Acc.: 0.4396; AUROC: 0.4066; AUPRC: 0.3318; pAUC: 0.4737; RMSE: 0.0426; coeff.: 0.0876
+Epoch 0 : base_loss 0.2236; sparsity 0.2233; smoothness 0.0029; CF_pred 0.0; AUROC: 0.5104; AUPRC: 0.4898; pAUC: 0.5395
+Epoch 100 : base_loss 0.0046; sparsity 0.2182; smoothness 0.003; CF_pred 0.0; AUROC: 0.5833; AUPRC: 0.5573; pAUC: 0.5395
+Epoch 200 : base_loss 0.0034; sparsity 0.2073; smoothness 0.0031; CF_pred 0.0; AUROC: 0.6042; AUPRC: 0.575; pAUC: 0.5504
+Epoch 300 : base_loss 0.0027; sparsity 0.2; smoothness 0.0032; CF_pred 0.0; AUROC: 0.6042; AUPRC: 0.5889; pAUC: 0.5504
+Epoch 400 : base_loss 0.0024; sparsity 0.1954; smoothness 0.0032; CF_pred 0.0; AUROC: 0.5938; AUPRC: 0.577; pAUC: 0.5504
+Epoch 500 : base_loss 0.0022; sparsity 0.1924; smoothness 0.0032; CF_pred 0.0; AUROC: 0.6042; AUPRC: 0.5958; pAUC: 0.5614
+Epoch 0 : base_loss 0.314; sparsity 0.2429; smoothness 0.0028; CF_pred 0.0; AUROC: 0.2292; AUPRC: 0.3104; pAUC: 0.4737
+Epoch 100 : base_loss 0.0051; sparsity 0.2493; smoothness 0.0029; CF_pred 0.0; AUROC: 0.2812; AUPRC: 0.4075; pAUC: 0.5395
+Epoch 200 : base_loss 0.0027; sparsity 0.2428; smoothness 0.0029; CF_pred 0.0; AUROC: 0.2917; AUPRC: 0.4102; pAUC: 0.5395
+Epoch 300 : base_loss 0.0022; sparsity 0.2366; smoothness 0.0029; CF_pred 0.0; AUROC: 0.3021; AUPRC: 0.4131; pAUC: 0.5395
+Epoch 400 : base_loss 0.002; sparsity 0.2323; smoothness 0.0029; CF_pred 0.0; AUROC: 0.3125; AUPRC: 0.4159; pAUC: 0.5395
+Epoch 500 : base_loss 0.0018; sparsity 0.2294; smoothness 0.0029; CF_pred 0.0; AUROC: 0.3229; AUPRC: 0.4189; pAUC: 0.5395
+Max. stab. = 0.688, at α = 0.21052631578947367
+Dataset #4; Acc.: 0.5; Bal. Acc.: 0.5625; AUROC: 0.6042; AUPRC: 0.5958; pAUC: 0.5614; RMSE: 0.0467; coeff.: 0.0664
+Epoch 0 : base_loss 0.0845; sparsity 0.2423; smoothness 0.002; CF_pred 0.0; AUROC: 0.4667; AUPRC: 0.3058; pAUC: 0.5088
+Epoch 100 : base_loss 0.0013; sparsity 0.2404; smoothness 0.002; CF_pred 0.0; AUROC: 0.44; AUPRC: 0.2689; pAUC: 0.4737
+Epoch 200 : base_loss 0.001; sparsity 0.2331; smoothness 0.002; CF_pred 0.0; AUROC: 0.4533; AUPRC: 0.3022; pAUC: 0.5088
+Epoch 300 : base_loss 0.0008; sparsity 0.227; smoothness 0.002; CF_pred 0.0; AUROC: 0.4533; AUPRC: 0.3022; pAUC: 0.5088
+Epoch 400 : base_loss 0.0008; sparsity 0.2227; smoothness 0.002; CF_pred 0.0; AUROC: 0.4667; AUPRC: 0.306; pAUC: 0.5088
+Epoch 500 : base_loss 0.0007; sparsity 0.2198; smoothness 0.002; CF_pred 0.0; AUROC: 0.4667; AUPRC: 0.306; pAUC: 0.5088
+Epoch 0 : base_loss 0.2221; sparsity 0.2463; smoothness 0.002; CF_pred 0.0; AUROC: 0.3733; AUPRC: 0.2286; pAUC: 0.4737
+Epoch 100 : base_loss 0.0024; sparsity 0.2461; smoothness 0.002; CF_pred 0.0; AUROC: 0.36; AUPRC: 0.2283; pAUC: 0.4737
+Epoch 200 : base_loss 0.0015; sparsity 0.2365; smoothness 0.002; CF_pred 0.0; AUROC: 0.3867; AUPRC: 0.2353; pAUC: 0.4737
+Epoch 300 : base_loss 0.0013; sparsity 0.229; smoothness 0.002; CF_pred 0.0; AUROC: 0.3867; AUPRC: 0.242; pAUC: 0.4737
+Epoch 400 : base_loss 0.0012; sparsity 0.2241; smoothness 0.002; CF_pred 0.0; AUROC: 0.3867; AUPRC: 0.242; pAUC: 0.4737
+Epoch 500 : base_loss 0.0012; sparsity 0.2209; smoothness 0.002; CF_pred 0.0; AUROC: 0.4; AUPRC: 0.2587; pAUC: 0.4737
+Max. stab. = 0.722, at α = 0.9473684210526315
+Dataset #5; Acc.: 0.75; Bal. Acc.: 0.5667; AUROC: 0.4667; AUPRC: 0.306; pAUC: 0.5088; RMSE: 0.0267; coeff.: 0.0776
+Epoch 0 : base_loss 0.4601; sparsity 0.2487; smoothness 0.0019; CF_pred 0.0; AUROC: 0.5294; AUPRC: 0.1946; pAUC: 0.4737
+Epoch 100 : base_loss 0.0006; sparsity 0.2507; smoothness 0.0018; CF_pred 0.0; AUROC: 0.7843; AUPRC: 0.3417; pAUC: 0.4737
+Epoch 200 : base_loss 0.0005; sparsity 0.2471; smoothness 0.0018; CF_pred 0.0; AUROC: 0.7647; AUPRC: 0.3194; pAUC: 0.4737
+Epoch 300 : base_loss 0.0005; sparsity 0.2443; smoothness 0.0018; CF_pred 0.0; AUROC: 0.7647; AUPRC: 0.3194; pAUC: 0.4737
+Epoch 400 : base_loss 0.0005; sparsity 0.2423; smoothness 0.0018; CF_pred 0.0; AUROC: 0.7843; AUPRC: 0.3373; pAUC: 0.4737
+Epoch 500 : base_loss 0.0005; sparsity 0.2409; smoothness 0.0018; CF_pred 0.0; AUROC: 0.7647; AUPRC: 0.3206; pAUC: 0.4737
+Epoch 0 : base_loss 0.5436; sparsity 0.2665; smoothness 0.0018; CF_pred 0.0; AUROC: 0.5686; AUPRC: 0.205; pAUC: 0.4737
+Epoch 100 : base_loss 0.0022; sparsity 0.2646; smoothness 0.0018; CF_pred 0.0; AUROC: 0.7059; AUPRC: 0.2778; pAUC: 0.4737
+Epoch 200 : base_loss 0.0019; sparsity 0.2601; smoothness 0.0018; CF_pred 0.0; AUROC: 0.6275; AUPRC: 0.2407; pAUC: 0.4737
+Epoch 300 : base_loss 0.0017; sparsity 0.2567; smoothness 0.0017; CF_pred 0.0; AUROC: 0.6275; AUPRC: 0.2407; pAUC: 0.4737
+Epoch 400 : base_loss 0.0016; sparsity 0.2543; smoothness 0.0017; CF_pred 0.0; AUROC: 0.6275; AUPRC: 0.2407; pAUC: 0.4737
+Epoch 500 : base_loss 0.0016; sparsity 0.2527; smoothness 0.0017; CF_pred 0.0; AUROC: 0.6078; AUPRC: 0.2333; pAUC: 0.4737
+Max. stab. = 1.0, at α = 1.0
+Dataset #6; Acc.: 0.8; Bal. Acc.: 0.4706; AUROC: 0.7647; AUPRC: 0.3206; pAUC: 0.4737; RMSE: 0.0214; coeff.: 0.0839
+Epoch 0 : base_loss 0.1071; sparsity 0.2569; smoothness 0.0013; CF_pred 0.0; AUROC: 0.58; AUPRC: 0.6234; pAUC: 0.5263
+Epoch 100 : base_loss 0.0009; sparsity 0.2536; smoothness 0.0013; CF_pred 0.0; AUROC: 0.65; AUPRC: 0.669; pAUC: 0.5263
+Epoch 200 : base_loss 0.0007; sparsity 0.248; smoothness 0.0013; CF_pred 0.0; AUROC: 0.67; AUPRC: 0.6786; pAUC: 0.5263
+Epoch 300 : base_loss 0.0007; sparsity 0.2439; smoothness 0.0013; CF_pred 0.0; AUROC: 0.69; AUPRC: 0.6856; pAUC: 0.5263
+Epoch 400 : base_loss 0.0006; sparsity 0.2409; smoothness 0.0013; CF_pred 0.0; AUROC: 0.69; AUPRC: 0.6856; pAUC: 0.5263
+Epoch 500 : base_loss 0.0006; sparsity 0.239; smoothness 0.0013; CF_pred 0.0; AUROC: 0.68; AUPRC: 0.6773; pAUC: 0.5263
+Epoch 0 : base_loss 0.4456; sparsity 0.247; smoothness 0.0011; CF_pred 0.0; AUROC: 0.29; AUPRC: 0.4109; pAUC: 0.4737
+Epoch 100 : base_loss 0.0014; sparsity 0.2469; smoothness 0.0011; CF_pred 0.0; AUROC: 0.32; AUPRC: 0.4788; pAUC: 0.5263
+Epoch 200 : base_loss 0.0012; sparsity 0.2408; smoothness 0.0011; CF_pred 0.0; AUROC: 0.34; AUPRC: 0.4851; pAUC: 0.5263
+Epoch 300 : base_loss 0.0011; sparsity 0.2365; smoothness 0.0011; CF_pred 0.0; AUROC: 0.34; AUPRC: 0.4851; pAUC: 0.5263
+Epoch 400 : base_loss 0.0011; sparsity 0.2337; smoothness 0.0011; CF_pred 0.0; AUROC: 0.34; AUPRC: 0.4851; pAUC: 0.5263
+Epoch 500 : base_loss 0.001; sparsity 0.2319; smoothness 0.0011; CF_pred 0.0; AUROC: 0.35; AUPRC: 0.4885; pAUC: 0.5263
+Max. stab. = 0.6, at α = 0.2631578947368421
+Dataset #7; Acc.: 0.65; Bal. Acc.: 0.65; AUROC: 0.68; AUPRC: 0.6773; pAUC: 0.5263; RMSE: 0.0247; coeff.: 0.0852
+Epoch 0 : base_loss 0.5409; sparsity 0.2358; smoothness 0.0024; CF_pred 0.0; AUROC: 0.5051; AUPRC: 0.6059; pAUC: 0.596
+Epoch 100 : base_loss 0.0049; sparsity 0.2407; smoothness 0.0023; CF_pred 0.0; AUROC: 0.5354; AUPRC: 0.5441; pAUC: 0.4896
+Epoch 200 : base_loss 0.003; sparsity 0.2381; smoothness 0.0023; CF_pred 0.0; AUROC: 0.5354; AUPRC: 0.5103; pAUC: 0.479
+Epoch 300 : base_loss 0.0026; sparsity 0.2354; smoothness 0.0023; CF_pred 0.0; AUROC: 0.5455; AUPRC: 0.5288; pAUC: 0.4843
+Epoch 400 : base_loss 0.0024; sparsity 0.2335; smoothness 0.0023; CF_pred 0.0; AUROC: 0.5556; AUPRC: 0.5365; pAUC: 0.4843
+Epoch 500 : base_loss 0.0023; sparsity 0.2322; smoothness 0.0023; CF_pred 0.0; AUROC: 0.5657; AUPRC: 0.5402; pAUC: 0.4843
+Epoch 0 : base_loss 0.1002; sparsity 0.2515; smoothness 0.0023; CF_pred 0.0; AUROC: 0.4646; AUPRC: 0.4278; pAUC: 0.4737
+Epoch 100 : base_loss 0.0031; sparsity 0.2462; smoothness 0.0024; CF_pred 0.0; AUROC: 0.4141; AUPRC: 0.4035; pAUC: 0.4737
+Epoch 200 : base_loss 0.0021; sparsity 0.2375; smoothness 0.0024; CF_pred 0.0; AUROC: 0.4444; AUPRC: 0.4216; pAUC: 0.4737
+Epoch 300 : base_loss 0.0017; sparsity 0.2315; smoothness 0.0025; CF_pred 0.0; AUROC: 0.4343; AUPRC: 0.4243; pAUC: 0.4737
+Epoch 400 : base_loss 0.0014; sparsity 0.2275; smoothness 0.0025; CF_pred 0.0; AUROC: 0.4545; AUPRC: 0.4343; pAUC: 0.4737
+Epoch 500 : base_loss 0.0013; sparsity 0.2248; smoothness 0.0025; CF_pred 0.0; AUROC: 0.4545; AUPRC: 0.4343; pAUC: 0.4737
+Max. stab. = 0.697, at α = 0.47368421052631576
+Dataset #8; Acc.: 0.5; Bal. Acc.: 0.5051; AUROC: 0.5657; AUPRC: 0.5402; pAUC: 0.4843; RMSE: 0.048; coeff.: 0.0787
+Epoch 0 : base_loss 0.2497; sparsity 0.2608; smoothness 0.0022; CF_pred 0.0; AUROC: 0.5714; AUPRC: 0.4665; pAUC: 0.5614
+Epoch 100 : base_loss 0.003; sparsity 0.2529; smoothness 0.0022; CF_pred 0.0; AUROC: 0.5714; AUPRC: 0.4263; pAUC: 0.5238
+Epoch 200 : base_loss 0.0026; sparsity 0.2443; smoothness 0.0022; CF_pred 0.0; AUROC: 0.5833; AUPRC: 0.4303; pAUC: 0.5238
+Epoch 300 : base_loss 0.0023; sparsity 0.2382; smoothness 0.0022; CF_pred 0.0; AUROC: 0.5952; AUPRC: 0.4344; pAUC: 0.5238
+Epoch 400 : base_loss 0.0022; sparsity 0.2341; smoothness 0.0022; CF_pred 0.0; AUROC: 0.619; AUPRC: 0.448; pAUC: 0.5238
+Epoch 500 : base_loss 0.0021; sparsity 0.2314; smoothness 0.0022; CF_pred 0.0; AUROC: 0.6071; AUPRC: 0.4444; pAUC: 0.5238
+Epoch 0 : base_loss 0.7448; sparsity 0.2551; smoothness 0.0023; CF_pred 0.0; AUROC: 0.4881; AUPRC: 0.4618; pAUC: 0.5614
+Epoch 100 : base_loss 0.0102; sparsity 0.2523; smoothness 0.0022; CF_pred 0.0; AUROC: 0.5595; AUPRC: 0.4521; pAUC: 0.5238
+Epoch 200 : base_loss 0.0029; sparsity 0.2514; smoothness 0.0022; CF_pred 0.0; AUROC: 0.5714; AUPRC: 0.4771; pAUC: 0.5489
+Epoch 300 : base_loss 0.0026; sparsity 0.2491; smoothness 0.0022; CF_pred 0.0; AUROC: 0.5714; AUPRC: 0.4771; pAUC: 0.5489
+Epoch 400 : base_loss 0.0025; sparsity 0.2474; smoothness 0.0022; CF_pred 0.0; AUROC: 0.5714; AUPRC: 0.4771; pAUC: 0.5489
+Epoch 500 : base_loss 0.0024; sparsity 0.2462; smoothness 0.0022; CF_pred 0.0; AUROC: 0.5833; AUPRC: 0.4821; pAUC: 0.5489
+Max. stab. = 0.78, at α = 0.3684210526315789
+Dataset #9; Acc.: 0.55; Bal. Acc.: 0.631; AUROC: 0.6071; AUPRC: 0.4444; pAUC: 0.5238; RMSE: 0.0457; coeff.: 0.0788
+Epoch 0 : base_loss 0.5286; sparsity 0.2588; smoothness 0.0023; CF_pred 0.0; AUROC: 0.3867; AUPRC: 0.3841; pAUC: 0.5789
+Epoch 100 : base_loss 0.0047; sparsity 0.263; smoothness 0.0024; CF_pred 0.0; AUROC: 0.6133; AUPRC: 0.4984; pAUC: 0.5789
+Epoch 200 : base_loss 0.0019; sparsity 0.2538; smoothness 0.0024; CF_pred 0.0; AUROC: 0.64; AUPRC: 0.5061; pAUC: 0.5789
+Epoch 300 : base_loss 0.0018; sparsity 0.2463; smoothness 0.0024; CF_pred 0.0; AUROC: 0.68; AUPRC: 0.5209; pAUC: 0.5789
+Epoch 400 : base_loss 0.0017; sparsity 0.2416; smoothness 0.0024; CF_pred 0.0; AUROC: 0.6667; AUPRC: 0.4209; pAUC: 0.5088
+Epoch 500 : base_loss 0.0016; sparsity 0.2387; smoothness 0.0024; CF_pred 0.0; AUROC: 0.68; AUPRC: 0.4543; pAUC: 0.5439
+Epoch 0 : base_loss 0.5323; sparsity 0.2456; smoothness 0.0024; CF_pred 0.0; AUROC: 0.72; AUPRC: 0.6643; pAUC: 0.6842
+Epoch 100 : base_loss 0.0017; sparsity 0.253; smoothness 0.0024; CF_pred 0.0; AUROC: 0.7067; AUPRC: 0.5371; pAUC: 0.5789
+Epoch 200 : base_loss 0.0014; sparsity 0.2502; smoothness 0.0024; CF_pred 0.0; AUROC: 0.7067; AUPRC: 0.5371; pAUC: 0.5789
+Epoch 300 : base_loss 0.0014; sparsity 0.2477; smoothness 0.0024; CF_pred 0.0; AUROC: 0.7067; AUPRC: 0.5371; pAUC: 0.5789
+Epoch 400 : base_loss 0.0013; sparsity 0.2459; smoothness 0.0024; CF_pred 0.0; AUROC: 0.7067; AUPRC: 0.5213; pAUC: 0.5789
+Epoch 500 : base_loss 0.0013; sparsity 0.2447; smoothness 0.0024; CF_pred 0.0; AUROC: 0.7067; AUPRC: 0.5213; pAUC: 0.5789
+Max. stab. = 0.608, at α = 0.894736842105263
+Dataset #10; Acc.: 0.8; Bal. Acc.: 0.6667; AUROC: 0.68; AUPRC: 0.4543; pAUC: 0.5439; RMSE: 0.0403; coeff.: 0.0818
+
+Acc.         :0.5650000000000001
+Bal. Acc.    :0.5398234894190777
+AUROC        :0.5556182045079103
+AUPRC        :0.4088723552276184
+pAUC        :0.5043214095845675
+RMSE        :0.03774025188638585
+coeff.         :0.08029961585998535
+λ = 0.1; β = 0.0; γ = 0.0; progress: 0.0
+Epoch 0 : base_loss 0.6424; sparsity 0.2564; smoothness 0.0017; CF_pred 0.0; AUROC: 0.7031; AUPRC: 0.3869; pAUC: 0.523
+Epoch 100 : base_loss 0.0016; sparsity 0.2591; smoothness 0.0017; CF_pred 0.0; AUROC: 0.7812; AUPRC: 0.5131; pAUC: 0.5724
+Epoch 200 : base_loss 0.0013; sparsity 0.2527; smoothness 0.0017; CF_pred 0.0; AUROC: 0.7812; AUPRC: 0.5131; pAUC: 0.5724
+Epoch 300 : base_loss 0.0012; sparsity 0.2479; smoothness 0.0017; CF_pred 0.0; AUROC: 0.7812; AUPRC: 0.5131; pAUC: 0.5724
+Epoch 400 : base_loss 0.0012; sparsity 0.2445; smoothness 0.0017; CF_pred 0.0; AUROC: 0.7656; AUPRC: 0.4714; pAUC: 0.523
+Epoch 500 : base_loss 0.0011; sparsity 0.2422; smoothness 0.0017; CF_pred 0.0; AUROC: 0.7656; AUPRC: 0.4714; pAUC: 0.523
+Epoch 0 : base_loss 0.5327; sparsity 0.2532; smoothness 0.0021; CF_pred 0.0; AUROC: 0.6562; AUPRC: 0.4922; pAUC: 0.6053
+Epoch 100 : base_loss 0.0019; sparsity 0.2482; smoothness 0.0021; CF_pred 0.0; AUROC: 0.6406; AUPRC: 0.5404; pAUC: 0.6546
+Epoch 200 : base_loss 0.0015; sparsity 0.2397; smoothness 0.002; CF_pred 0.0; AUROC: 0.6875; AUPRC: 0.6389; pAUC: 0.7368
+Epoch 300 : base_loss 0.0014; sparsity 0.2336; smoothness 0.002; CF_pred 0.0; AUROC: 0.6875; AUPRC: 0.6464; pAUC: 0.7368
+Epoch 400 : base_loss 0.0013; sparsity 0.2294; smoothness 0.002; CF_pred 0.0; AUROC: 0.6719; AUPRC: 0.6438; pAUC: 0.7368
+Epoch 500 : base_loss 0.0012; sparsity 0.2267; smoothness 0.002; CF_pred 0.0; AUROC: 0.6719; AUPRC: 0.6438; pAUC: 0.7368
+Max. stab. = 0.688, at α = 0.21052631578947367
+Dataset #1; Acc.: 0.4; Bal. Acc.: 0.625; AUROC: 0.7656; AUPRC: 0.4714; pAUC: 0.523; RMSE: 0.0339; coeff.: 0.0832
+Epoch 0 : base_loss 0.3372; sparsity 0.2336; smoothness 0.0032; CF_pred 0.0; AUROC: 0.2031; AUPRC: 0.1552; pAUC: 0.4737
+Epoch 100 : base_loss 0.0032; sparsity 0.23; smoothness 0.0031; CF_pred 0.0; AUROC: 0.1562; AUPRC: 0.1483; pAUC: 0.4737
+Epoch 200 : base_loss 0.0026; sparsity 0.2213; smoothness 0.0031; CF_pred 0.0; AUROC: 0.1719; AUPRC: 0.1502; pAUC: 0.4737
+Epoch 300 : base_loss 0.0024; sparsity 0.2152; smoothness 0.0031; CF_pred 0.0; AUROC: 0.1406; AUPRC: 0.1462; pAUC: 0.4737
+Epoch 400 : base_loss 0.0022; sparsity 0.2113; smoothness 0.0031; CF_pred 0.0; AUROC: 0.125; AUPRC: 0.1436; pAUC: 0.4737
+Epoch 500 : base_loss 0.0021; sparsity 0.2088; smoothness 0.0031; CF_pred 0.0; AUROC: 0.125; AUPRC: 0.1436; pAUC: 0.4737
+Epoch 0 : base_loss 0.1251; sparsity 0.2441; smoothness 0.0032; CF_pred 0.0; AUROC: 0.5; AUPRC: 0.2371; pAUC: 0.4737
+Epoch 100 : base_loss 0.0017; sparsity 0.2244; smoothness 0.0032; CF_pred 0.0; AUROC: 0.6406; AUPRC: 0.4571; pAUC: 0.6053
+Epoch 200 : base_loss 0.0014; sparsity 0.2032; smoothness 0.0032; CF_pred 0.0; AUROC: 0.7031; AUPRC: 0.4873; pAUC: 0.6053
+Epoch 300 : base_loss 0.0012; sparsity 0.1898; smoothness 0.0033; CF_pred 0.0; AUROC: 0.7656; AUPRC: 0.5263; pAUC: 0.6053
+Epoch 400 : base_loss 0.0011; sparsity 0.1814; smoothness 0.0033; CF_pred 0.0; AUROC: 0.7656; AUPRC: 0.5263; pAUC: 0.6053
+Epoch 500 : base_loss 0.001; sparsity 0.176; smoothness 0.0034; CF_pred 0.0; AUROC: 0.7656; AUPRC: 0.5263; pAUC: 0.6053
+Max. stab. = 0.479, at α = 0.631578947368421
+Dataset #2; Acc.: 0.4; Bal. Acc.: 0.25; AUROC: 0.125; AUPRC: 0.1436; pAUC: 0.4737; RMSE: 0.0457; coeff.: 0.072
+Epoch 0 : base_loss 0.687; sparsity 0.2447; smoothness 0.0022; CF_pred 0.0; AUROC: 0.6044; AUPRC: 0.5727; pAUC: 0.6241
+Epoch 100 : base_loss 0.005; sparsity 0.2493; smoothness 0.0021; CF_pred 0.0; AUROC: 0.7363; AUPRC: 0.6557; pAUC: 0.6241
+Epoch 200 : base_loss 0.0044; sparsity 0.2463; smoothness 0.0021; CF_pred 0.0; AUROC: 0.7363; AUPRC: 0.6557; pAUC: 0.6241
+Epoch 300 : base_loss 0.0039; sparsity 0.2437; smoothness 0.0022; CF_pred 0.0; AUROC: 0.7253; AUPRC: 0.6509; pAUC: 0.6241
+Epoch 400 : base_loss 0.0037; sparsity 0.2419; smoothness 0.0022; CF_pred 0.0; AUROC: 0.7253; AUPRC: 0.6509; pAUC: 0.6241
+Epoch 500 : base_loss 0.0035; sparsity 0.2406; smoothness 0.0022; CF_pred 0.0; AUROC: 0.7143; AUPRC: 0.6367; pAUC: 0.6241
+Epoch 0 : base_loss 0.6581; sparsity 0.2501; smoothness 0.0026; CF_pred 0.0; AUROC: 0.4945; AUPRC: 0.3804; pAUC: 0.4737
+Epoch 100 : base_loss 0.0051; sparsity 0.2534; smoothness 0.0026; CF_pred 0.0; AUROC: 0.4066; AUPRC: 0.3639; pAUC: 0.4737
+Epoch 200 : base_loss 0.004; sparsity 0.2438; smoothness 0.0026; CF_pred 0.0; AUROC: 0.4066; AUPRC: 0.3639; pAUC: 0.4737
+Epoch 300 : base_loss 0.0032; sparsity 0.237; smoothness 0.0026; CF_pred 0.0; AUROC: 0.3626; AUPRC: 0.3478; pAUC: 0.4737
+Epoch 400 : base_loss 0.0029; sparsity 0.2322; smoothness 0.0027; CF_pred 0.0; AUROC: 0.3736; AUPRC: 0.3506; pAUC: 0.4737
+Epoch 500 : base_loss 0.0026; sparsity 0.2291; smoothness 0.0027; CF_pred 0.0; AUROC: 0.3736; AUPRC: 0.3506; pAUC: 0.4737
+Max. stab. = 0.608, at α = 0.15789473684210525
+Dataset #3; Acc.: 0.5; Bal. Acc.: 0.6154; AUROC: 0.7143; AUPRC: 0.6367; pAUC: 0.6241; RMSE: 0.0592; coeff.: 0.0838
+Epoch 0 : base_loss 0.2453; sparsity 0.2415; smoothness 0.0027; CF_pred 0.0; AUROC: 0.5; AUPRC: 0.5296; pAUC: 0.5504
+Epoch 100 : base_loss 0.0032; sparsity 0.2354; smoothness 0.0025; CF_pred 0.0; AUROC: 0.5625; AUPRC: 0.5558; pAUC: 0.5395
+Epoch 200 : base_loss 0.0025; sparsity 0.228; smoothness 0.0025; CF_pred 0.0; AUROC: 0.5625; AUPRC: 0.5558; pAUC: 0.5395
+Epoch 300 : base_loss 0.0022; sparsity 0.2225; smoothness 0.0026; CF_pred 0.0; AUROC: 0.5625; AUPRC: 0.5558; pAUC: 0.5395
+Epoch 400 : base_loss 0.002; sparsity 0.2187; smoothness 0.0026; CF_pred 0.0; AUROC: 0.5625; AUPRC: 0.5558; pAUC: 0.5395
+Epoch 500 : base_loss 0.0018; sparsity 0.2161; smoothness 0.0026; CF_pred 0.0; AUROC: 0.5625; AUPRC: 0.5558; pAUC: 0.5395
+Epoch 0 : base_loss 0.283; sparsity 0.2321; smoothness 0.003; CF_pred 0.0; AUROC: 0.4063; AUPRC: 0.4823; pAUC: 0.5395
+Epoch 100 : base_loss 0.0042; sparsity 0.2249; smoothness 0.0031; CF_pred 0.0; AUROC: 0.4167; AUPRC: 0.4625; pAUC: 0.5395
+Epoch 200 : base_loss 0.0023; sparsity 0.2117; smoothness 0.0032; CF_pred 0.0; AUROC: 0.4271; AUPRC: 0.4689; pAUC: 0.5395
+Epoch 300 : base_loss 0.002; sparsity 0.202; smoothness 0.0032; CF_pred 0.0; AUROC: 0.4688; AUPRC: 0.4846; pAUC: 0.5395
+Epoch 400 : base_loss 0.0019; sparsity 0.1958; smoothness 0.0032; CF_pred 0.0; AUROC: 0.5; AUPRC: 0.4973; pAUC: 0.5395
+Epoch 500 : base_loss 0.0018; sparsity 0.1919; smoothness 0.0032; CF_pred 0.0; AUROC: 0.5104; AUPRC: 0.4957; pAUC: 0.5395
+Max. stab. = 0.67, at α = 0.3684210526315789
+Dataset #4; Acc.: 0.45; Bal. Acc.: 0.4792; AUROC: 0.5625; AUPRC: 0.5558; pAUC: 0.5395; RMSE: 0.043; coeff.: 0.0757
+Epoch 0 : base_loss 0.1934; sparsity 0.254; smoothness 0.0023; CF_pred 0.0; AUROC: 0.3733; AUPRC: 0.2646; pAUC: 0.4737
+Epoch 100 : base_loss 0.0014; sparsity 0.2493; smoothness 0.0022; CF_pred 0.0; AUROC: 0.36; AUPRC: 0.2265; pAUC: 0.4737
+Epoch 200 : base_loss 0.0013; sparsity 0.2368; smoothness 0.0022; CF_pred 0.0; AUROC: 0.36; AUPRC: 0.2245; pAUC: 0.4737
+Epoch 300 : base_loss 0.0012; sparsity 0.2276; smoothness 0.0022; CF_pred 0.0; AUROC: 0.3733; AUPRC: 0.2274; pAUC: 0.4737
+Epoch 400 : base_loss 0.0011; sparsity 0.2214; smoothness 0.0022; CF_pred 0.0; AUROC: 0.3733; AUPRC: 0.2274; pAUC: 0.4737
+Epoch 500 : base_loss 0.0011; sparsity 0.2174; smoothness 0.0022; CF_pred 0.0; AUROC: 0.3733; AUPRC: 0.2274; pAUC: 0.4737
+Epoch 0 : base_loss 0.3244; sparsity 0.2248; smoothness 0.002; CF_pred 0.0; AUROC: 0.44; AUPRC: 0.2937; pAUC: 0.4737
+Epoch 100 : base_loss 0.0017; sparsity 0.2266; smoothness 0.002; CF_pred 0.0; AUROC: 0.44; AUPRC: 0.2804; pAUC: 0.4737
+Epoch 200 : base_loss 0.0014; sparsity 0.2206; smoothness 0.002; CF_pred 0.0; AUROC: 0.44; AUPRC: 0.2804; pAUC: 0.4737
+Epoch 300 : base_loss 0.0013; sparsity 0.2159; smoothness 0.002; CF_pred 0.0; AUROC: 0.44; AUPRC: 0.2709; pAUC: 0.4737
+Epoch 400 : base_loss 0.0013; sparsity 0.2125; smoothness 0.002; CF_pred 0.0; AUROC: 0.44; AUPRC: 0.2709; pAUC: 0.4737
+Epoch 500 : base_loss 0.0012; sparsity 0.2102; smoothness 0.002; CF_pred 0.0; AUROC: 0.44; AUPRC: 0.2809; pAUC: 0.4737
+Max. stab. = 0.474, at α = 0.05263157894736842
+Dataset #5; Acc.: 0.3; Bal. Acc.: 0.5333; AUROC: 0.3733; AUPRC: 0.2274; pAUC: 0.4737; RMSE: 0.0328; coeff.: 0.0758
+Epoch 0 : base_loss 0.39; sparsity 0.2404; smoothness 0.0019; CF_pred 0.0; AUROC: 0.6863; AUPRC: 0.4477; pAUC: 0.6182
+Epoch 100 : base_loss 0.001; sparsity 0.2417; smoothness 0.002; CF_pred 0.0; AUROC: 0.6667; AUPRC: 0.3111; pAUC: 0.4737
+Epoch 200 : base_loss 0.0009; sparsity 0.2363; smoothness 0.002; CF_pred 0.0; AUROC: 0.6471; AUPRC: 0.2889; pAUC: 0.4737
+Epoch 300 : base_loss 0.0008; sparsity 0.2321; smoothness 0.002; CF_pred 0.0; AUROC: 0.6471; AUPRC: 0.2889; pAUC: 0.4737
+Epoch 400 : base_loss 0.0008; sparsity 0.2291; smoothness 0.002; CF_pred 0.0; AUROC: 0.6275; AUPRC: 0.273; pAUC: 0.4737
+Epoch 500 : base_loss 0.0008; sparsity 0.227; smoothness 0.002; CF_pred 0.0; AUROC: 0.6275; AUPRC: 0.273; pAUC: 0.4737
+Epoch 0 : base_loss 0.4813; sparsity 0.2459; smoothness 0.0018; CF_pred 0.0; AUROC: 0.5882; AUPRC: 0.2158; pAUC: 0.4737
+Epoch 100 : base_loss 0.0004; sparsity 0.2444; smoothness 0.0018; CF_pred 0.0; AUROC: 0.5294; AUPRC: 0.2103; pAUC: 0.4737
+Epoch 200 : base_loss 0.0004; sparsity 0.2358; smoothness 0.0018; CF_pred 0.0; AUROC: 0.451; AUPRC: 0.175; pAUC: 0.4737
+Epoch 300 : base_loss 0.0004; sparsity 0.2295; smoothness 0.0018; CF_pred 0.0; AUROC: 0.3922; AUPRC: 0.1637; pAUC: 0.4737
+Epoch 400 : base_loss 0.0003; sparsity 0.225; smoothness 0.0018; CF_pred 0.0; AUROC: 0.3725; AUPRC: 0.1558; pAUC: 0.4737
+Epoch 500 : base_loss 0.0003; sparsity 0.222; smoothness 0.0019; CF_pred 0.0; AUROC: 0.3922; AUPRC: 0.1609; pAUC: 0.4737
+Max. stab. = 0.804, at α = 0.15789473684210525
+Dataset #6; Acc.: 0.3; Bal. Acc.: 0.5882; AUROC: 0.6275; AUPRC: 0.273; pAUC: 0.4737; RMSE: 0.0275; coeff.: 0.0791
+Epoch 0 : base_loss 0.6026; sparsity 0.2998; smoothness 0.0012; CF_pred 0.0; AUROC: 0.27; AUPRC: 0.4215; pAUC: 0.4737
+Epoch 100 : base_loss 0.001; sparsity 0.2978; smoothness 0.0012; CF_pred 0.0; AUROC: 0.3; AUPRC: 0.4379; pAUC: 0.4737
+Epoch 200 : base_loss 0.001; sparsity 0.2917; smoothness 0.0012; CF_pred 0.0; AUROC: 0.28; AUPRC: 0.4297; pAUC: 0.4737
+Epoch 300 : base_loss 0.0009; sparsity 0.287; smoothness 0.0012; CF_pred 0.0; AUROC: 0.28; AUPRC: 0.4297; pAUC: 0.4737
+Epoch 400 : base_loss 0.0009; sparsity 0.2837; smoothness 0.0012; CF_pred 0.0; AUROC: 0.27; AUPRC: 0.4265; pAUC: 0.4737
+Epoch 500 : base_loss 0.0009; sparsity 0.2815; smoothness 0.0012; CF_pred 0.0; AUROC: 0.28; AUPRC: 0.4765; pAUC: 0.5263
+Epoch 0 : base_loss 0.5568; sparsity 0.2464; smoothness 0.0011; CF_pred 0.0; AUROC: 0.38; AUPRC: 0.4696; pAUC: 0.4737
+Epoch 100 : base_loss 0.0012; sparsity 0.2458; smoothness 0.0011; CF_pred 0.0; AUROC: 0.43; AUPRC: 0.474; pAUC: 0.4737
+Epoch 200 : base_loss 0.0011; sparsity 0.2364; smoothness 0.0011; CF_pred 0.0; AUROC: 0.44; AUPRC: 0.4772; pAUC: 0.4737
+Epoch 300 : base_loss 0.001; sparsity 0.2299; smoothness 0.0011; CF_pred 0.0; AUROC: 0.48; AUPRC: 0.5056; pAUC: 0.4737
+Epoch 400 : base_loss 0.001; sparsity 0.2255; smoothness 0.0011; CF_pred 0.0; AUROC: 0.49; AUPRC: 0.509; pAUC: 0.4737
+Epoch 500 : base_loss 0.001; sparsity 0.2227; smoothness 0.0011; CF_pred 0.0; AUROC: 0.49; AUPRC: 0.509; pAUC: 0.4737
+Max. stab. = 0.608, at α = 0.894736842105263
+Dataset #7; Acc.: 0.45; Bal. Acc.: 0.45; AUROC: 0.28; AUPRC: 0.4765; pAUC: 0.5263; RMSE: 0.0296; coeff.: 0.0973
+Epoch 0 : base_loss 0.5118; sparsity 0.2402; smoothness 0.0028; CF_pred 0.0; AUROC: 0.4343; AUPRC: 0.5591; pAUC: 0.5906
+Epoch 100 : base_loss 0.0037; sparsity 0.2437; smoothness 0.0028; CF_pred 0.0; AUROC: 0.3535; AUPRC: 0.4723; pAUC: 0.5322
+Epoch 200 : base_loss 0.003; sparsity 0.2383; smoothness 0.0028; CF_pred 0.0; AUROC: 0.3434; AUPRC: 0.4326; pAUC: 0.4843
+Epoch 300 : base_loss 0.0026; sparsity 0.2343; smoothness 0.0029; CF_pred 0.0; AUROC: 0.3333; AUPRC: 0.4295; pAUC: 0.4843
+Epoch 400 : base_loss 0.0024; sparsity 0.2316; smoothness 0.0029; CF_pred 0.0; AUROC: 0.3333; AUPRC: 0.4295; pAUC: 0.4843
+Epoch 500 : base_loss 0.0022; sparsity 0.2297; smoothness 0.0029; CF_pred 0.0; AUROC: 0.3232; AUPRC: 0.411; pAUC: 0.479
+Epoch 0 : base_loss 0.6264; sparsity 0.2432; smoothness 0.0023; CF_pred 0.0; AUROC: 0.4545; AUPRC: 0.4421; pAUC: 0.479
+Epoch 100 : base_loss 0.0033; sparsity 0.2366; smoothness 0.0023; CF_pred 0.0; AUROC: 0.5657; AUPRC: 0.5479; pAUC: 0.5322
+Epoch 200 : base_loss 0.0028; sparsity 0.2262; smoothness 0.0024; CF_pred 0.0; AUROC: 0.5859; AUPRC: 0.5503; pAUC: 0.5322
+Epoch 300 : base_loss 0.0025; sparsity 0.2195; smoothness 0.0024; CF_pred 0.0; AUROC: 0.5859; AUPRC: 0.5503; pAUC: 0.5322
+Epoch 400 : base_loss 0.0023; sparsity 0.2153; smoothness 0.0024; CF_pred 0.0; AUROC: 0.596; AUPRC: 0.5563; pAUC: 0.5322
+Epoch 500 : base_loss 0.0022; sparsity 0.2127; smoothness 0.0024; CF_pred 0.0; AUROC: 0.596; AUPRC: 0.5563; pAUC: 0.5322
+Max. stab. = 0.722, at α = 0.9473684210526315
+Dataset #8; Acc.: 0.55; Bal. Acc.: 0.5101; AUROC: 0.3232; AUPRC: 0.411; pAUC: 0.479; RMSE: 0.0465; coeff.: 0.0798
+Epoch 0 : base_loss 0.5255; sparsity 0.2524; smoothness 0.0024; CF_pred 0.0; AUROC: 0.631; AUPRC: 0.4089; pAUC: 0.4987
+Epoch 100 : base_loss 0.0039; sparsity 0.2559; smoothness 0.0024; CF_pred 0.0; AUROC: 0.6905; AUPRC: 0.453; pAUC: 0.4737
+Epoch 200 : base_loss 0.0033; sparsity 0.2488; smoothness 0.0024; CF_pred 0.0; AUROC: 0.7024; AUPRC: 0.4583; pAUC: 0.4737
+Epoch 300 : base_loss 0.0031; sparsity 0.2433; smoothness 0.0024; CF_pred 0.0; AUROC: 0.7024; AUPRC: 0.4583; pAUC: 0.4737
+Epoch 400 : base_loss 0.0029; sparsity 0.2395; smoothness 0.0024; CF_pred 0.0; AUROC: 0.7143; AUPRC: 0.475; pAUC: 0.4737
+Epoch 500 : base_loss 0.0028; sparsity 0.2369; smoothness 0.0024; CF_pred 0.0; AUROC: 0.7262; AUPRC: 0.4909; pAUC: 0.4737
+Epoch 0 : base_loss 0.4934; sparsity 0.2313; smoothness 0.0025; CF_pred 0.0; AUROC: 0.4286; AUPRC: 0.2994; pAUC: 0.4737
+Epoch 100 : base_loss 0.0064; sparsity 0.2308; smoothness 0.0024; CF_pred 0.0; AUROC: 0.4524; AUPRC: 0.4189; pAUC: 0.5614
+Epoch 200 : base_loss 0.0027; sparsity 0.2256; smoothness 0.0024; CF_pred 0.0; AUROC: 0.4881; AUPRC: 0.4374; pAUC: 0.5614
+Epoch 300 : base_loss 0.0025; sparsity 0.2205; smoothness 0.0024; CF_pred 0.0; AUROC: 0.4881; AUPRC: 0.4374; pAUC: 0.5614
+Epoch 400 : base_loss 0.0024; sparsity 0.2169; smoothness 0.0024; CF_pred 0.0; AUROC: 0.5; AUPRC: 0.4485; pAUC: 0.5614
+Epoch 500 : base_loss 0.0023; sparsity 0.2145; smoothness 0.0024; CF_pred 0.0; AUROC: 0.5119; AUPRC: 0.4516; pAUC: 0.5614
+Max. stab. = 0.688, at α = 0.8421052631578947
+Dataset #9; Acc.: 0.7; Bal. Acc.: 0.5952; AUROC: 0.7262; AUPRC: 0.4909; pAUC: 0.4737; RMSE: 0.0529; coeff.: 0.0802
+Epoch 0 : base_loss 0.3156; sparsity 0.2294; smoothness 0.0024; CF_pred 0.0; AUROC: 0.4; AUPRC: 0.259; pAUC: 0.4737
+Epoch 100 : base_loss 0.0012; sparsity 0.2264; smoothness 0.0025; CF_pred 0.0; AUROC: 0.48; AUPRC: 0.2988; pAUC: 0.4737
+Epoch 200 : base_loss 0.001; sparsity 0.2138; smoothness 0.0026; CF_pred 0.0; AUROC: 0.4667; AUPRC: 0.276; pAUC: 0.4737
+Epoch 300 : base_loss 0.001; sparsity 0.2056; smoothness 0.0026; CF_pred 0.0; AUROC: 0.4533; AUPRC: 0.2664; pAUC: 0.4737
+Epoch 400 : base_loss 0.0009; sparsity 0.2005; smoothness 0.0026; CF_pred 0.0; AUROC: 0.4533; AUPRC: 0.2626; pAUC: 0.4737
+Epoch 500 : base_loss 0.0009; sparsity 0.1973; smoothness 0.0026; CF_pred 0.0; AUROC: 0.4667; AUPRC: 0.2726; pAUC: 0.4737
+Epoch 0 : base_loss 0.5626; sparsity 0.2449; smoothness 0.0025; CF_pred 0.0; AUROC: 0.44; AUPRC: 0.2989; pAUC: 0.5088
+Epoch 100 : base_loss 0.0033; sparsity 0.2426; smoothness 0.0024; CF_pred 0.0; AUROC: 0.3867; AUPRC: 0.2325; pAUC: 0.4737
+Epoch 200 : base_loss 0.0023; sparsity 0.2392; smoothness 0.0024; CF_pred 0.0; AUROC: 0.3867; AUPRC: 0.2325; pAUC: 0.4737
+Epoch 300 : base_loss 0.0021; sparsity 0.2359; smoothness 0.0024; CF_pred 0.0; AUROC: 0.3733; AUPRC: 0.2287; pAUC: 0.4737
+Epoch 400 : base_loss 0.002; sparsity 0.2335; smoothness 0.0024; CF_pred 0.0; AUROC: 0.3867; AUPRC: 0.2353; pAUC: 0.4737
+Epoch 500 : base_loss 0.002; sparsity 0.2319; smoothness 0.0024; CF_pred 0.0; AUROC: 0.3867; AUPRC: 0.2353; pAUC: 0.4737
+Max. stab. = 1.0, at α = 1.0
+Dataset #10; Acc.: 0.7; Bal. Acc.: 0.4667; AUROC: 0.4667; AUPRC: 0.2726; pAUC: 0.4737; RMSE: 0.0302; coeff.: 0.0676
+
+Acc.         :0.475
+Bal. Acc.    :0.5113125681508034
+AUROC        :0.4964284494100671
+AUPRC        :0.3958948747999315
+pAUC        :0.5060297524113314
+RMSE        :0.04014008179847567
+coeff.         :0.07944474369287491
+λ = 0.1; β = 0.025; γ = 0.0; progress: 0.0
+Epoch 0 : base_loss 0.4939; sparsity 0.2431; smoothness 0.0019; CF_pred 0.0; AUROC: 0.5156; AUPRC: 0.2463; pAUC: 0.4737
+Epoch 100 : base_loss 0.003; sparsity 0.2395; smoothness 0.002; CF_pred 0.0; AUROC: 0.4688; AUPRC: 0.2293; pAUC: 0.4737
+Epoch 200 : base_loss 0.0023; sparsity 0.2297; smoothness 0.0019; CF_pred 0.0; AUROC: 0.4688; AUPRC: 0.2213; pAUC: 0.4737
+Epoch 300 : base_loss 0.002; sparsity 0.2225; smoothness 0.0019; CF_pred 0.0; AUROC: 0.4844; AUPRC: 0.2293; pAUC: 0.4737
+Epoch 400 : base_loss 0.0018; sparsity 0.2177; smoothness 0.0019; CF_pred 0.0; AUROC: 0.4844; AUPRC: 0.2293; pAUC: 0.4737
+Epoch 500 : base_loss 0.0017; sparsity 0.2145; smoothness 0.0019; CF_pred 0.0; AUROC: 0.4844; AUPRC: 0.2293; pAUC: 0.4737
+Epoch 0 : base_loss 0.5816; sparsity 0.2277; smoothness 0.0017; CF_pred 0.0; AUROC: 0.7188; AUPRC: 0.4464; pAUC: 0.5724
+Epoch 100 : base_loss 0.0024; sparsity 0.235; smoothness 0.0017; CF_pred 0.0; AUROC: 0.5625; AUPRC: 0.3974; pAUC: 0.5724
+Epoch 200 : base_loss 0.002; sparsity 0.2305; smoothness 0.0017; CF_pred 0.0; AUROC: 0.5469; AUPRC: 0.3941; pAUC: 0.5724
+Epoch 300 : base_loss 0.0019; sparsity 0.2272; smoothness 0.0017; CF_pred 0.0; AUROC: 0.5469; AUPRC: 0.3941; pAUC: 0.5724
+Epoch 400 : base_loss 0.0018; sparsity 0.225; smoothness 0.0017; CF_pred 0.0; AUROC: 0.5469; AUPRC: 0.3941; pAUC: 0.5724
+Epoch 500 : base_loss 0.0017; sparsity 0.2235; smoothness 0.0017; CF_pred 0.0; AUROC: 0.5469; AUPRC: 0.3941; pAUC: 0.5724
+Max. stab. = 0.583, at α = 0.42105263157894735
+Dataset #1; Acc.: 0.5; Bal. Acc.: 0.5938; AUROC: 0.4844; AUPRC: 0.2293; pAUC: 0.4737; RMSE: 0.0415; coeff.: 0.0742
+Epoch 0 : base_loss 0.5741; sparsity 0.2388; smoothness 0.0032; CF_pred 0.0; AUROC: 0.3906; AUPRC: 0.197; pAUC: 0.4737
+Epoch 100 : base_loss 0.0184; sparsity 0.2333; smoothness 0.0032; CF_pred 0.0; AUROC: 0.1875; AUPRC: 0.1528; pAUC: 0.4737
+Epoch 200 : base_loss 0.002; sparsity 0.2299; smoothness 0.0032; CF_pred 0.0; AUROC: 0.1719; AUPRC: 0.1521; pAUC: 0.4737
+Epoch 300 : base_loss 0.0016; sparsity 0.2258; smoothness 0.0033; CF_pred 0.0; AUROC: 0.1562; AUPRC: 0.1507; pAUC: 0.4737
+Epoch 400 : base_loss 0.0015; sparsity 0.2228; smoothness 0.0033; CF_pred 0.0; AUROC: 0.1719; AUPRC: 0.1536; pAUC: 0.4737
+Epoch 500 : base_loss 0.0014; sparsity 0.2207; smoothness 0.0033; CF_pred 0.0; AUROC: 0.1719; AUPRC: 0.1536; pAUC: 0.4737
+Epoch 0 : base_loss 0.1496; sparsity 0.2355; smoothness 0.0038; CF_pred 0.0; AUROC: 0.5312; AUPRC: 0.4264; pAUC: 0.6053
+Epoch 100 : base_loss 0.0032; sparsity 0.2359; smoothness 0.0036; CF_pred 0.0; AUROC: 0.6094; AUPRC: 0.3713; pAUC: 0.523
+Epoch 200 : base_loss 0.0027; sparsity 0.2277; smoothness 0.0036; CF_pred 0.0; AUROC: 0.6094; AUPRC: 0.3713; pAUC: 0.523
+Epoch 300 : base_loss 0.0024; sparsity 0.2214; smoothness 0.0036; CF_pred 0.0; AUROC: 0.5938; AUPRC: 0.3297; pAUC: 0.4737
+Epoch 400 : base_loss 0.0022; sparsity 0.217; smoothness 0.0036; CF_pred 0.0; AUROC: 0.625; AUPRC: 0.375; pAUC: 0.523
+Epoch 500 : base_loss 0.0021; sparsity 0.214; smoothness 0.0036; CF_pred 0.0; AUROC: 0.625; AUPRC: 0.375; pAUC: 0.523
+Max. stab. = 0.583, at α = 0.42105263157894735
+Dataset #2; Acc.: 0.2; Bal. Acc.: 0.125; AUROC: 0.1719; AUPRC: 0.1536; pAUC: 0.4737; RMSE: 0.0374; coeff.: 0.076
+Epoch 0 : base_loss 0.6877; sparsity 0.2546; smoothness 0.0027; CF_pred 0.0; AUROC: 0.6923; AUPRC: 0.6006; pAUC: 0.5662
+Epoch 100 : base_loss 0.0063; sparsity 0.2699; smoothness 0.0027; CF_pred 0.0; AUROC: 0.7473; AUPRC: 0.6618; pAUC: 0.6009
+Epoch 200 : base_loss 0.0049; sparsity 0.2651; smoothness 0.0028; CF_pred 0.0; AUROC: 0.7473; AUPRC: 0.6618; pAUC: 0.6009
+Epoch 300 : base_loss 0.0042; sparsity 0.2614; smoothness 0.0028; CF_pred 0.0; AUROC: 0.7253; AUPRC: 0.6516; pAUC: 0.6009
+Epoch 400 : base_loss 0.0038; sparsity 0.2586; smoothness 0.0028; CF_pred 0.0; AUROC: 0.7253; AUPRC: 0.6516; pAUC: 0.6009
+Epoch 500 : base_loss 0.0035; sparsity 0.2568; smoothness 0.0028; CF_pred 0.0; AUROC: 0.7253; AUPRC: 0.6516; pAUC: 0.6009
+Epoch 0 : base_loss 0.8129; sparsity 0.2818; smoothness 0.0027; CF_pred 0.0; AUROC: 0.4945; AUPRC: 0.5041; pAUC: 0.5662
+Epoch 100 : base_loss 0.0044; sparsity 0.2782; smoothness 0.0025; CF_pred 0.0; AUROC: 0.3956; AUPRC: 0.3601; pAUC: 0.491
+Epoch 200 : base_loss 0.0033; sparsity 0.2734; smoothness 0.0025; CF_pred 0.0; AUROC: 0.3846; AUPRC: 0.3562; pAUC: 0.491
+Epoch 300 : base_loss 0.0031; sparsity 0.2694; smoothness 0.0025; CF_pred 0.0; AUROC: 0.3736; AUPRC: 0.353; pAUC: 0.491
+Epoch 400 : base_loss 0.0029; sparsity 0.2666; smoothness 0.0025; CF_pred 0.0; AUROC: 0.3626; AUPRC: 0.3434; pAUC: 0.491
+Epoch 500 : base_loss 0.0028; sparsity 0.2646; smoothness 0.0025; CF_pred 0.0; AUROC: 0.3516; AUPRC: 0.3366; pAUC: 0.491
+Max. stab. = 1.0, at α = 0.05263157894736842
+Dataset #3; Acc.: 0.4; Bal. Acc.: 0.5385; AUROC: 0.7253; AUPRC: 0.6516; pAUC: 0.6009; RMSE: 0.0596; coeff.: 0.0902
+Epoch 0 : base_loss 0.1792; sparsity 0.2443; smoothness 0.0027; CF_pred 0.0; AUROC: 0.5208; AUPRC: 0.4762; pAUC: 0.4956
+Epoch 100 : base_loss 0.0016; sparsity 0.2364; smoothness 0.0028; CF_pred 0.0; AUROC: 0.5938; AUPRC: 0.4755; pAUC: 0.4737
+Epoch 200 : base_loss 0.0015; sparsity 0.2202; smoothness 0.0028; CF_pred 0.0; AUROC: 0.625; AUPRC: 0.5068; pAUC: 0.4846
+Epoch 300 : base_loss 0.0014; sparsity 0.2093; smoothness 0.0028; CF_pred 0.0; AUROC: 0.6146; AUPRC: 0.5067; pAUC: 0.4846
+Epoch 400 : base_loss 0.0013; sparsity 0.2023; smoothness 0.0028; CF_pred 0.0; AUROC: 0.6146; AUPRC: 0.5071; pAUC: 0.4846
+Epoch 500 : base_loss 0.0013; sparsity 0.1978; smoothness 0.0028; CF_pred 0.0; AUROC: 0.6146; AUPRC: 0.5043; pAUC: 0.4846
+Epoch 0 : base_loss 0.2125; sparsity 0.2349; smoothness 0.003; CF_pred 0.0; AUROC: 0.5625; AUPRC: 0.5451; pAUC: 0.5504
+Epoch 100 : base_loss 0.0019; sparsity 0.2357; smoothness 0.003; CF_pred 0.0; AUROC: 0.4583; AUPRC: 0.4253; pAUC: 0.4846
+Epoch 200 : base_loss 0.0014; sparsity 0.2226; smoothness 0.003; CF_pred 0.0; AUROC: 0.4479; AUPRC: 0.4221; pAUC: 0.4846
+Epoch 300 : base_loss 0.0012; sparsity 0.2138; smoothness 0.003; CF_pred 0.0; AUROC: 0.4479; AUPRC: 0.4221; pAUC: 0.4846
+Epoch 400 : base_loss 0.0011; sparsity 0.2081; smoothness 0.0031; CF_pred 0.0; AUROC: 0.4583; AUPRC: 0.4248; pAUC: 0.4846
+Epoch 500 : base_loss 0.001; sparsity 0.2046; smoothness 0.0031; CF_pred 0.0; AUROC: 0.4583; AUPRC: 0.4248; pAUC: 0.4846
+Max. stab. = 0.722, at α = 0.10526315789473684
+Dataset #4; Acc.: 0.5; Bal. Acc.: 0.5833; AUROC: 0.6146; AUPRC: 0.5043; pAUC: 0.4846; RMSE: 0.0356; coeff.: 0.0675
+Epoch 0 : base_loss 0.4599; sparsity 0.2549; smoothness 0.0022; CF_pred 0.0; AUROC: 0.6; AUPRC: 0.6171; pAUC: 0.6842
+Epoch 100 : base_loss 0.0071; sparsity 0.2553; smoothness 0.0023; CF_pred 0.0; AUROC: 0.5867; AUPRC: 0.5504; pAUC: 0.614
+Epoch 200 : base_loss 0.0019; sparsity 0.2497; smoothness 0.0023; CF_pred 0.0; AUROC: 0.6133; AUPRC: 0.556; pAUC: 0.614
+Epoch 300 : base_loss 0.0017; sparsity 0.2434; smoothness 0.0023; CF_pred 0.0; AUROC: 0.6133; AUPRC: 0.5393; pAUC: 0.614
+Epoch 400 : base_loss 0.0016; sparsity 0.2392; smoothness 0.0023; CF_pred 0.0; AUROC: 0.5867; AUPRC: 0.4917; pAUC: 0.5789
+Epoch 500 : base_loss 0.0015; sparsity 0.2364; smoothness 0.0023; CF_pred 0.0; AUROC: 0.5733; AUPRC: 0.481; pAUC: 0.5789
+Epoch 0 : base_loss 0.1771; sparsity 0.2425; smoothness 0.0018; CF_pred 0.0; AUROC: 0.64; AUPRC: 0.4063; pAUC: 0.4737
+Epoch 100 : base_loss 0.0011; sparsity 0.2368; smoothness 0.0017; CF_pred 0.0; AUROC: 0.72; AUPRC: 0.5626; pAUC: 0.614
+Epoch 200 : base_loss 0.001; sparsity 0.2223; smoothness 0.0017; CF_pred 0.0; AUROC: 0.6933; AUPRC: 0.4584; pAUC: 0.5439
+Epoch 300 : base_loss 0.0009; sparsity 0.2128; smoothness 0.0017; CF_pred 0.0; AUROC: 0.68; AUPRC: 0.4649; pAUC: 0.5439
+Epoch 400 : base_loss 0.0009; sparsity 0.2068; smoothness 0.0017; CF_pred 0.0; AUROC: 0.6667; AUPRC: 0.4756; pAUC: 0.5439
+Epoch 500 : base_loss 0.0009; sparsity 0.203; smoothness 0.0017; CF_pred 0.0; AUROC: 0.6533; AUPRC: 0.4422; pAUC: 0.5088
+Max. stab. = 0.697, at α = 0.47368421052631576
+Dataset #5; Acc.: 0.5; Bal. Acc.: 0.5333; AUROC: 0.5733; AUPRC: 0.481; pAUC: 0.5789; RMSE: 0.0392; coeff.: 0.0803
+Epoch 0 : base_loss 0.7826; sparsity 0.306; smoothness 0.0019; CF_pred 0.0; AUROC: 0.4118; AUPRC: 0.2639; pAUC: 0.5459
+Epoch 100 : base_loss 0.001; sparsity 0.3119; smoothness 0.0019; CF_pred 0.0; AUROC: 0.3529; AUPRC: 0.1781; pAUC: 0.4737
+Epoch 200 : base_loss 0.0009; sparsity 0.3052; smoothness 0.0019; CF_pred 0.0; AUROC: 0.3529; AUPRC: 0.1781; pAUC: 0.4737
+Epoch 300 : base_loss 0.0009; sparsity 0.3002; smoothness 0.0019; CF_pred 0.0; AUROC: 0.3529; AUPRC: 0.1781; pAUC: 0.4737
+Epoch 400 : base_loss 0.0009; sparsity 0.2967; smoothness 0.0019; CF_pred 0.0; AUROC: 0.3529; AUPRC: 0.1781; pAUC: 0.4737
+Epoch 500 : base_loss 0.0009; sparsity 0.2944; smoothness 0.0019; CF_pred 0.0; AUROC: 0.3725; AUPRC: 0.1806; pAUC: 0.4737
+Epoch 0 : base_loss 0.6828; sparsity 0.2536; smoothness 0.002; CF_pred 0.0; AUROC: 0.451; AUPRC: 0.2179; pAUC: 0.4737
+Epoch 100 : base_loss 0.0012; sparsity 0.2453; smoothness 0.0019; CF_pred 0.0; AUROC: 0.5882; AUPRC: 0.2333; pAUC: 0.4737
+Epoch 200 : base_loss 0.0011; sparsity 0.2387; smoothness 0.0019; CF_pred 0.0; AUROC: 0.5882; AUPRC: 0.2333; pAUC: 0.4737
+Epoch 300 : base_loss 0.0011; sparsity 0.2339; smoothness 0.0019; CF_pred 0.0; AUROC: 0.5686; AUPRC: 0.2292; pAUC: 0.4737
+Epoch 400 : base_loss 0.001; sparsity 0.2307; smoothness 0.0019; CF_pred 0.0; AUROC: 0.5686; AUPRC: 0.2292; pAUC: 0.4737
+Epoch 500 : base_loss 0.001; sparsity 0.2285; smoothness 0.0019; CF_pred 0.0; AUROC: 0.5686; AUPRC: 0.2292; pAUC: 0.4737
+Max. stab. = 0.733, at α = 0.2631578947368421
+Dataset #6; Acc.: 0.2; Bal. Acc.: 0.2549; AUROC: 0.3725; AUPRC: 0.1806; pAUC: 0.4737; RMSE: 0.0293; coeff.: 0.1009
+Epoch 0 : base_loss 0.8117; sparsity 0.2681; smoothness 0.0013; CF_pred 0.0; AUROC: 0.62; AUPRC: 0.6415; pAUC: 0.5263
+Epoch 100 : base_loss 0.0013; sparsity 0.2675; smoothness 0.0013; CF_pred 0.0; AUROC: 0.55; AUPRC: 0.5902; pAUC: 0.5263
+Epoch 200 : base_loss 0.0012; sparsity 0.2626; smoothness 0.0013; CF_pred 0.0; AUROC: 0.56; AUPRC: 0.5957; pAUC: 0.5263
+Epoch 300 : base_loss 0.0011; sparsity 0.2589; smoothness 0.0013; CF_pred 0.0; AUROC: 0.57; AUPRC: 0.6029; pAUC: 0.5263
+Epoch 400 : base_loss 0.0011; sparsity 0.2562; smoothness 0.0013; CF_pred 0.0; AUROC: 0.59; AUPRC: 0.6139; pAUC: 0.5263
+Epoch 500 : base_loss 0.001; sparsity 0.2543; smoothness 0.0013; CF_pred 0.0; AUROC: 0.58; AUPRC: 0.5972; pAUC: 0.5263
+Epoch 0 : base_loss 1.1666; sparsity 0.2656; smoothness 0.0014; CF_pred 0.0; AUROC: 0.45; AUPRC: 0.5955; pAUC: 0.5789
+Epoch 100 : base_loss 0.0026; sparsity 0.2574; smoothness 0.0014; CF_pred 0.0; AUROC: 0.28; AUPRC: 0.4027; pAUC: 0.4737
+Epoch 200 : base_loss 0.0013; sparsity 0.248; smoothness 0.0014; CF_pred 0.0; AUROC: 0.31; AUPRC: 0.4127; pAUC: 0.4737
+Epoch 300 : base_loss 0.0013; sparsity 0.242; smoothness 0.0014; CF_pred 0.0; AUROC: 0.35; AUPRC: 0.426; pAUC: 0.4737
+Epoch 400 : base_loss 0.0012; sparsity 0.2384; smoothness 0.0014; CF_pred 0.0; AUROC: 0.35; AUPRC: 0.4262; pAUC: 0.4737
+Epoch 500 : base_loss 0.0012; sparsity 0.2361; smoothness 0.0014; CF_pred 0.0; AUROC: 0.36; AUPRC: 0.431; pAUC: 0.4737
+Max. stab. = 0.643, at α = 0.3157894736842105
+Dataset #7; Acc.: 0.6; Bal. Acc.: 0.6; AUROC: 0.58; AUPRC: 0.5972; pAUC: 0.5263; RMSE: 0.0324; coeff.: 0.0864
+Epoch 0 : base_loss 0.5783; sparsity 0.2575; smoothness 0.002; CF_pred 0.0; AUROC: 0.5455; AUPRC: 0.5011; pAUC: 0.479
+Epoch 100 : base_loss 0.0046; sparsity 0.2594; smoothness 0.0022; CF_pred 0.0; AUROC: 0.5758; AUPRC: 0.5208; pAUC: 0.479
+Epoch 200 : base_loss 0.0039; sparsity 0.252; smoothness 0.0022; CF_pred 0.0; AUROC: 0.5859; AUPRC: 0.5411; pAUC: 0.4843
+Epoch 300 : base_loss 0.0036; sparsity 0.2464; smoothness 0.0022; CF_pred 0.0; AUROC: 0.596; AUPRC: 0.5454; pAUC: 0.4843
+Epoch 400 : base_loss 0.0034; sparsity 0.2425; smoothness 0.0022; CF_pred 0.0; AUROC: 0.5859; AUPRC: 0.5377; pAUC: 0.4843
+Epoch 500 : base_loss 0.0032; sparsity 0.24; smoothness 0.0022; CF_pred 0.0; AUROC: 0.5758; AUPRC: 0.5339; pAUC: 0.4843
+Epoch 0 : base_loss 0.4708; sparsity 0.2383; smoothness 0.0023; CF_pred 0.0; AUROC: 0.5253; AUPRC: 0.5981; pAUC: 0.5428
+Epoch 100 : base_loss 0.0035; sparsity 0.2416; smoothness 0.0022; CF_pred 0.0; AUROC: 0.5253; AUPRC: 0.5973; pAUC: 0.5428
+Epoch 200 : base_loss 0.0031; sparsity 0.236; smoothness 0.0022; CF_pred 0.0; AUROC: 0.5152; AUPRC: 0.5807; pAUC: 0.5375
+Epoch 300 : base_loss 0.0029; sparsity 0.2319; smoothness 0.0022; CF_pred 0.0; AUROC: 0.5152; AUPRC: 0.5807; pAUC: 0.5375
+Epoch 400 : base_loss 0.0027; sparsity 0.2289; smoothness 0.0022; CF_pred 0.0; AUROC: 0.5152; AUPRC: 0.5807; pAUC: 0.5375
+Epoch 500 : base_loss 0.0026; sparsity 0.2269; smoothness 0.0022; CF_pred 0.0; AUROC: 0.5152; AUPRC: 0.5807; pAUC: 0.5375
+Max. stab. = 0.531, at α = 0.8421052631578947
+Dataset #8; Acc.: 0.55; Bal. Acc.: 0.5202; AUROC: 0.5758; AUPRC: 0.5339; pAUC: 0.4843; RMSE: 0.0568; coeff.: 0.0832
+Epoch 0 : base_loss 0.8361; sparsity 0.2416; smoothness 0.0025; CF_pred 0.0; AUROC: 0.5; AUPRC: 0.3469; pAUC: 0.4737
+Epoch 100 : base_loss 0.008; sparsity 0.2397; smoothness 0.0025; CF_pred 0.0; AUROC: 0.4405; AUPRC: 0.4073; pAUC: 0.5614
+Epoch 200 : base_loss 0.0017; sparsity 0.2313; smoothness 0.0025; CF_pred 0.0; AUROC: 0.4762; AUPRC: 0.4216; pAUC: 0.5614
+Epoch 300 : base_loss 0.0015; sparsity 0.2235; smoothness 0.0025; CF_pred 0.0; AUROC: 0.4881; AUPRC: 0.4296; pAUC: 0.5614
+Epoch 400 : base_loss 0.0015; sparsity 0.2184; smoothness 0.0025; CF_pred 0.0; AUROC: 0.4881; AUPRC: 0.4296; pAUC: 0.5614
+Epoch 500 : base_loss 0.0014; sparsity 0.2151; smoothness 0.0025; CF_pred 0.0; AUROC: 0.4881; AUPRC: 0.4296; pAUC: 0.5614
+Epoch 0 : base_loss 0.3331; sparsity 0.2637; smoothness 0.0023; CF_pred 0.0; AUROC: 0.631; AUPRC: 0.5088; pAUC: 0.5614
+Epoch 100 : base_loss 0.0029; sparsity 0.2636; smoothness 0.0022; CF_pred 0.0; AUROC: 0.6905; AUPRC: 0.5764; pAUC: 0.5865
+Epoch 200 : base_loss 0.0024; sparsity 0.2519; smoothness 0.0023; CF_pred 0.0; AUROC: 0.7024; AUPRC: 0.5838; pAUC: 0.5865
+Epoch 300 : base_loss 0.0021; sparsity 0.2437; smoothness 0.0023; CF_pred 0.0; AUROC: 0.6905; AUPRC: 0.5861; pAUC: 0.5865
+Epoch 400 : base_loss 0.0019; sparsity 0.2382; smoothness 0.0023; CF_pred 0.0; AUROC: 0.7143; AUPRC: 0.6; pAUC: 0.5865
+Epoch 500 : base_loss 0.0018; sparsity 0.2345; smoothness 0.0023; CF_pred 0.0; AUROC: 0.7381; AUPRC: 0.6648; pAUC: 0.6491
+Max. stab. = 0.643, at α = 0.7368421052631579
+Dataset #9; Acc.: 0.6; Bal. Acc.: 0.5238; AUROC: 0.4881; AUPRC: 0.4296; pAUC: 0.5614; RMSE: 0.0376; coeff.: 0.0742
+Epoch 0 : base_loss 0.3689; sparsity 0.2451; smoothness 0.0022; CF_pred 0.0; AUROC: 0.72; AUPRC: 0.5922; pAUC: 0.614
+Epoch 100 : base_loss 0.002; sparsity 0.2346; smoothness 0.0022; CF_pred 0.0; AUROC: 0.8667; AUPRC: 0.7267; pAUC: 0.6842
+Epoch 200 : base_loss 0.0013; sparsity 0.2186; smoothness 0.0022; CF_pred 0.0; AUROC: 0.84; AUPRC: 0.7148; pAUC: 0.6842
+Epoch 300 : base_loss 0.0012; sparsity 0.2076; smoothness 0.0022; CF_pred 0.0; AUROC: 0.84; AUPRC: 0.7148; pAUC: 0.6842
+Epoch 400 : base_loss 0.0012; sparsity 0.2007; smoothness 0.0022; CF_pred 0.0; AUROC: 0.8267; AUPRC: 0.71; pAUC: 0.6842
+Epoch 500 : base_loss 0.0011; sparsity 0.1963; smoothness 0.0022; CF_pred 0.0; AUROC: 0.8267; AUPRC: 0.71; pAUC: 0.6842
+Epoch 0 : base_loss 0.3851; sparsity 0.2598; smoothness 0.0025; CF_pred 0.0; AUROC: 0.3467; AUPRC: 0.2373; pAUC: 0.4737
+Epoch 100 : base_loss 0.0016; sparsity 0.264; smoothness 0.0024; CF_pred 0.0; AUROC: 0.3867; AUPRC: 0.2433; pAUC: 0.4737
+Epoch 200 : base_loss 0.0015; sparsity 0.2501; smoothness 0.0024; CF_pred 0.0; AUROC: 0.4533; AUPRC: 0.2615; pAUC: 0.4737
+Epoch 300 : base_loss 0.0014; sparsity 0.24; smoothness 0.0024; CF_pred 0.0; AUROC: 0.44; AUPRC: 0.2586; pAUC: 0.4737
+Epoch 400 : base_loss 0.0013; sparsity 0.2333; smoothness 0.0024; CF_pred 0.0; AUROC: 0.44; AUPRC: 0.2571; pAUC: 0.4737
+Epoch 500 : base_loss 0.0013; sparsity 0.2289; smoothness 0.0024; CF_pred 0.0; AUROC: 0.44; AUPRC: 0.2571; pAUC: 0.4737
+Max. stab. = 0.7, at α = 0.5263157894736842
+Dataset #10; Acc.: 0.65; Bal. Acc.: 0.7; AUROC: 0.8267; AUPRC: 0.71; pAUC: 0.6842; RMSE: 0.0334; coeff.: 0.0655
+
+Acc.         :0.47000000000000003
+Bal. Acc.    :0.49727917099240637
+AUROC        :0.5412509892068715
+AUPRC        :0.44710992917900805
+pAUC        :0.5341821190505401
+RMSE        :0.04026858176058401
+coeff.         :0.0798320472240448
+./weights/kuramoto_gvar_5/_bidirection best λ = [0.05]; β = [0.025]; γ = [0.]
+ RMSE, mean_coeffs: [0.038] $\pm$ [0.01] & [0.08] $\pm$ [0.006] 
+Acc, BA, AUC, AUPRC: [0.565] $\pm$ [0.169] & [0.54] $\pm$ [0.113] & [0.556] $\pm$ [0.143] & [0.409] $\pm$ [0.153] 
+--Return--
+> /work4/fujii/work/ABM/experimental_utils.py(350)run_grid_search()->None
+-> import pdb; pdb.set_trace()
+(Pdb) 
+Traceback (most recent call last):
+  File "run_grid_search.py", line 491, in <module>
+    index_None = index_None_val, args_list = args_list_val)
+  File "/work4/fujii/work/ABM/experimental_utils.py", line 350, in run_grid_search
+    import pdb; pdb.set_trace()
+  File "/usr/lib64/python3.6/bdb.py", line 55, in trace_dispatch
+    return self.dispatch_return(frame, arg)
+  File "/usr/lib64/python3.6/bdb.py", line 99, in dispatch_return
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+kuramoto datasets...
+p = 5, T = 100 
+lambdas: [0]
+betas: [0]
+gammas: [0.]
+Model:           GVAR...
+Iterating through 1 x 1 grid of parameters...
+λ = 0; β = 0; γ = 0.0; progress: 0.0
+Epoch 0 : base_loss 0.0274; sparsity 1.2636; smoothness 0.0053; CF_pred 0.0; AUROC: 0.4688; AUPRC: 0.2827; pAUC: 0.523
+Epoch 100 : base_loss 0.001; sparsity 0.6085; smoothness 0.0034; CF_pred 0.0; AUROC: 0.9062; AUPRC: 0.6083; pAUC: 0.5724
+Epoch 200 : base_loss 0.0004; sparsity 0.5387; smoothness 0.0031; CF_pred 0.0; AUROC: 0.9219; AUPRC: 0.7333; pAUC: 0.6546
+Epoch 300 : base_loss 0.0002; sparsity 0.5147; smoothness 0.003; CF_pred 0.0; AUROC: 0.9375; AUPRC: 0.7708; pAUC: 0.7039
+Epoch 400 : base_loss 0.0002; sparsity 0.5032; smoothness 0.0029; CF_pred 0.0; AUROC: 0.9375; AUPRC: 0.7708; pAUC: 0.7039
+Epoch 500 : base_loss 0.0001; sparsity 0.4969; smoothness 0.0029; CF_pred 0.0; AUROC: 0.9375; AUPRC: 0.7708; pAUC: 0.7039
+Dataset #1; Acc.: 0.9; Bal. Acc.: 0.8438; AUROC: 0.9375; AUPRC: 0.7708; pAUC: 0.7039; RMSE: 0.0121; coeff.: 0.0072
+predicted:[[0.01111667 0.00929843 0.00318588 0.00513318]
+ [0.00954738 0.00425549 0.00403542 0.0585659 ]
+ [0.01085285 0.00749525 0.00393503 0.01114569]
+ [0.01213331 0.02843272 0.03901563 0.02114425]
+ [0.03079078 0.01029043 0.02294258 0.04182928]]
+ground truth:[[0 0 0 0]
+ [0 0 0 1]
+ [0 0 0 0]
+ [0 0 1 0]
+ [1 0 1 0]]
+Epoch 0 : base_loss 0.0147; sparsity 0.881; smoothness 0.0054; CF_pred 0.0; AUROC: 0.2262; AUPRC: 0.2297; pAUC: 0.4737
+Epoch 100 : base_loss 0.0005; sparsity 0.5703; smoothness 0.0045; CF_pred 0.0; AUROC: 0.9167; AUPRC: 0.7861; pAUC: 0.6617
+Epoch 200 : base_loss 0.0002; sparsity 0.5458; smoothness 0.0046; CF_pred 0.0; AUROC: 0.9524; AUPRC: 0.8734; pAUC: 0.7494
+Epoch 300 : base_loss 0.0001; sparsity 0.5388; smoothness 0.0046; CF_pred 0.0; AUROC: 0.9524; AUPRC: 0.8734; pAUC: 0.7494
+Epoch 400 : base_loss 0.0001; sparsity 0.536; smoothness 0.0047; CF_pred 0.0; AUROC: 0.9524; AUPRC: 0.8734; pAUC: 0.7494
+Epoch 500 : base_loss 0.0001; sparsity 0.5345; smoothness 0.0047; CF_pred 0.0; AUROC: 0.9524; AUPRC: 0.8734; pAUC: 0.7494
+Dataset #2; Acc.: 0.95; Bal. Acc.: 0.9643; AUROC: 0.9524; AUPRC: 0.8734; pAUC: 0.7494; RMSE: 0.0088; coeff.: 0.0078
+predicted:[[0.01348946 0.00500066 0.00823285 0.00409238]
+ [0.00737856 0.00981371 0.01350586 0.00561361]
+ [0.02905485 0.03114445 0.04292836 0.02835947]
+ [0.02949306 0.01696683 0.00476274 0.01697005]
+ [0.01447687 0.01439703 0.04505242 0.02893688]]
+ground truth:[[0 0 0 0]
+ [0 0 0 0]
+ [1 0 1 1]
+ [1 0 0 0]
+ [0 0 1 1]]
+Epoch 0 : base_loss 0.0098; sparsity 0.8769; smoothness 0.0074; CF_pred 0.0; AUROC: 0.4949; AUPRC: 0.4674; pAUC: 0.479
+Epoch 100 : base_loss 0.0004; sparsity 0.6621; smoothness 0.0062; CF_pred 0.0; AUROC: 0.9596; AUPRC: 0.9536; pAUC: 0.8352
+Epoch 200 : base_loss 0.0002; sparsity 0.6524; smoothness 0.006; CF_pred 0.0; AUROC: 0.9899; AUPRC: 0.9889; pAUC: 0.9468
+Epoch 300 : base_loss 0.0001; sparsity 0.6492; smoothness 0.006; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Epoch 400 : base_loss 0.0001; sparsity 0.6473; smoothness 0.006; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Epoch 500 : base_loss 0.0001; sparsity 0.6461; smoothness 0.006; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Dataset #3; Acc.: 0.9; Bal. Acc.: 0.8889; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0; RMSE: 0.0074; coeff.: 0.0095
+predicted:[[0.03900014 0.01365169 0.05217938 0.0463171 ]
+ [0.00941122 0.01264848 0.02495467 0.0079735 ]
+ [0.03390497 0.01466651 0.02592737 0.04110931]
+ [0.02764634 0.02273113 0.009618   0.05366677]
+ [0.00725634 0.00316889 0.00769001 0.01084065]]
+ground truth:[[1 0 1 1]
+ [0 0 1 0]
+ [1 0 1 1]
+ [1 0 0 1]
+ [0 0 0 0]]
+Epoch 0 : base_loss 0.0216; sparsity 1.2972; smoothness 0.0065; CF_pred 0.0; AUROC: 0.5208; AUPRC: 0.4886; pAUC: 0.4846
+Epoch 100 : base_loss 0.0005; sparsity 0.9102; smoothness 0.0051; CF_pred 0.0; AUROC: 0.8854; AUPRC: 0.7347; pAUC: 0.5285
+Epoch 200 : base_loss 0.0002; sparsity 0.8718; smoothness 0.0048; CF_pred 0.0; AUROC: 0.9062; AUPRC: 0.7603; pAUC: 0.5504
+Epoch 300 : base_loss 0.0001; sparsity 0.8563; smoothness 0.0048; CF_pred 0.0; AUROC: 0.9167; AUPRC: 0.7714; pAUC: 0.5614
+Epoch 400 : base_loss 0.0001; sparsity 0.8483; smoothness 0.0047; CF_pred 0.0; AUROC: 0.9167; AUPRC: 0.7714; pAUC: 0.5614
+Epoch 500 : base_loss 0.0001; sparsity 0.8439; smoothness 0.0047; CF_pred 0.0; AUROC: 0.9167; AUPRC: 0.7714; pAUC: 0.5614
+Dataset #4; Acc.: 0.8; Bal. Acc.: 0.7708; AUROC: 0.9167; AUPRC: 0.7714; pAUC: 0.5614; RMSE: 0.0086; coeff.: 0.0126
+predicted:[[0.05186255 0.01680214 0.05048554 0.0168901 ]
+ [0.00989194 0.01194776 0.01771186 0.01025859]
+ [0.01417167 0.06787152 0.02107217 0.04118161]
+ [0.03870573 0.03698115 0.02540461 0.0361413 ]
+ [0.0492304  0.0779412  0.03343815 0.02535988]]
+ground truth:[[1 0 1 0]
+ [0 0 0 0]
+ [0 1 0 1]
+ [1 1 0 1]
+ [1 0 0 0]]
+Epoch 0 : base_loss 0.0127; sparsity 0.9993; smoothness 0.0077; CF_pred 0.0; AUROC: 0.2727; AUPRC: 0.3569; pAUC: 0.4737
+Epoch 100 : base_loss 0.0004; sparsity 0.828; smoothness 0.0069; CF_pred 0.0; AUROC: 0.7475; AUPRC: 0.7064; pAUC: 0.5906
+Epoch 200 : base_loss 0.0002; sparsity 0.8139; smoothness 0.0068; CF_pred 0.0; AUROC: 0.8687; AUPRC: 0.8305; pAUC: 0.6172
+Epoch 300 : base_loss 0.0002; sparsity 0.8089; smoothness 0.0067; CF_pred 0.0; AUROC: 0.899; AUPRC: 0.8485; pAUC: 0.6119
+Epoch 400 : base_loss 0.0001; sparsity 0.807; smoothness 0.0067; CF_pred 0.0; AUROC: 0.9091; AUPRC: 0.8763; pAUC: 0.6651
+Epoch 500 : base_loss 0.0001; sparsity 0.8063; smoothness 0.0067; CF_pred 0.0; AUROC: 0.9091; AUPRC: 0.8763; pAUC: 0.6651
+Dataset #5; Acc.: 0.8; Bal. Acc.: 0.798; AUROC: 0.9091; AUPRC: 0.8763; pAUC: 0.6651; RMSE: 0.0104; coeff.: 0.0118
+predicted:[[0.03573427 0.04925558 0.03914354 0.03196944]
+ [0.03915049 0.02946289 0.03124394 0.0093073 ]
+ [0.00604334 0.03547266 0.03697853 0.01583878]
+ [0.00715973 0.03694819 0.02912183 0.06914585]
+ [0.02405782 0.02601304 0.01394079 0.03596085]]
+ground truth:[[0 1 0 1]
+ [1 0 1 0]
+ [0 1 1 0]
+ [0 1 0 1]
+ [0 0 0 1]]
+Epoch 0 : base_loss 0.0052; sparsity 0.8991; smoothness 0.0055; CF_pred 0.0; AUROC: 0.7024; AUPRC: 0.6189; pAUC: 0.6491
+Epoch 100 : base_loss 0.0002; sparsity 0.6544; smoothness 0.0045; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Epoch 200 : base_loss 0.0001; sparsity 0.6362; smoothness 0.0044; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Epoch 300 : base_loss 0.0; sparsity 0.6285; smoothness 0.0044; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Epoch 400 : base_loss 0.0; sparsity 0.6245; smoothness 0.0044; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Epoch 500 : base_loss 0.0; sparsity 0.6221; smoothness 0.0044; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Dataset #6; Acc.: 1.0; Bal. Acc.: 1.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0; RMSE: 0.0045; coeff.: 0.0092
+predicted:[[0.01123318 0.03694325 0.05345066 0.00614306]
+ [0.02096029 0.04929815 0.01605101 0.04194625]
+ [0.01388602 0.01329681 0.0133601  0.03644057]
+ [0.01675038 0.0094408  0.01986847 0.01114405]
+ [0.05893057 0.00508599 0.01171551 0.01434089]]
+ground truth:[[0 1 1 0]
+ [0 1 0 1]
+ [0 0 0 1]
+ [0 0 0 0]
+ [1 0 0 0]]
+Epoch 0 : base_loss 0.0119; sparsity 0.7486; smoothness 0.0045; CF_pred 0.0; AUROC: 0.3407; AUPRC: 0.2979; pAUC: 0.4737
+Epoch 100 : base_loss 0.0003; sparsity 0.6168; smoothness 0.0041; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Epoch 200 : base_loss 0.0001; sparsity 0.6117; smoothness 0.004; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Epoch 300 : base_loss 0.0001; sparsity 0.611; smoothness 0.004; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Epoch 400 : base_loss 0.0001; sparsity 0.611; smoothness 0.004; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Epoch 500 : base_loss 0.0001; sparsity 0.6112; smoothness 0.004; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Dataset #7; Acc.: 1.0; Bal. Acc.: 1.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0; RMSE: 0.0088; coeff.: 0.0089
+predicted:[[0.01553169 0.00645976 0.0343271  0.0081986 ]
+ [0.01105204 0.04309503 0.02094019 0.04586004]
+ [0.00939305 0.00800684 0.00487057 0.00682802]
+ [0.01688917 0.03545419 0.04132758 0.01096142]
+ [0.0136763  0.01193661 0.03073264 0.03445586]]
+ground truth:[[0 0 1 0]
+ [0 1 0 1]
+ [0 0 0 0]
+ [0 1 1 0]
+ [0 0 1 1]]
+Epoch 0 : base_loss 0.0114; sparsity 0.9134; smoothness 0.004; CF_pred 0.0; AUROC: 0.62; AUPRC: 0.562; pAUC: 0.4737
+Epoch 100 : base_loss 0.0002; sparsity 0.8611; smoothness 0.0037; CF_pred 0.0; AUROC: 0.97; AUPRC: 0.9698; pAUC: 0.8421
+Epoch 200 : base_loss 0.0001; sparsity 0.8565; smoothness 0.0037; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Epoch 300 : base_loss 0.0; sparsity 0.8548; smoothness 0.0037; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Epoch 400 : base_loss 0.0; sparsity 0.8538; smoothness 0.0037; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Epoch 500 : base_loss 0.0; sparsity 0.8532; smoothness 0.0037; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Dataset #8; Acc.: 1.0; Bal. Acc.: 1.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0; RMSE: 0.0044; coeff.: 0.0125
+predicted:[[0.02378735 0.01104343 0.01340078 0.05742534]
+ [0.00808961 0.04586906 0.01346508 0.05353995]
+ [0.06185636 0.03042842 0.02406837 0.05960457]
+ [0.00816976 0.05100331 0.03557484 0.0143135 ]
+ [0.03270127 0.03126784 0.01962276 0.04169746]]
+ground truth:[[0 0 0 1]
+ [0 1 0 1]
+ [1 0 0 1]
+ [0 1 1 0]
+ [1 1 0 1]]
+Epoch 0 : base_loss 0.016; sparsity 0.9501; smoothness 0.0073; CF_pred 0.0; AUROC: 0.5781; AUPRC: 0.3333; pAUC: 0.4737
+Epoch 100 : base_loss 0.0005; sparsity 0.5699; smoothness 0.0049; CF_pred 0.0; AUROC: 0.9844; AUPRC: 0.95; pAUC: 0.9178
+Epoch 200 : base_loss 0.0002; sparsity 0.5342; smoothness 0.0046; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Epoch 300 : base_loss 0.0001; sparsity 0.5204; smoothness 0.0045; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Epoch 400 : base_loss 0.0001; sparsity 0.5137; smoothness 0.0044; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Epoch 500 : base_loss 0.0001; sparsity 0.5099; smoothness 0.0043; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Dataset #9; Acc.: 0.95; Bal. Acc.: 0.875; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0; RMSE: 0.0087; coeff.: 0.0074
+predicted:[[0.01173617 0.00937476 0.01106916 0.01666125]
+ [0.00947838 0.02709903 0.00883897 0.01240774]
+ [0.01758877 0.04740434 0.01377941 0.00938675]
+ [0.00699458 0.0143649  0.05553866 0.00581682]
+ [0.01225967 0.01168675 0.03568689 0.01129652]]
+ground truth:[[0 0 0 0]
+ [0 1 0 0]
+ [0 1 0 0]
+ [0 0 1 0]
+ [0 0 1 0]]
+Epoch 0 : base_loss 0.0104; sparsity 0.9253; smoothness 0.0076; CF_pred 0.0; AUROC: 0.5595; AUPRC: 0.399; pAUC: 0.4987
+Epoch 100 : base_loss 0.0004; sparsity 0.594; smoothness 0.0055; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Epoch 200 : base_loss 0.0002; sparsity 0.5662; smoothness 0.0053; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Epoch 300 : base_loss 0.0001; sparsity 0.5552; smoothness 0.0052; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Epoch 400 : base_loss 0.0001; sparsity 0.5495; smoothness 0.0051; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Epoch 500 : base_loss 0.0001; sparsity 0.5464; smoothness 0.0051; CF_pred 0.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0
+Dataset #10; Acc.: 1.0; Bal. Acc.: 1.0; AUROC: 1.0; AUPRC: 1.0; pAUC: 1.0; RMSE: 0.0083; coeff.: 0.008
+predicted:[[0.05283265 0.04099124 0.05289769 0.0101259 ]
+ [0.00621361 0.01189364 0.00580229 0.01349416]
+ [0.00855691 0.04167959 0.00702568 0.00578059]
+ [0.04142598 0.03479106 0.01731229 0.00841086]
+ [0.01319209 0.00894513 0.01741262 0.00989776]]
+ground truth:[[1 1 1 0]
+ [0 0 0 0]
+ [0 1 0 0]
+ [1 1 0 0]
+ [0 0 0 0]]
+
+Acc.         :0.9299999999999999
+Bal. Acc.    :0.9140737734487734
+AUROC        :0.9715638528138528
+AUPRC        :0.9291895642937309
+pAUC        :0.867979608111187
+RMSE        :0.008187460777695757
+coeff.         :0.009483933448791504
+./weights/kuramoto_gvar_5/_TEST_self best λ = [0]; β = [0]; γ = [0.]
+ RMSE, mean_coeffs: [0.008] $\pm$ [0.002] & [0.009] $\pm$ [0.002] 
+Acc, BA, AUC, AUPRC: [0.93] $\pm$ [0.075] & [0.914] $\pm$ [0.086] & [0.972] $\pm$ [0.036] & [0.929] $\pm$ [0.093] 
+--Return--
+> /work4/fujii/work/ABM/experimental_utils.py(350)run_grid_search()->None
+-> import pdb; pdb.set_trace()
+(Pdb) 
+Traceback (most recent call last):
+  File "run_grid_search.py", line 484, in <module>
+    index_None = index_None_te, args_list = args_list_te)
+  File "/work4/fujii/work/ABM/experimental_utils.py", line 350, in run_grid_search
+    import pdb; pdb.set_trace()
+  File "/usr/lib64/python3.6/bdb.py", line 55, in trace_dispatch
+    return self.dispatch_return(frame, arg)
+  File "/usr/lib64/python3.6/bdb.py", line 99, in dispatch_return
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
