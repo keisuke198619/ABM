@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 ### Preprocessing 
 
-* The synthetic, sula, and peregrine datasets are stored in the folder `./datasets`.
+* The synthetic, bats, sula, and peregrine datasets are stored in the folder `./datasets`.
 * These can be preprocessed by the code in the folder `./datasets`.
 * Other animal data should be set in the folder `./datasets/GC_**`.
 
