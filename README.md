@@ -26,7 +26,9 @@ pip install -r requirements.txt
 
 ### References
 
-Codes for the baseline models are not included into this project and is available in the following repositories:
+Codes for the baseline models are available in the following repositories:
+
+- GVAR: https://openreview.net/forum?id=DEa4JdMWRHp
 - eSRU: https://github.com/sakhanna/SRU_for_GCI
 - ACD: https://github.com/loeweX/AmortizedCausalDiscovery
 - Linear GC and Local TF: https://github.com/tailintalent/causal
