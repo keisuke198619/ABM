@@ -652,8 +652,6 @@ def training_procedure_trgc(data, structure, args, order: int, hidden_layer_size
         if not flag_dynamic:
             a_hat_1_original = a_hat_1.copy()
             a_hat_binary = np.abs(a_hat_1).copy()
-            sorted = np.sort(a_hat_binary.flatten())
-            nums_a = len(a_hat_1.flatten())
             
             if args.navigation:
                 val_max_pos = np.max(a_hat_1_original)
@@ -667,11 +665,9 @@ def training_procedure_trgc(data, structure, args, order: int, hidden_layer_size
                     a_signed[i,(a_signed[i]<threshold_pos)&(a_signed[i]>-threshold_neg)] = 0
                 a_hat_binary = np.abs(a_signed)
 
-            else: # args.experiment == 'kuramoto':
+            elif args.experiment == 'kuramoto':
                 val_max = np.max(a_hat_1_original)
                 threshold = val_max/2 
-
-            if not args.navigation:
                 a_hat_binary[a_hat_binary>=threshold] = 1
                 a_hat_binary[a_hat_binary<threshold] = 0
                 a_signed = a_hat_1_original * a_hat_binary

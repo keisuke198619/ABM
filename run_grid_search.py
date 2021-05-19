@@ -45,7 +45,6 @@ parser.add_argument('--percept', action='store_true', help='Navigation function 
 parser.add_argument('--self_other', action='store_true', help='use interaction information')
 parser.add_argument('--TEST', action='store_true')
 parser.add_argument('--dynamic_edge', action='store_true')
-parser.add_argument("--training_samples", type=int, default=5)
 parser.add_argument("--test_samples", type=int, default=10)
 parser.add_argument("--numProcess", type=int, default=16) 
 # Parsing args
@@ -130,10 +129,10 @@ def animal_data(args,loc,vel,len_samples=1,edges=None,edges_res=None,index_none=
             vel__ = np.expand_dims(np.sum(vel_*loc_,axis=2),3) # if > 0, approach; elif < 0, separate
             loc_ = np.expand_dims(loc_.transpose((0,1,3,2)).reshape((ns, num_timesteps, (K-1)*out_dims)),3)
             #vec_ = np.concatenate([loc_,np.expand_dims(dist,3)],2)
-            reciprocal = 1/(np.expand_dims(dist,3))
+            reciprocal = 1/(np.expand_dims(dist,3)) # reciprocal of distance 
             ind_rec = (reciprocal>2).nonzero() # *args.max
             reciprocal[ind_rec] = 2 # *args.max # upper limit (dist = 0.5 if dist < 0.5)
-            vec_ = np.concatenate([loc_,vel__,reciprocal],2) # *args.max
+            vec_ = np.concatenate([loc_,vel__,reciprocal],2) # direction((K-1)*2), approach(K-1), reciprocal of distance(K-1)
             
             #gausskernel = np.expand_dims(np.exp(-(dist)**2/(2*sigma_kernel)),3) # np.exp(-1**2/(2*sigma_kernel)) 1->0.92, 2-> 0.73, 5->0.14
             #gausskernels = np.repeat(gausskernel,2,axis=3).reshape((ns, num_timesteps,(K-1)*2,1))
@@ -181,10 +180,7 @@ def animal_data(args,loc,vel,len_samples=1,edges=None,edges_res=None,index_none=
     return datasets, structures, args, dynamic_structures
 
 def boid_data(args,suffix,train=1):
-    if train == 1:
-        str_data = "_train"
-        len_samples = args.training_samples
-    elif train == 0:
+    if train == 0:
         str_data = "_valid"
         len_samples = args.test_samples
     else:
@@ -220,7 +216,7 @@ if args.realdata:
         num_seqs = len(matdata["dataset"][0])
         args.Fs = 30.3030
 
-    elif args.experiment == 'sula' or args.experiment == 'peregrine' or args.experiment == 'mice':
+    elif args.experiment == 'sula' or args.experiment == 'peregrine' or args.experiment == 'mice' or args.experiment == 'flies':
         # args.data_dir = './datasets/animals/'
         data_ = np.load(os.path.join(args.data_dir,'GC_'+args.experiment+'/'+args.experiment+'_data.npy'))
         num_seqs = len(data_) # no. of sequences
@@ -234,10 +230,15 @@ if args.realdata:
             n_dim = 2
             args.Fs = 1
             valid_samples = []
-            test_samples = [0,1]
+            test_samples = range(25)
         elif args.experiment == 'mice':
             n_dim = 2  
-            args.Fs = 1
+            args.Fs = 30
+            valid_samples = []
+            test_samples = [0,1,2]
+        elif args.experiment == 'flies':
+            n_dim = 2  
+            args.Fs = 30
             valid_samples = []
             test_samples = [0,1]
         args.max = 1 
@@ -246,12 +247,14 @@ if args.realdata:
             if args.experiment == 'peregrine':
                 data[i] = data_[i].transpose(2,1,0).astype(np.float64)
             else:
-                data[i] = np.zeros((len(data_[i][0][0]),data_[i].shape[1],data_[i].shape[0]))
-                for j in range(data_[i].shape[1]): 
-                    for k in range(data_[i].shape[0]): 
-                        data[i][:,j,k] = data_[i][k,j].astype(np.float64)
+                data_i = np.array(data_[i])
+                data[i] = np.zeros((len(data_i[0][0]),data_i.shape[1],data_i.shape[0]))
+                for j in range(data_i.shape[1]): 
+                    for k in range(data_i.shape[0]): 
+                        data[i][:,j,k] = data_i[k,j].astype(np.float64)
 
     # time_length, num_dims, num_agants = data[0].shape
+    args.test_samples = len(test_samples)
     args_original = copy.deepcopy(args)
     for f in range(num_seqs):
         del args
@@ -263,7 +266,7 @@ if args.realdata:
             index_none = matdata["dataset"][0,f][0,0][2].squeeze()   
             label = matdata["dataset"][0,f][0,0][3].squeeze()   
             
-        if args.experiment == 'sula' or args.experiment == 'peregrine' or args.experiment == 'mice':
+        if args.experiment == 'sula' or args.experiment == 'peregrine' or args.experiment == 'mice' or args.experiment == 'flies':
             index_none = None
             vel = data[f][:,:n_dim]
             loc = data[f][:,n_dim:n_dim*2]
@@ -303,7 +306,7 @@ if args.realdata:
             dynamic_structures_te.append(label)
 
     signed_structures = structures_te if args.TEST else structures_val
-
+    
 
     # hyperparameters
     if args.self_other and args.CF_pred: 

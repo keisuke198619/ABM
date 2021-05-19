@@ -11,7 +11,7 @@ class SENNGC(nn.Module):
     def __init__(self, num_vars: int, order: int, hidden_layer_size: int, num_hidden_layers: int, device: torch.device,
                  args=None):
         """
-        Generalised VAR (GVAR) model based on self-explaining neural networks.
+        Augmented behavioral model based on self-explaining neural networks.
 
         @param num_vars: number of variables (p).
         @param order:  model order (maximum lag, K).
@@ -102,6 +102,8 @@ class SENNGC(nn.Module):
     def init_weights_avoid(self,m):
         if 'bat' in self.experiment:
             nn.init.constant_(m.bias, 0.1)
+        elif 'sula' in self.experiment:
+            nn.init.constant_(m.bias, 0.001)
         else:
             nn.init.constant_(m.bias, 0.)
 

@@ -59,7 +59,7 @@ def run_grid_search(args, lambdas: np.ndarray, gammas: np.ndarray, betas: np.nda
     os.environ['PYTHONHASHSEED'] = str(seed)
 
     # save weights
-    wtdir = "./weights/" + args.experiment + "_" + args.model + "_" + str(args.training_samples) + "/"
+    wtdir = "./weights/" + args.experiment + "_" + args.model + "_" + str(args.test_samples) + "/"
 
     filename0 = ''
     if args.TEST:
@@ -141,6 +141,7 @@ def run_grid_search(args, lambdas: np.ndarray, gammas: np.ndarray, betas: np.nda
                         bal_accs_neg_ij = []
                 
                 n_data = args.test_samples if args.TEST else args.test_samples 
+                time_compute = np.zeros((n_data,1))
                 for l in range(n_data): # 1,2):# 4,5):# 
                     if args.realdata:
                         args = args_list[l]
@@ -179,6 +180,7 @@ def run_grid_search(args, lambdas: np.ndarray, gammas: np.ndarray, betas: np.nda
                             a_l_ = np.abs(np.sign(a_l_)).astype(np.int)
 
                     batch_size = args.batch_size # d_l.shape[0] # 
+                    start = time.time()
 
                     if signed_structures is None:
                         a_hat_l, a_hat_l_, a_hat_dl_, coeffs_full_l, coeffs_percept_l, mse, model, preds = training_procedure_trgc(data=d_l,structure=a_l, args=args, order=K,
@@ -204,6 +206,7 @@ def run_grid_search(args, lambdas: np.ndarray, gammas: np.ndarray, betas: np.nda
                                                                                 beta_1=beta_1, beta_2=beta_2, true_struct=a_l_,
                                                                                 verbose=False, signed=True, bidirection=args.bidirection)
 
+                    time_compute[l] = time.time() - start 
                     mse = np.sqrt(mse)
                     mse_ij.append(mse)
                     coeff_ij.append(np.mean(np.abs(coeffs_full_l)))
@@ -261,12 +264,11 @@ def run_grid_search(args, lambdas: np.ndarray, gammas: np.ndarray, betas: np.nda
                         if args.percept:
                             weights = model.avoid_nets.bias.data.detach().cpu().numpy()
 
-                            try: 
-                                if not args.realdata:
-                                    mdic = {"coeffs_raw": a_hat_l_,"coeffs": tmp_a_l,"data":d_l,"coeffs_time":a_hat_dl_signed,"weights":weights,"true_bi":a_l_,"true_time":a_dl_,"true_signed":a_l_signed,"args":args,"percept":coeffs_percept_l, "preds":preds}
-                                else:
-                                    mdic = {"coeffs_raw": a_hat_l_,"coeffs": tmp_a_l,"data":d_l,"coeffs_time":a_hat_dl_signed,"weights":weights,"args":args,"percept":coeffs_percept_l, "preds":preds}
-                            except: import pdb; pdb.set_trace()
+                            if not args.realdata:
+                                mdic = {"coeffs_raw": a_hat_l_,"coeffs": tmp_a_l,"data":d_l,"coeffs_time":a_hat_dl_signed,"weights":weights,"true_bi":a_l_,"true_time":a_dl_,"true_signed":a_l_signed,"args":args,"percept":coeffs_percept_l, "preds":preds}
+                            else:
+                                mdic = {"coeffs_raw": a_hat_l_,"coeffs": tmp_a_l,"data":d_l,"coeffs_time":a_hat_dl_signed,"weights":weights,"args":args,"percept":coeffs_percept_l, "preds":preds}
+
                         else:
                             if not args.realdata: 
                                 mdic = {"coeffs_raw": a_hat_l_,"coeffs": tmp_a_l,"data":d_l,"coeffs_time":a_hat_dl_signed,"true_bi":a_l_,"true_time":a_dl_,"true_signed":a_l_signed,"args":args, "preds":preds}
@@ -276,7 +278,9 @@ def run_grid_search(args, lambdas: np.ndarray, gammas: np.ndarray, betas: np.nda
                         
                         if not args.realdata: 
                             print("predicted:" + str(a_hat_l_))    
-                            print("ground truth:" + str(a_l_signed.reshape((p,p-1))))                  
+                            print("ground truth:" + str(a_l_signed.reshape((p,p-1))))     
+                        else:
+                            print("Dataset #" + str(l + 1) + " analyzed")             
                         # np.round(a_hat_l_signed[:,0,0],1)
                     elif "kuramoto" in args.experiment and len(lambdas)==1:
                         coeffs_time = np.max(np.abs(coeffs_full_l[:,:,:,args.d_self:]), axis=1)
@@ -328,6 +332,7 @@ def run_grid_search(args, lambdas: np.ndarray, gammas: np.ndarray, betas: np.nda
         i,k,j = np.where(mean_auprcs==np.max(mean_auprcs))
 
     # display
+    print(" computation time: {0:.0f} $\pm$ {1:.0f}".format(np.mean(time_compute), np.std(time_compute)))
     print(filename0 + " best λ = " + str(lambdas[i]) + "; β = " + str(betas[k])+ "; γ = " + str(gammas[j]))
     print(' RMSE, mean_coeffs: ' +  str(np.round(mean_mse[i,k,j],3))+' $\pm$ '+str(np.round(sd_mse[i,k,j],3))+' &'
         +' ' + str(np.round(mean_coeff[i,k,j],3))+' $\pm$ '+str(np.round(sd_coeff[i,k,j],3))+' ')
