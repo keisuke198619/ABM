@@ -11,7 +11,7 @@ addpath('.\heatmaps')
 % mat_dir0 = '..\..\weights\bats_gvar_2\' ; % for other than fujii
 mat_dir0 = '\\spica\workspace4\fujii\work\ABM\weights\bats_gvar_2\' ; % for fujii
 
-mat_dir1 = [mat_dir0,'_TEST_bidirection\'];
+% mat_dir1 = [mat_dir0,'_TEST_bidirection\'];
 mat_dir2 = [mat_dir0,'_TEST_percept_CF_pred_self\'];
 
 % movie
@@ -29,12 +29,12 @@ if 1
         end
         
         % GVAR
-        load([mat_dir1,'coeffs_',num2str(f)]) ;
-        coeffs_gvar = squeeze(coeffs) ; 
-        coeffs_time_gvar = squeeze(coeffs_time)/max(abs(coeffs_time(:))) ;
-        coeffs_gvar_ = coeffs_gvar; 
-        coeffs_gvar_(coeffs_gvar_>0) = 1 ;
-        coeffs_gvar_(coeffs_gvar_<0) = -1 ;
+%         load([mat_dir1,'coeffs_',num2str(f)]) ;
+%         coeffs_gvar = squeeze(coeffs) ; 
+%         coeffs_time_gvar = squeeze(coeffs_time)/max(abs(coeffs_time(:))) ;
+%         coeffs_gvar_ = coeffs_gvar; 
+%         coeffs_gvar_(coeffs_gvar_>0) = 1 ;
+%         coeffs_gvar_(coeffs_gvar_<0) = -1 ;
 
         % Our method
         load([mat_dir2,'coeffs_',num2str(f)]) ;
@@ -148,7 +148,7 @@ if 1
                 
                 xlim([0 End]); ylim([-1 1])
                 ylabel([num2str(k),'<-',List_{j}])
-                title(['ours: ',num2str(coeffs_(k,j)),' gvar: ',num2str(coeffs_gvar_(k,j))])
+                title(['ours: ',num2str(coeffs_(k,j))]); %,' gvar: ',num2str(coeffs_gvar_(k,j))])
                 hold off
             end
         end        
