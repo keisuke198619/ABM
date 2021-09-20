@@ -10,7 +10,7 @@ else
 end
 video_dir = '.\videos\';
 % mat_dir = ['..\weights\',filename,'_gvar_5\_TEST_percept_CF_pred_self\']; % for others than fujii
-mat_dir = ['\\spica\workspace4\fujii\work\ABM\weights\',filename,'_gvar_5\_TEST_percept_CF_pred_self\']; % for fujii
+mat_dir = ['\\spica\workspace4\fujii\work\ABM\weights\',filename,'_gvar_3\_TEST_percept_CF_pred_self\']; % for fujii
 T_sula = [20000,200] ;
 
 % analyzed data
@@ -65,7 +65,7 @@ if 1
 
        
         % figure
-        figure(f)
+        if 0 figure(f)
         for k = 1:K
             % legend
             List_ = List;
@@ -91,18 +91,19 @@ if 1
                 hold off
             end
         end
+        end
         
         if 1 % movie
-%             if f > 1
-%                 close(h)
-%             end
+            if f > 1
+                close(h)
+            end
             % figure('visible','off'); % h = figure(1); h =
             h = figure(10);
             set(gcf,'color',[1 1 1]) ;
             if contains(filenames{f},'sula')
                 videoPath = [video_dir,filenames{f},'_T_',num2str(Start+T_sula(f)),'_',num2str(End+T_sula(f))]; 
             else
-                videoPath = [video_dir,filenames{f},'_T_',num2str(Start),'_',num2str(End)]; % ['video_',num2str(n)] ;
+                videoPath = [video_dir,filenames{f},num2str(f),'_T_',num2str(Start),'_',num2str(End)]; % ['video_',num2str(n)] ;
             end
             
             v = VideoWriter([videoPath,'_analyzed.mp4'],'MPEG-4');
@@ -173,7 +174,7 @@ if 1
                 end
                 hold off
                 
-                % axis equal
+                axis equal
                 if 0 % contains(filenames{f},'sula')
                 elseif contains(filenames{f},'peregrine')
                     VIEW = [-10 40]
