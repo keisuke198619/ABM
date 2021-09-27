@@ -126,6 +126,12 @@ def animal_data(args,loc,vel,len_samples=1,edges=None,edges_res=None,index_none=
             vel_ = vel[:,:,:,i:i+1].repeat(K-1,3)/args.vel_max
             dist = np.linalg.norm(loc_,axis=2,ord=2)
             loc_ /= np.expand_dims(dist,2).repeat(out_dims,2)
+            for ii in range(K-1):
+                loc_ii = loc_[0,:,:,ii]
+                if np.sum(np.isnan(loc_ii))>0:
+                    idx2 = np.where(np.isnan(loc_ii[:,0])) 
+                    loc_[0,idx2,:,ii] = np.zeros((len(idx2),loc_ii.shape[1]))
+
             vel__ = np.expand_dims(np.sum(vel_*loc_,axis=2),3) # if > 0, approach; elif < 0, separate
             loc_ = np.expand_dims(loc_.transpose((0,1,3,2)).reshape((ns, num_timesteps, (K-1)*out_dims)),3)
             #vec_ = np.concatenate([loc_,np.expand_dims(dist,3)],2)
@@ -206,11 +212,11 @@ if args.realdata:
     args_list_val = []; args_list_te = []
     signed_structures_val = [] ; signed_structures_te = []
     dynamic_structures_val = []; dynamic_structures_te = []
-
+    test_samples = range(args.test_samples)
     if args.experiment == "bats":
         matdata = io.loadmat(args.data_dir+'/GC_bats/dataset_bats.mat')
         valid_samples = []
-        test_samples = [0,1]
+        # test_samples = [0,1]
         # len_samples = 1
         args.max = 1 
         num_seqs = len(matdata["dataset"][0])
@@ -225,22 +231,22 @@ if args.realdata:
             n_dim = 3
             args.Fs = 5
             valid_samples = []
-            test_samples = [0,1]
+            # test_samples = [0]#,1]
         elif args.experiment == 'sula':
             n_dim = 2
             args.Fs = 1
             valid_samples = []
-            test_samples = range(25)
+            # test_samples = range(25)
         elif args.experiment == 'mice':
             n_dim = 2  
             args.Fs = 30
             valid_samples = []
-            test_samples = [0,1,2]
+            # test_samples = [0,1,2]
         elif args.experiment == 'flies':
             n_dim = 2  
             args.Fs = 30
             valid_samples = []
-            test_samples = [0,1]
+            # test_samples = [0,1]
         args.max = 1 
         data = [[] for _ in range(num_seqs)]
         for i in range(num_seqs):

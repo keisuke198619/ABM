@@ -351,5 +351,6 @@ def run_grid_search(args, lambdas: np.ndarray, gammas: np.ndarray, betas: np.nda
                     +' ' + str(np.round(mean_bal_accs[i,k,j],3))+' $\pm$ '+str(np.round(sd_bal_accs[i,k,j],3))+' &'
                     +' ' + str(np.round(mean_aurocs[i,k,j],3))+' $\pm$ '+str(np.round(sd_aurocs[i,k,j],3))+' &'
                     +' ' + str(np.round(mean_auprcs[i,k,j],3))+' $\pm$ '+str(np.round(sd_auprcs[i,k,j],3))+' ')   
-
+                    
+    print('computation finished!')
     import pdb; pdb.set_trace()
