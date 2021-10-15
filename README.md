@@ -21,7 +21,7 @@ pip install -r requirements.txt
 * These can be preprocessed by the code in the folder `./datasets`.
 * The output file **_data.npy includes the data in the form such that [files][agents, xy(z), timestamps].
 * Other animal data can be set in the folder `./datasets/GC_**`.
-* We addtionally analyzed peregrine data obtained at `https://doi.org/10.5061/dryad.md268`.
+* We addtionally analyzed peregrine data obtained at https://doi.org/10.5061/dryad.md268.
 
 ### Main analysis
 

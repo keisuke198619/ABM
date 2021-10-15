@@ -1,7 +1,7 @@
 ## Python codes for preprocessing of Granger causality (GC) of peregrine
 
 * This is the python code for preprocessing of the following paper
-* We addtionally analyzed peregrine data obtained at `https://doi.org/10.5061/dryad.md268`
+* We addtionally analyzed peregrine data obtained at https://doi.org/10.5061/dryad.md268
 * That is, results of the peregrine data are not shown in the following paper
 
 ### Author
