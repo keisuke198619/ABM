@@ -1,6 +1,8 @@
-## Python codes for preprocessing of Granger causality (GC) of sula
+## Python codes for preprocessing of Granger causality (GC) of peregrine
 
-This is the python code for preprocessing of the following paper
+* This is the python code for preprocessing of the following paper
+* We addtionally analyzed peregrine data obtained at `https://doi.org/10.5061/dryad.md268`
+* That is, results of the peregrine data are not shown in the following paper
 
 ### Author
 * Keisuke Fujii - https://sites.google.com/view/keisuke1986en/
@@ -13,13 +15,13 @@ Advances in Neural Information Processing Systems (NeurIPS'21), 34, 2021
 
 ### Preprocessing
 
-* run `***` for preprocessing and saving `sula_data.npy`.
+* run `***` for preprocessing and saving `peregrine_data.npy`.
 * The preprocessed data including only interaction were further analyzed. 
-* for details, see `./preprocessing/preprocessing_sula_interaction.ipynb`.
+* for details, see `./preprocessing/preprocessing_peregrine_interaction.ipynb`.
 
 ### Main analysis and post analysis
 
-* set this folder at `./datasets/GC_sula` in the folder of https://github.com/keisuke198619/ABM 
+* set this folder at `./datasets/GC_peregrine` in the folder of https://github.com/keisuke198619/ABM 
 
 * for details, see https://github.com/keisuke198619/ABM
  

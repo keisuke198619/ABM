@@ -1,6 +1,12 @@
 ## Learning interaction rules from multi-animal trajectories via augmented behavioral models (ABM)
 
-* Draft: https://ja.overleaf.com/read/kvzpzmytdxzy
+### Author
+Keisuke Fujii - https://sites.google.com/view/keisuke1986en/
+
+### Reference
+Keisuke Fujii, Naoya Takeishi, Kazushi Tsutsui, Emyo Fujioka, Nozomi Nishiumi, Ryoya Tanaka, Mika Fukushiro, Kaoru Ide, Hiroyoshi Kohno, Ken Yoda, Susumu Takahashi, Shizuko Hiryu, Yoshinobu Kawahara,  
+Learning interaction rules from multi-animal trajectories via augmented behavioral models, 
+Advances in Neural Information Processing Systems (NeurIPS'21), 34, 2021
 
 ### Requirements
 * python 3
@@ -11,13 +17,16 @@ pip install -r requirements.txt
 ```
 ### Preprocessing 
 
-* The synthetic, bats, sula, flies, and peregrine datasets are stored in the folder `./datasets`.
+* The synthetic, sula, flies, and peregrine datasets are stored in the folder `./datasets`.
 * These can be preprocessed by the code in the folder `./datasets`.
-* Other animal data should be set in the folder `./datasets/GC_**`.
+* The output file **_data.npy includes the data in the form such that [files][agents, xy(z), timestamps].
+* Other animal data can be set in the folder `./datasets/GC_**`.
+* We addtionally analyzed peregrine data obtained at `https://doi.org/10.5061/dryad.md268`.
 
 ### Main analysis
 
-* see `run.sh` for commands using various datasets.
+* See `run.sh` for commands using various datasets.
+* The output file is in the folder `./weights`.
 * Further details are documented within the code.
 
 ### Post analysis
