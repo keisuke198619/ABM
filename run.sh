@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # bats
-# python run_grid_search.py --experiment bats --model gvar --K 3 --self_other --CF_pred --percept --test_samples 1 --TEST 
+# python run_grid_search.py --experiment bats --model gvar --K 3 --self_other --CF_pred --percept --test_samples 2 --TEST 
 
 # peregrine
 # python run_grid_search.py --experiment peregrine --model gvar --K 3 --self_other --CF_pred --percept --test_samples 1 --TEST 
