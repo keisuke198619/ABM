@@ -9,8 +9,7 @@ else
     filename = filenames{datatype} ;
 end
 video_dir = '.\videos\';
-% mat_dir = ['..\weights\',filename,'_gvar_5\_TEST_percept_CF_pred_self\']; % for others than fujii
-mat_dir = ['\\spica\workspace4\fujii\work\ABM\weights\',filename,'_gvar_3\_TEST_percept_CF_pred_self\']; % for fujii
+% mat_dir = ['..\weights\',filename,'_gvar_5\_TEST_percept_CF_pred_self\']; 
 T_sula = [20000,200] ;
 
 % analyzed data
@@ -193,7 +192,7 @@ if 1
                 
                 title([filenames{f},sprintf(', Frame %d (%dHz)', t, floor(Fs))],'Fontsize',8) ; % Video %04d n,
                 
-                mov(nn)= getframe(gcf);  % mov‚ÌƒCƒ“ƒfƒbƒNƒX
+                mov(nn)= getframe(gcf);  % movâ€šÃŒÆ’CÆ’â€œÆ’fÆ’bÆ’NÆ’X
                 drawnow
                 
                 nn = nn+1;
