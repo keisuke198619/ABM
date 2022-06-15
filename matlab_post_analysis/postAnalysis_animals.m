@@ -1,6 +1,7 @@
 % loadData
 clear; close all
 filenames = {'mice','mice'}; % {'sula03','sula05'} ;%,'peregrine',
+addpath('.\heatmaps')
 datatype = 1 ;
 % mat_dir = '.\data_mat\';
 if contains(filenames{1},'sula')
