@@ -222,7 +222,7 @@ if args.realdata:
         num_seqs = len(matdata["dataset"][0])
         args.Fs = 30.3030
 
-    elif args.experiment == 'sula' or args.experiment == 'peregrine' or args.experiment == 'mice' or args.experiment == 'flies':
+    else: # if args.experiment == 'sula' or args.experiment == 'peregrine' or args.experiment == 'mice' or args.experiment == 'flies':
         # args.data_dir = './datasets/animals/'
         data_ = np.load(os.path.join(args.data_dir,'GC_'+args.experiment+'/'+args.experiment+'_data.npy'))
         num_seqs = len(data_) # no. of sequences
@@ -247,6 +247,10 @@ if args.realdata:
             args.Fs = 30
             valid_samples = []
             # test_samples = [0,1]
+        elif args.experiment == 'zebrafish':
+            n_dim = 2  
+            args.Fs = 30
+            valid_samples = []
         args.max = 1 
         data = [[] for _ in range(num_seqs)]
         for i in range(num_seqs):
@@ -262,6 +266,7 @@ if args.realdata:
     # time_length, num_dims, num_agants = data[0].shape
     args.test_samples = len(test_samples)
     args_original = copy.deepcopy(args)
+
     for f in range(num_seqs):
         del args
         args = copy.deepcopy(args_original)
@@ -272,7 +277,7 @@ if args.realdata:
             index_none = matdata["dataset"][0,f][0,0][2].squeeze()   
             label = matdata["dataset"][0,f][0,0][3].squeeze()   
             
-        if args.experiment == 'sula' or args.experiment == 'peregrine' or args.experiment == 'mice' or args.experiment == 'flies':
+        else: # if args.experiment == 'sula' or args.experiment == 'peregrine' or args.experiment == 'mice' or args.experiment == 'flies':
             index_none = None
             vel = data[f][:,:n_dim]
             loc = data[f][:,n_dim:n_dim*2]
