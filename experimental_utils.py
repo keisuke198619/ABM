@@ -266,7 +266,7 @@ def run_grid_search(args, lambdas: np.ndarray, gammas: np.ndarray, betas: np.nda
 
                             if not args.realdata:
                                 mdic = {"coeffs_raw": a_hat_l_,"coeffs": tmp_a_l,"data":d_l,"coeffs_time":a_hat_dl_signed,"weights":weights,"true_bi":a_l_,"true_time":a_dl_,"true_signed":a_l_signed,"args":args,"percept":coeffs_percept_l, "preds":preds}
-                            else:
+                            else: # full model for animals
                                 mdic = {"coeffs_raw": a_hat_l_,"coeffs": tmp_a_l,"data":d_l,"coeffs_time":a_hat_dl_signed,"weights":weights,"args":args,"percept":coeffs_percept_l, "preds":preds}
 
                         else:
@@ -275,13 +275,28 @@ def run_grid_search(args, lambdas: np.ndarray, gammas: np.ndarray, betas: np.nda
                             else:
                                 mdic = {"coeffs_raw": a_hat_l_,"coeffs": tmp_a_l,"data":d_l,"coeffs_time":a_hat_dl_signed,"args":args, "preds":preds}
                         savemat(filename0+"/coeffs_"+str(l+1)+".mat", mdic)
+                        import pdb; pdb.set_trace()
+
                         
                         if not args.realdata: 
                             print("predicted:" + str(a_hat_l_))    
                             print("ground truth:" + str(a_l_signed.reshape((p,p-1))))     
                         else:
                             print("Dataset #" + str(l + 1) + " analyzed")             
-                        # np.round(a_hat_l_signed[:,0,0],1)
+
+                        # output mat file description
+                        # full model for animals: args.percept and args.realdata
+                        # l: number of data file
+                        # p: number of agents
+                        # T: time length
+                        # a_hat_l_: non-binary (-1 to 1) relation matrix between agents, p x (p-1)
+                        # tmp_a_l(a_signed): (-1 or 0 or 1) relation matrix between agents, p x (p-1)
+                        # d_l: input data, d_l[0]: T x features
+                        # a_hat_dl_signed: dynamic relation matrix (-1 to 1) relation matrix between agents, T x p x (p-1)
+                        # weights: (not used for application)
+                        # coeffs_percept_1: weights of perception module (not used for application)
+                        # preds: predicted values (not used for application)                        
+
                     elif "kuramoto" in args.experiment and len(lambdas)==1:
                         coeffs_time = np.max(np.abs(coeffs_full_l[:,:,:,args.d_self:]), axis=1)
                         mdic = {"coeffs_bi": a_hat_l,"coeffs": a_hat_l_,"coeffs_time":coeffs_time,"data":d_l,"true_bi":a_l_,"args":args, "preds":preds}

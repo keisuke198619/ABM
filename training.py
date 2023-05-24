@@ -678,7 +678,20 @@ def training_procedure_trgc(data, structure, args, order: int, hidden_layer_size
             a_hat_binary = a_hat_1
             a_signed = a_hat_1
         rmse = rmse_1
-        
+
+    # output description
+    # full model: signed and not flag_dynamic
+    # p: number of agents
+    # T: time length
+    # a_hat_binary: binary (0 or 1) relation matrix between agents, p x (p-1)
+    # a_hat_1_original: non-binary (-1 to 1) relation matrix between agents, p x (p-1)
+    # a_signed: (-1 or 0 or 1) relation matrix between agents, p x (p-1)
+    # a_hat_d1_: dynamic relation matrix (-1 to 1) relation matrix between agents, T x p x (p-1)
+    # coeffs_full_1: all weights of neural networks (not used for application)
+    # coeffs_percept_1: weights of perception module (not used for application)
+    # rmse: prediction error
+    # preds: predicted values (not used for application)
+
     if not signed:
         if flag_dynamic:
             return a_hat_binary, a_hat_1_, a_hat_1, coeffs_full_1, coeffs_percept_1, rmse, model, preds
@@ -687,5 +700,5 @@ def training_procedure_trgc(data, structure, args, order: int, hidden_layer_size
     else:
         if flag_dynamic:
             return a_hat_binary, a_hat_1_original, a_hat_1_, a_signed, coeffs_full_1, coeffs_percept_1, rmse, model, preds
-        else:
+        else: # full model
             return a_hat_binary, a_hat_1_original, a_signed, a_hat_d1_, coeffs_full_1, coeffs_percept_1, rmse, model, preds
