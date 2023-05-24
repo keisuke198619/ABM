@@ -275,8 +275,6 @@ def run_grid_search(args, lambdas: np.ndarray, gammas: np.ndarray, betas: np.nda
                             else:
                                 mdic = {"coeffs_raw": a_hat_l_,"coeffs": tmp_a_l,"data":d_l,"coeffs_time":a_hat_dl_signed,"args":args, "preds":preds}
                         savemat(filename0+"/coeffs_"+str(l+1)+".mat", mdic)
-                        import pdb; pdb.set_trace()
-
                         
                         if not args.realdata: 
                             print("predicted:" + str(a_hat_l_))    
@@ -289,11 +287,12 @@ def run_grid_search(args, lambdas: np.ndarray, gammas: np.ndarray, betas: np.nda
                         # l: number of data file
                         # p: number of agents
                         # T: time length
-                        # a_hat_l_: non-binary (-1 to 1) relation matrix between agents, p x (p-1)
-                        # tmp_a_l(a_signed): (-1 or 0 or 1) relation matrix between agents, p x (p-1)
-                        # d_l: input data, d_l[0]: T x features
-                        # a_hat_dl_signed: dynamic relation matrix (-1 to 1) relation matrix between agents, T x p x (p-1)
+                        # coeffs_raw(a_hat_l)_: non-binary (-1 to 1) relation matrix between agents, p x (p-1)
+                        # coeffs(tmp_a_l,a_signed): (-1 or 0 or 1) relation matrix between agents, p x (p-1)
+                        # data(d_l): input data, d_l[0]: T x features
+                        # coeffs_time(a_hat_dl_signed): dynamic relation matrix (-1 to 1) relation matrix between agents, T x p x (p-1)
                         # weights: (not used for application)
+                        # args: arguments (properties of the model)
                         # coeffs_percept_1: weights of perception module (not used for application)
                         # preds: predicted values (not used for application)                        
 
