@@ -249,7 +249,7 @@ if args.realdata:
             # test_samples = [0,1]
         elif args.experiment == 'zebrafish':
             n_dim = 2  
-            args.Fs = 30
+            args.Fs = 10
             valid_samples = []
         args.max = 1 
         data = [[] for _ in range(num_seqs)]
