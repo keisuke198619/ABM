@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ### Post analysis
 
 * The post analysis was performed by matlab code in the folder `./matlab_post_analysis`.
-* (2023/11) The post analysis code by python is released as `post_analysis.py`. Currently, mice and flies data can be used (and video is not generated). For example, run `python post_analysis.py --experiment mice --model gvar --K 3 --test_samples 2` (see also `run.sh`). 
+* (2023/11) The post analysis code by python is released as `post_analysis.py`. Currently, mice and flies data can be used (and videos are not generated). For example, run `python post_analysis.py --experiment mice --model gvar --K 3 --test_samples 2` (see also `run.sh`). 
 
 ### Note for using your own data
 
