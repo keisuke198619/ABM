@@ -10,12 +10,14 @@
 # python run_grid_search.py --experiment sula --model gvar --K 3 --self_other --CF_pred --percept --test_samples 25 --TEST 
 
 # mice
-# python run_grid_search.py --experiment mice --model gvar --K 3 --TEST --data_dir ../ABM_data --test_samples 3
+# python run_grid_search.py --experiment mice --model gvar --K 3 --TEST --data_dir ../ABM_data --test_samples 2
 # python run_grid_search.py --experiment mice --model gvar --K 3 --self_other --CF_pred --percept --TEST --data_dir ../ABM_data --test_samples 2
+# python post_analysis.py --experiment mice --model gvar --K 3 --test_samples 2 --example_figure --plot_trajectory # --create_video (TBD)
 
 # flies
 # python run_grid_search.py --experiment flies --model gvar --K 3 --TEST --test_samples 2
 # python run_grid_search.py --experiment flies --model gvar --K 3 --self_other --CF_pred --percept --TEST --test_samples 2 
+# python post_analysis.py --experiment flies --model gvar --K 3 --test_samples 2 --example_figure --plot_trajectory # --create_video (TBD)
 
 # create kuramoto dataset: the length is a finally obtained length 
 # cd datasets

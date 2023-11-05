@@ -3,3 +3,5 @@ __pycache__/
 .DS_Store
 /datasets/GC_zebrafish/*
 /weights/zebrafish_gvar_2/*
+/video/*
+/figure/*

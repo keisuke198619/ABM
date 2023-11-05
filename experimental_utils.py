@@ -294,7 +294,7 @@ def run_grid_search(args, lambdas: np.ndarray, gammas: np.ndarray, betas: np.nda
                         # weights: (not used for application)
                         # args: arguments (properties of the model)
                         # coeffs_percept_1: weights of perception module (not used for application)
-                        # preds: predicted values (not used for application)                        
+                        # preds: predicted values (not used for application)             
 
                     elif "kuramoto" in args.experiment and len(lambdas)==1:
                         coeffs_time = np.max(np.abs(coeffs_full_l[:,:,:,args.d_self:]), axis=1)
