@@ -33,6 +33,10 @@ pip install -r requirements.txt
 
 * The post analysis was performed by matlab code in the folder `./matlab_post_analysis`.
 
+### Note for using your own data
+
+* The performance of this method will be better in relatively fewer and sparse agents with than those in more and dense agents. 
+
 ### References
 
 Codes for the baseline models are available in the following repositories:
